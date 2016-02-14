@@ -31,19 +31,11 @@ namespace Testify
         /// <summary>
         /// Gets the classification name.
         /// </summary>
-        public string Name
-        {
-            get;
-            private set;
-        }
+        public string Name { get; }
 
         /// <summary>
         /// Gets the predicate values must pass to be classified in this classification.
         /// </summary>
-        public Predicate<T> Predicate
-        {
-            get;
-            private set;
-        }
+        public Predicate<T> Predicate { get; }
     }
 }

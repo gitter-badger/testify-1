@@ -1,7 +1,7 @@
 ﻿namespace Testify
 {
     /// <summary>
-    /// TODO: Update summary.
+    /// Defines factory methods for creating <see langword="char"/> values.
     /// </summary>
     public static class CharFactory
     {

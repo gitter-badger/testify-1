@@ -1,7 +1,7 @@
 ﻿namespace Testify
 {
     /// <summary>
-    /// TODO: Update summary.
+    /// Defines factory methods for creating <see langword="float"/> values.
     /// </summary>
     public static class SingleFactory
     {

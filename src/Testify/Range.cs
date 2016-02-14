@@ -5,7 +5,7 @@ using System.Linq;
 namespace Testify
 {
     /// <summary>
-    /// TODO: Update summary.
+    /// Defines a range of acceptable values.
     /// </summary>
     internal sealed class Range
     {
