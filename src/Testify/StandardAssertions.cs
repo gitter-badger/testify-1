@@ -18,11 +18,10 @@ namespace Testify
         /// <param name="expected">The expected value.</param>
         /// <param name="delta">The required accuracy. The assertion will fail only if <paramref name="expected"/>
         /// is different from <paramref name="actualValue"/> by more than <paramref name="delta"/>.</param>
-        public static void IsEqualTo(
-            this ActualValue<double> actualValue,
-            double expected,
-            double delta) =>
+        public static void IsEqualTo(this ActualValue<double> actualValue, double expected, double delta)
+        {
             actualValue.IsEqualTo(expected, delta, null, null);
+        }
 
         /// <summary>
         /// Verifies that two specified doubles are equal or within the specified accuracy of each other.
@@ -34,12 +33,10 @@ namespace Testify
         /// is different from <paramref name="actualValue"/> by more than <paramref name="delta"/>.</param>
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
-        public static void IsEqualTo(
-            this ActualValue<double> actualValue,
-            double expected,
-            double delta,
-            string message) =>
+        public static void IsEqualTo(this ActualValue<double> actualValue, double expected, double delta, string message)
+        {
             actualValue.IsEqualTo(expected, delta, message, null);
+        }
 
         /// <summary>
         /// Verifies that two specified doubles are equal or within the specified accuracy of each other.
@@ -52,23 +49,18 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         /// <param name="parameters">An array of parameters to use when formatting <paramref name="message"/>.</param>
-        public static void IsEqualTo(
-            this ActualValue<double> actualValue,
-            double expected,
-            double delta,
-            string message,
-            params object[] parameters)
+        public static void IsEqualTo(this ActualValue<double> actualValue, double expected, double delta, string message, params object[] parameters)
         {
             string formattedMessage;
             if (double.IsNaN(expected) || double.IsNaN(actualValue.Value) || double.IsNaN(delta))
             {
                 formattedMessage = FrameworkMessages.IsEqualToDeltaFailMsg(
-                    message == null
-                        ? string.Empty
-                        : Assertions.ReplaceNulls(message),
-                    expected,
-                    actualValue.Value,
-                    delta);
+                        message == null
+                            ? string.Empty
+                            : Assertions.ReplaceNullChars(message),
+                        expected.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                        actualValue.Value.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                        delta.ToString(CultureInfo.CurrentCulture.NumberFormat));
                 Assertions.HandleFail("IsEqualTo", formattedMessage, parameters);
             }
 
@@ -77,12 +69,12 @@ namespace Testify
                 return;
             }
 
-            message = FrameworkMessages.IsEqualToDeltaFailMsg(
+            var finalMessage = FrameworkMessages.IsEqualToDeltaFailMsg(
                 Assertions.ReplaceNullChars(message) ?? string.Empty,
-                expected,
-                actualValue.Value,
-                delta);
-            Assertions.HandleFail("IsEqualTo", message, parameters);
+                expected.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                actualValue.Value.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                delta.ToString(CultureInfo.CurrentCulture.NumberFormat));
+            Assertions.HandleFail("IsEqualTo", finalMessage, parameters);
         }
 
         /// <summary>
@@ -92,11 +84,10 @@ namespace Testify
         /// <param name="expected">The expected value.</param>
         /// <param name="delta">The required accuracy. The assertion will fail only if <paramref name="expected"/>
         /// is different from <paramref name="actualValue"/> by more than <paramref name="delta"/>.</param>
-        public static void IsEqualTo(
-            this ActualValue<float> actualValue,
-            float expected,
-            float delta) =>
+        public static void IsEqualTo(this ActualValue<float> actualValue, float expected, float delta)
+        {
             actualValue.IsEqualTo(expected, delta, null, null);
+        }
 
         /// <summary>
         /// Verifies that two specified singles are equal or within the specified accuracy of each other.
@@ -108,12 +99,10 @@ namespace Testify
         /// is different from <paramref name="actualValue"/> by more than <paramref name="delta"/>.</param>
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
-        public static void IsEqualTo(
-            this ActualValue<float> actualValue,
-            float expected,
-            float delta,
-            string message) =>
+        public static void IsEqualTo(this ActualValue<float> actualValue, float expected, float delta, string message)
+        {
             actualValue.IsEqualTo(expected, delta, message, null);
+        }
 
         /// <summary>
         /// Verifies that two specified singles are equal or within the specified accuracy of each other.
@@ -126,21 +115,16 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         /// <param name="parameters">An array of parameters to use when formatting <paramref name="message"/>.</param>
-        public static void IsEqualTo(
-            this ActualValue<float> actualValue,
-            float expected,
-            float delta,
-            string message,
-            params object[] parameters)
+        public static void IsEqualTo(this ActualValue<float> actualValue, float expected, float delta, string message, params object[] parameters)
         {
             if (float.IsNaN(expected) || float.IsNaN(actualValue.Value) || float.IsNaN(delta))
             {
-                message = FrameworkMessages.IsEqualToDeltaFailMsg(
+                var finalMessage1 = FrameworkMessages.IsEqualToDeltaFailMsg(
                     Assertions.ReplaceNullChars(message) ?? string.Empty,
-                    expected,
-                    actualValue.Value,
-                    delta);
-                Assertions.HandleFail("IsEqualTo", message, parameters);
+                    expected.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                    actualValue.Value.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                    delta.ToString(CultureInfo.CurrentCulture.NumberFormat));
+                Assertions.HandleFail("IsEqualTo", finalMessage1, parameters);
             }
 
             if (Math.Abs(expected - actualValue.Value) <= delta)
@@ -148,12 +132,12 @@ namespace Testify
                 return;
             }
 
-            message = FrameworkMessages.IsEqualToDeltaFailMsg(
+            var finalMessage2 = FrameworkMessages.IsEqualToDeltaFailMsg(
                 Assertions.ReplaceNullChars(message) ?? string.Empty,
-                expected,
-                actualValue.Value,
-                delta);
-            Assertions.HandleFail("IsEqualTo", message, parameters);
+                expected.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                actualValue.Value.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                delta.ToString(CultureInfo.CurrentCulture.NumberFormat));
+            Assertions.HandleFail("IsEqualTo", finalMessage2, parameters);
         }
 
         /// <summary>
@@ -162,8 +146,10 @@ namespace Testify
         /// <typeparam name="T">The actual value type.</typeparam>
         /// <param name="actualValue">The actual value.</param>
         /// <param name="expected">The expected value.</param>
-        public static void IsEqualTo<T>(this ActualValue<T> actualValue, object expected) =>
+        public static void IsEqualTo<T>(this ActualValue<T> actualValue, object expected)
+        {
             actualValue.IsEqualTo(expected, null, null);
+        }
 
         /// <summary>
         /// Verifies that two specified objects are equal. Displays a message if the assertion fails.
@@ -173,11 +159,10 @@ namespace Testify
         /// <param name="expected">The expected value.</param>
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
-        public static void IsEqualTo<T>(
-            this ActualValue<T> actualValue,
-            object expected,
-            string message) =>
+        public static void IsEqualTo<T>(this ActualValue<T> actualValue, object expected, string message)
+        {
             actualValue.IsEqualTo(expected, message, null);
+        }
 
         /// <summary>
         /// Verifies that two specified objects are equal. Displays a message if the assertion fails,
@@ -189,21 +174,17 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         /// <param name="parameters">An array of parameters to use when formatting <paramref name="message"/>.</param>
-        public static void IsEqualTo<T>(
-            this ActualValue<T> actualValue,
-            object expected,
-            string message,
-            params object[] parameters)
+        public static void IsEqualTo<T>(this ActualValue<T> actualValue, object expected, string message, params object[] parameters)
         {
             if (object.Equals(expected, actualValue.Value))
             {
                 return;
             }
 
-            message = actualValue.Value == null || expected == null || actualValue.Value.GetType().Equals(expected.GetType())
-                ? FrameworkMessages.IsEqualToFailMsg(Assertions.ReplaceNullChars(message) ?? string.Empty, Assertions.ReplaceNulls(expected), Assertions.ReplaceNulls(actualValue.Value))
-                : FrameworkMessages.IsEqualToDifferentTypesFailMsg(Assertions.ReplaceNullChars(message) ?? string.Empty, Assertions.ReplaceNulls(expected), expected.GetType().FullName, Assertions.ReplaceNulls(actualValue.Value), actualValue.Value.GetType().FullName);
-            Assertions.HandleFail("IsEqualTo", message, parameters);
+            var finalMessage = (object)actualValue.Value == null || expected == null || actualValue.Value.GetType().Equals(expected.GetType())
+                    ? FrameworkMessages.IsEqualToFailMsg(Assertions.ReplaceNullChars(message) ?? string.Empty, Assertions.ReplaceNulls(expected), Assertions.ReplaceNulls(actualValue.Value))
+                    : FrameworkMessages.IsEqualToDifferentTypesFailMsg(Assertions.ReplaceNullChars(message) ?? string.Empty, Assertions.ReplaceNulls(expected), expected.GetType().FullName, Assertions.ReplaceNulls(actualValue.Value), actualValue.Value.GetType().FullName);
+            Assertions.HandleFail("IsEqualTo", finalMessage, parameters);
         }
 
         /// <summary>
@@ -212,8 +193,10 @@ namespace Testify
         /// <typeparam name="T">The actual value type.</typeparam>
         /// <param name="actualValue">The actual value.</param>
         /// <param name="expected">The expected value.</param>
-        public static void IsEqualTo<T>(this ActualValue<T> actualValue, T expected) =>
+        public static void IsEqualTo<T>(this ActualValue<T> actualValue, T expected)
+        {
             actualValue.IsEqualTo(expected, null, null);
+        }
 
         /// <summary>
         /// Verifies that two specified objects are equal. Displays a message if the assertion fails.
@@ -223,11 +206,10 @@ namespace Testify
         /// <param name="expected">The expected value.</param>
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
-        public static void IsEqualTo<T>(
-            this ActualValue<T> actualValue,
-            T expected,
-            string message) =>
+        public static void IsEqualTo<T>(this ActualValue<T> actualValue, T expected, string message)
+        {
             actualValue.IsEqualTo(expected, message, null);
+        }
 
         /// <summary>
         /// Verifies that two specified objects are equal. Displays a message if the assertion fails,
@@ -239,29 +221,27 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         /// <param name="parameters">An array of parameters to use when formatting <paramref name="message"/>.</param>
-        public static void IsEqualTo<T>(
-            this ActualValue<T> actualValue,
-            T expected,
-            string message,
-            params object[] parameters)
+        public static void IsEqualTo<T>(this ActualValue<T> actualValue, T expected, string message, params object[] parameters)
         {
             if (object.Equals(expected, actualValue.Value))
             {
                 return;
             }
 
-            message = actualValue.Value == null || expected == null || actualValue.Value.GetType().Equals(expected.GetType())
-                ? FrameworkMessages.IsEqualToFailMsg(Assertions.ReplaceNullChars(message) ?? string.Empty, Assertions.ReplaceNulls(expected), Assertions.ReplaceNulls(actualValue.Value))
-                : FrameworkMessages.IsEqualToDifferentTypesFailMsg(Assertions.ReplaceNullChars(message) ?? string.Empty, Assertions.ReplaceNulls(expected), expected.GetType().FullName, Assertions.ReplaceNulls(actualValue.Value), actualValue.Value.GetType().FullName);
-            Assertions.HandleFail("IsEqualTo", message, parameters);
+            var finalMessage = (object)actualValue.Value == null || (object)expected == null || actualValue.Value.GetType().Equals(expected.GetType())
+                    ? FrameworkMessages.IsEqualToFailMsg(Assertions.ReplaceNullChars(message) ?? string.Empty, Assertions.ReplaceNulls(expected), Assertions.ReplaceNulls(actualValue.Value))
+                    : FrameworkMessages.IsEqualToDifferentTypesFailMsg(Assertions.ReplaceNullChars(message) ?? string.Empty, Assertions.ReplaceNulls(expected), expected.GetType().FullName, Assertions.ReplaceNulls(actualValue.Value), actualValue.Value.GetType().FullName);
+            Assertions.HandleFail("IsEqualTo", finalMessage, parameters);
         }
 
         /// <summary>
         /// Asserts that the actual value is <see langword="false"/>.
         /// </summary>
         /// <param name="actualValue">The actual value.</param>
-        public static void IsFalse(this ActualValue<bool> actualValue) =>
+        public static void IsFalse(this ActualValue<bool> actualValue)
+        {
             actualValue.IsFalse(null, null);
+        }
 
         /// <summary>
         /// Asserts that the actual value is <see langword="false"/>. Displays a message if the assertion
@@ -270,8 +250,10 @@ namespace Testify
         /// <param name="actualValue">The actual value.</param>
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
-        public static void IsFalse(this ActualValue<bool> actualValue, string message) =>
+        public static void IsFalse(this ActualValue<bool> actualValue, string message)
+        {
             actualValue.IsFalse(message, null);
+        }
 
         /// <summary>
         /// Asserts that the actual value is <see langword="false"/>. Displays a message if the assertion
@@ -281,10 +263,7 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         /// <param name="parameters">An array of parameters to use when formatting <paramref name="message"/>.</param>
-        public static void IsFalse(
-            this ActualValue<bool> actualValue,
-            string message,
-            params object[] parameters)
+        public static void IsFalse(this ActualValue<bool> actualValue, string message, params object[] parameters)
         {
             if (actualValue.Value)
             {
@@ -300,8 +279,10 @@ namespace Testify
         /// <param name="actualValue">The actual value.</param>
         /// <param name="expectedType">The type expected to be found in the inheritance hierarchy of
         /// <paramref name="actualValue.Value"/>.</param>
-        public static void IsInstanceOfType<T>(this ActualValue<T> actualValue, Type expectedType) =>
+        public static void IsInstanceOfType<T>(this ActualValue<T> actualValue, Type expectedType)
+        {
             actualValue.IsInstanceOfType(expectedType, null, null);
+        }
 
         /// <summary>
         /// Verifies that the specified object is an instance of the specified type. Displays a message if the
@@ -313,11 +294,10 @@ namespace Testify
         /// <paramref name="actualValue.Value"/>.</param>
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
-        public static void IsInstanceOfType<T>(
-            this ActualValue<T> actualValue,
-            Type expectedType,
-            string message) =>
+        public static void IsInstanceOfType<T>(this ActualValue<T> actualValue, Type expectedType, string message)
+        {
             actualValue.IsInstanceOfType(expectedType, message, null);
+        }
 
         /// <summary>
         /// Verifies that the specified object is an instance of the specified type. Displays a message if the
@@ -330,11 +310,7 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         /// <param name="parameters">An array of parameters to use when formatting <paramref name="message"/>.</param>
-        public static void IsInstanceOfType<T>(
-            this ActualValue<T> actualValue,
-            Type expectedType,
-            string message,
-            params object[] parameters)
+        public static void IsInstanceOfType<T>(this ActualValue<T> actualValue, Type expectedType, string message, params object[] parameters)
         {
             if (expectedType == null)
             {
@@ -346,11 +322,11 @@ namespace Testify
                 return;
             }
 
-            message = FrameworkMessages.IsInstanceOfTypeFailMsg(
+            var finalMessage = FrameworkMessages.IsInstanceOfTypeFailMsg(
                 Assertions.ReplaceNullChars(message) ?? string.Empty,
-                expectedType,
-                actualValue.Value == null ? Resources.Common_NullInMessages : actualValue.Value.GetType().ToString());
-            Assertions.HandleFail("IsInstanceOfType", message, parameters);
+                expectedType.ToString(),
+                (object)actualValue.Value == null ? Resources.Common_NullInMessages : actualValue.Value.GetType().ToString());
+            Assertions.HandleFail("IsInstanceOfType", finalMessage, parameters);
         }
 
         /// <summary>
@@ -361,8 +337,10 @@ namespace Testify
         /// <param name="expected">The expected value.</param>
         /// <param name="delta">The required accuracy. The assertion will fail only if <paramref name="expected"/>
         /// is different from <paramref name="actualValue"/> by more than <paramref name="delta"/>.</param>
-        public static void IsNotEqualTo(this ActualValue<double> actualValue, double expected, double delta) =>
+        public static void IsNotEqualTo(this ActualValue<double> actualValue, double expected, double delta)
+        {
             actualValue.IsNotEqualTo(expected, delta, null, null);
+        }
 
         /// <summary>
         /// Verifies that two specified doubles are not equal or within the specified accuracy of each other.
@@ -374,12 +352,10 @@ namespace Testify
         /// is different from <paramref name="actualValue"/> by more than <paramref name="delta"/>.</param>
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
-        public static void IsNotEqualTo(
-            this ActualValue<double> actualValue,
-            double expected,
-            double delta,
-            string message) =>
+        public static void IsNotEqualTo(this ActualValue<double> actualValue, double expected, double delta, string message)
+        {
             actualValue.IsNotEqualTo(expected, delta, message, null);
+        }
 
         /// <summary>
         /// Verifies that two specified doubles are not equal or within the specified accuracy of each other.
@@ -392,21 +368,16 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         /// <param name="parameters">An array of parameters to use when formatting <paramref name="message"/>.</param>
-        public static void IsNotEqualTo(
-            this ActualValue<double> actualValue,
-            double expected,
-            double delta,
-            string message,
-            params object[] parameters)
+        public static void IsNotEqualTo(this ActualValue<double> actualValue, double expected, double delta, string message, params object[] parameters)
         {
             if (double.IsNaN(expected) || double.IsNaN(actualValue.Value) || double.IsNaN(delta))
             {
-                message = FrameworkMessages.IsNotEqualToDeltaFailMsg(
+                var finalMessage1 = FrameworkMessages.IsNotEqualToDeltaFailMsg(
                     Assertions.ReplaceNullChars(message) ?? string.Empty,
-                    expected,
-                    actualValue.Value,
-                    delta);
-                Assertions.HandleFail("IsNotEqualTo", message, parameters);
+                    expected.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                    actualValue.Value.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                    delta.ToString(CultureInfo.CurrentCulture.NumberFormat));
+                Assertions.HandleFail("IsNotEqualTo", finalMessage1, parameters);
             }
 
             if (Math.Abs(expected - actualValue.Value) > delta)
@@ -414,12 +385,12 @@ namespace Testify
                 return;
             }
 
-            message = FrameworkMessages.IsNotEqualToDeltaFailMsg(
+            var finalMessage2 = FrameworkMessages.IsNotEqualToDeltaFailMsg(
                 Assertions.ReplaceNullChars(message) ?? string.Empty,
-                expected,
-                actualValue.Value,
-                delta);
-            Assertions.HandleFail("IsNotEqualTo", message, parameters);
+                expected.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                actualValue.Value.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                delta.ToString(CultureInfo.CurrentCulture.NumberFormat));
+            Assertions.HandleFail("IsNotEqualTo", finalMessage2, parameters);
         }
 
         /// <summary>
@@ -429,11 +400,10 @@ namespace Testify
         /// <param name="expected">The expected value.</param>
         /// <param name="delta">The required accuracy. The assertion will fail only if <paramref name="expected"/>
         /// is different from <paramref name="actualValue"/> by more than <paramref name="delta"/>.</param>
-        public static void IsNotEqualTo(
-            this ActualValue<float> actualValue,
-            float expected,
-            float delta) =>
+        public static void IsNotEqualTo(this ActualValue<float> actualValue, float expected, float delta)
+        {
             actualValue.IsNotEqualTo(expected, delta, null, null);
+        }
 
         /// <summary>
         /// Verifies that two specified singles are not equal or within the specified accuracy of each other.
@@ -445,12 +415,10 @@ namespace Testify
         /// is different from <paramref name="actualValue"/> by more than <paramref name="delta"/>.</param>
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
-        public static void IsNotEqualTo(
-            this ActualValue<float> actualValue,
-            float expected,
-            float delta,
-            string message) =>
+        public static void IsNotEqualTo(this ActualValue<float> actualValue, float expected, float delta, string message)
+        {
             actualValue.IsNotEqualTo(expected, delta, message, null);
+        }
 
         /// <summary>
         /// Verifies that two specified singles are not equal or within the specified accuracy of each other.
@@ -463,21 +431,16 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         /// <param name="parameters">An array of parameters to use when formatting <paramref name="message"/>.</param>
-        public static void IsNotEqualTo(
-            this ActualValue<float> actualValue,
-            float expected,
-            float delta,
-            string message,
-            params object[] parameters)
+        public static void IsNotEqualTo(this ActualValue<float> actualValue, float expected, float delta, string message, params object[] parameters)
         {
             if (float.IsNaN(expected) || float.IsNaN(actualValue.Value) || float.IsNaN(delta))
             {
-                message = FrameworkMessages.IsNotEqualToDeltaFailMsg(
+                var finalMessage1 = FrameworkMessages.IsNotEqualToDeltaFailMsg(
                     Assertions.ReplaceNullChars(message) ?? string.Empty,
-                    expected,
-                    actualValue.Value,
-                    delta);
-                Assertions.HandleFail("IsNotEqualTo", message, parameters);
+                    expected.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                    actualValue.Value.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                    delta.ToString(CultureInfo.CurrentCulture.NumberFormat));
+                Assertions.HandleFail("IsNotEqualTo", finalMessage1, parameters);
             }
 
             if (Math.Abs(expected - actualValue.Value) > delta)
@@ -485,12 +448,12 @@ namespace Testify
                 return;
             }
 
-            message = FrameworkMessages.IsNotEqualToDeltaFailMsg(
+            var finalMessage2 = FrameworkMessages.IsNotEqualToDeltaFailMsg(
                 Assertions.ReplaceNullChars(message) ?? string.Empty,
-                expected,
-                actualValue.Value,
-                delta);
-            Assertions.HandleFail("IsNotEqualTo", message, parameters);
+                expected.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                actualValue.Value.ToString(CultureInfo.CurrentCulture.NumberFormat),
+                delta.ToString(CultureInfo.CurrentCulture.NumberFormat));
+            Assertions.HandleFail("IsNotEqualTo", finalMessage2, parameters);
         }
 
         /// <summary>
@@ -499,8 +462,10 @@ namespace Testify
         /// <typeparam name="T">The actual value type.</typeparam>
         /// <param name="actualValue">The actual value.</param>
         /// <param name="expected">The expected value.</param>
-        public static void IsNotEqualTo<T>(this ActualValue<T> actualValue, object expected) =>
+        public static void IsNotEqualTo<T>(this ActualValue<T> actualValue, object expected)
+        {
             actualValue.IsNotEqualTo(expected, null, null);
+        }
 
         /// <summary>
         /// Verifies that two specified objects are not equal. Displays a message if the assertion fails.
@@ -510,11 +475,10 @@ namespace Testify
         /// <param name="expected">The expected value.</param>
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
-        public static void IsNotEqualTo<T>(
-            this ActualValue<T> actualValue,
-            object expected,
-            string message) =>
+        public static void IsNotEqualTo<T>(this ActualValue<T> actualValue, object expected, string message)
+        {
             actualValue.IsNotEqualTo(expected, message, null);
+        }
 
         /// <summary>
         /// Verifies that two specified objects are not equal. Displays a message if the assertion fails,
@@ -526,22 +490,18 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         /// <param name="parameters">An array of parameters to use when formatting <paramref name="message"/>.</param>
-        public static void IsNotEqualTo<T>(
-            this ActualValue<T> actualValue,
-            object expected,
-            string message,
-            params object[] parameters)
+        public static void IsNotEqualTo<T>(this ActualValue<T> actualValue, object expected, string message, params object[] parameters)
         {
             if (!object.Equals(expected, actualValue.Value))
             {
                 return;
             }
 
-            message = FrameworkMessages.IsNotEqualToFailMsg(
+            var finalMessage = FrameworkMessages.IsNotEqualToFailMsg(
                 Assertions.ReplaceNullChars(message) ?? string.Empty,
                 Assertions.ReplaceNulls(expected),
                 Assertions.ReplaceNulls(actualValue.Value));
-            Assertions.HandleFail("IsNotEqualTo", message, parameters);
+            Assertions.HandleFail("IsNotEqualTo", finalMessage, parameters);
         }
 
         /// <summary>
@@ -550,8 +510,10 @@ namespace Testify
         /// <typeparam name="T">The actual value type.</typeparam>
         /// <param name="actualValue">The actual value.</param>
         /// <param name="expected">The expected value.</param>
-        public static void IsNotEqualTo<T>(this ActualValue<T> actualValue, T expected) =>
+        public static void IsNotEqualTo<T>(this ActualValue<T> actualValue, T expected)
+        {
             actualValue.IsNotEqualTo(expected, null, null);
+        }
 
         /// <summary>
         /// Verifies that two specified objects are not equal.
@@ -561,11 +523,10 @@ namespace Testify
         /// <param name="expected">The expected value.</param>
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
-        public static void IsNotEqualTo<T>(
-            this ActualValue<T> actualValue,
-            T expected,
-            string message) =>
+        public static void IsNotEqualTo<T>(this ActualValue<T> actualValue, T expected, string message)
+        {
             actualValue.IsNotEqualTo(expected, message, null);
+        }
 
         /// <summary>
         /// Verifies that two specified objects are not equal. Displays a message if the assertion fails,
@@ -577,22 +538,18 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         /// <param name="parameters">An array of parameters to use when formatting <paramref name="message"/>.</param>
-        public static void IsNotEqualTo<T>(
-            this ActualValue<T> actualValue,
-            T expected,
-            string message,
-            params object[] parameters)
+        public static void IsNotEqualTo<T>(this ActualValue<T> actualValue, T expected, string message, params object[] parameters)
         {
             if (!object.Equals(expected, actualValue.Value))
             {
                 return;
             }
 
-            message = FrameworkMessages.IsNotEqualToFailMsg(
+            var finalMessage = FrameworkMessages.IsNotEqualToFailMsg(
                 Assertions.ReplaceNullChars(message) ?? string.Empty,
                 Assertions.ReplaceNulls(expected),
                 Assertions.ReplaceNulls(actualValue.Value));
-            Assertions.HandleFail("IsNotEqualTo", message, parameters);
+            Assertions.HandleFail("IsNotEqualTo", finalMessage, parameters);
         }
 
         /// <summary>
@@ -603,8 +560,10 @@ namespace Testify
         /// <param name="actualValue">The actual value.</param>
         /// <param name="expectedType">The type not expected to be found in the inheritance hierarchy of
         /// <paramref name="actualValue.Value"/>.</param>
-        public static void IsNotInstanceOfType<T>(this ActualValue<T> actualValue, Type expectedType) =>
+        public static void IsNotInstanceOfType<T>(this ActualValue<T> actualValue, Type expectedType)
+        {
             actualValue.IsNotInstanceOfType(expectedType, null, null);
+        }
 
         /// <summary>
         /// Verifies that the specified object is not an instance of the specified type. Displays a message if the
@@ -616,11 +575,10 @@ namespace Testify
         /// <paramref name="actualValue.Value"/>.</param>
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
-        public static void IsNotInstanceOfType<T>(
-            this ActualValue<T> actualValue,
-            Type expectedType,
-            string message) =>
+        public static void IsNotInstanceOfType<T>(this ActualValue<T> actualValue, Type expectedType, string message)
+        {
             actualValue.IsNotInstanceOfType(expectedType, message, null);
+        }
 
         /// <summary>
         /// Verifies that the specified object is not an instance of the specified type. Displays a message if the
@@ -633,11 +591,7 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         /// <param name="parameters">An array of parameters to use when formatting <paramref name="message"/>.</param>
-        public static void IsNotInstanceOfType<T>(
-            this ActualValue<T> actualValue,
-            Type expectedType,
-            string message,
-            params object[] parameters)
+        public static void IsNotInstanceOfType<T>(this ActualValue<T> actualValue, Type expectedType, string message, params object[] parameters)
         {
             if (expectedType == null)
             {
@@ -649,11 +603,11 @@ namespace Testify
                 return;
             }
 
-            message = FrameworkMessages.IsNotInstanceOfTypeFailMsg(
+            var finalMessage = FrameworkMessages.IsNotInstanceOfTypeFailMsg(
                 Assertions.ReplaceNullChars(message) ?? string.Empty,
                 expectedType.ToString(),
-                actualValue.Value == null ? Resources.Common_NullInMessages : actualValue.Value.GetType().ToString());
-            Assertions.HandleFail("IsNotInstanceOfType", message, parameters);
+                (object)actualValue.Value == null ? Resources.Common_NullInMessages : actualValue.Value.GetType().ToString());
+            Assertions.HandleFail("IsNotInstanceOfType", finalMessage, parameters);
         }
 
         /// <summary>
@@ -663,8 +617,10 @@ namespace Testify
         /// <typeparam name="T">The type of the actual value.</typeparam>
         /// <param name="actualValue">The actual value.</param>
         public static void IsNotNull<T>(this ActualValue<T> actualValue)
-            where T : class =>
+            where T : class
+        {
             actualValue.IsNotNull(null, null);
+        }
 
         /// <summary>
         /// Verifies that the specified object is not <see langword="null"/>. Displays a message if the
@@ -675,8 +631,10 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         public static void IsNotNull<T>(this ActualValue<T> actualValue, string message)
-            where T : class =>
+            where T : class
+        {
             actualValue.IsNotNull(message, null);
+        }
 
         /// <summary>
         /// Verifies that the specified object is not <see langword="null"/>. Displays a message if the
@@ -706,8 +664,10 @@ namespace Testify
         /// <param name="actualValue">The actual value.</param>
         /// <param name="expected">The expected value.</param>
         public static void IsNotSameAs<T>(this ActualValue<T> actualValue, T expected)
-            where T : class =>
+            where T : class
+        {
             actualValue.IsNotSameAs(expected, null, null);
+        }
 
         /// <summary>
         /// Verifies that two specified object variables refer to different objects. Displays a message if the
@@ -719,8 +679,10 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         public static void IsNotSameAs<T>(this ActualValue<T> actualValue, T expected, string message)
-            where T : class =>
+            where T : class
+        {
             actualValue.IsNotSameAs(expected, message, null);
+        }
 
         /// <summary>
         /// Verifies that two specified object variables refer to different objects. Displays a message if the
@@ -750,8 +712,10 @@ namespace Testify
         /// <typeparam name="T">The type of the actual value.</typeparam>
         /// <param name="actualValue">The actual value.</param>
         public static void IsNull<T>(this ActualValue<T> actualValue)
-            where T : class =>
+            where T : class
+        {
             actualValue.IsNull(null, null);
+        }
 
         /// <summary>
         /// Verifies that the specified object is <see langword="null"/>. Displays a message if the
@@ -762,8 +726,10 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         public static void IsNull<T>(this ActualValue<T> actualValue, string message)
-            where T : class =>
+            where T : class
+        {
             actualValue.IsNull(message, null);
+        }
 
         /// <summary>
         /// Verifies that the specified object is <see langword="null"/>. Displays a message if the
@@ -792,8 +758,10 @@ namespace Testify
         /// <param name="actualValue">The actual value.</param>
         /// <param name="expected">The expected value.</param>
         public static void IsSameAs<T>(this ActualValue<T> actualValue, T expected)
-            where T : class =>
+            where T : class
+        {
             actualValue.IsSameAs(expected, null, null);
+        }
 
         /// <summary>
         /// Verifies that two specified object variables refer to the same object. Displays a message if the
@@ -805,8 +773,10 @@ namespace Testify
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
         public static void IsSameAs<T>(this ActualValue<T> actualValue, T expected, string message)
-            where T : class =>
+            where T : class
+        {
             actualValue.IsSameAs(expected, message, null);
+        }
 
         /// <summary>
         /// Verifies that two specified object variables refer to the same object. Displays a message if the
@@ -833,8 +803,10 @@ namespace Testify
         /// Asserts that the actual value is <see langword="true"/>.
         /// </summary>
         /// <param name="actualValue">The actual value.</param>
-        public static void IsTrue(this ActualValue<bool> actualValue) =>
+        public static void IsTrue(this ActualValue<bool> actualValue)
+        {
             actualValue.IsTrue(null, null);
+        }
 
         /// <summary>
         /// Asserts that the actual value is <see langword="true"/>. Displays a message if the assertion
@@ -843,8 +815,10 @@ namespace Testify
         /// <param name="actualValue">The actual value.</param>
         /// <param name="message">A message to display if the assertion fails. This message can
         /// be seen in the unit test results.</param>
-        public static void IsTrue(this ActualValue<bool> actualValue, string message) =>
+        public static void IsTrue(this ActualValue<bool> actualValue, string message)
+        {
             actualValue.IsTrue(message, null);
+        }
 
         /// <summary>
         /// Asserts that the actual value is <see langword="true"/>. Displays a message if the assertion

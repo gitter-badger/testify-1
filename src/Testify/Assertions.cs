@@ -22,11 +22,19 @@ namespace Testify
         public static ActualValue<T> Assert<T>(T actualValue) => new ActualValue<T>(actualValue);
 
         /// <summary>
+        /// Asserts the specified action.
+        /// </summary>
+        /// <param name="action">The action.</param>
+        /// <returns>An <see cref="ActualValue{T}"/> instance that can be used to declare
+        /// fluent assertions.</returns>
+        public static ActualValue<Action> Assert(Action action) => new ActualValue<Action>(action);
+
+        /// <summary>
         /// Declares a compound assertion.
         /// </summary>
         /// <param name="message">The message.</param>
         /// <param name="assertions">The assertions.</param>
-        public static void CompoundAssertion(string message, params Action[] assertions)
+        public static void AssertAll(string message, params Action[] assertions)
         {
             var errors = new Lazy<List<Exception>>(false);
             foreach (var action in assertions)
@@ -46,6 +54,16 @@ namespace Testify
                 throw new AssertionException(message, errors.Value);
             }
         }
+
+        /// <summary>
+        /// Combines the specified assertions.
+        /// </summary>
+        /// <typeparam name="T">The type to assert on.</typeparam>
+        /// <param name="message">The message.</param>
+        /// <param name="assertions">The assertions.</param>
+        /// <returns>An <see cref="Action{T}"/> that combines the assertions.</returns>
+        public static Action<T> Combine<T>(string message, params Action<T>[] assertions) =>
+            e => AssertAll(message, assertions.Select(a => new Action(() => a(e))).ToArray());
 
         /// <summary>
         /// Fails with an <see cref="AssertionException"/> without checking any conditions. Displays
@@ -109,6 +127,25 @@ namespace Testify
         }
 
         /// <summary>
+        /// Checks the parameter not null.
+        /// </summary>
+        /// <param name="param">The parameter.</param>
+        /// <param name="assertionName">Name of the assertion.</param>
+        /// <param name="parameterName">Name of the parameter.</param>
+        /// <param name="message">The message.</param>
+        /// <param name="parameters">The parameters.</param>
+        internal static void CheckParameterNotNull(object param, string assertionName, string parameterName, string message, params object[] parameters)
+        {
+            if (param != null)
+            {
+                return;
+            }
+
+            var finalMessage = FrameworkMessages.NullParameterToAssert(parameterName, message);
+            Assertions.HandleFail(assertionName, finalMessage, parameters);
+        }
+
+        /// <summary>
         /// Creates the complete message.
         /// </summary>
         /// <param name="message">The message.</param>
@@ -119,10 +156,29 @@ namespace Testify
             string str = string.Empty;
             if (!string.IsNullOrEmpty(message))
             {
-                str = parameters != null && parameters.Any() ? string.Format(CultureInfo.CurrentCulture, ReplaceNulls(message), parameters) : ReplaceNulls(message);
+                str = parameters != null ? string.Format(CultureInfo.CurrentCulture, ReplaceNulls(message), parameters) : ReplaceNulls(message);
             }
 
             return str;
+        }
+
+        /// <summary>
+        /// Raises failure exceptions.
+        /// </summary>
+        /// <param name="assertionName">Name of the assertion.</param>
+        internal static void HandleFail(string assertionName)
+        {
+            throw new AssertionException(FrameworkMessages.AssertionFailed(assertionName, null));
+        }
+
+        /// <summary>
+        /// Raises failure exceptions.
+        /// </summary>
+        /// <param name="assertionName">Name of the assertion.</param>
+        /// <param name="message">The message.</param>
+        internal static void HandleFail(string assertionName, string message)
+        {
+            throw new AssertionException(FrameworkMessages.AssertionFailed(assertionName, message));
         }
 
         /// <summary>
@@ -135,6 +191,40 @@ namespace Testify
         {
             string completeMessage = Assertions.CreateCompleteMessage(message, parameters);
             throw new AssertionException(FrameworkMessages.AssertionFailed(assertionName, completeMessage));
+        }
+
+        /// <summary>
+        /// Raises failure exceptions.
+        /// </summary>
+        /// <param name="assertionName">Name of the assertion.</param>
+        /// <param name="innerException">The inner exception.</param>
+        internal static void HandleFail(string assertionName, Exception innerException)
+        {
+            throw new AssertionException(FrameworkMessages.AssertionFailed(assertionName, null), innerException);
+        }
+
+        /// <summary>
+        /// Raises failure exceptions.
+        /// </summary>
+        /// <param name="assertionName">Name of the assertion.</param>
+        /// <param name="innerException">The inner exception.</param>
+        /// <param name="message">The message.</param>
+        internal static void HandleFail(string assertionName, Exception innerException, string message)
+        {
+            throw new AssertionException(FrameworkMessages.AssertionFailed(assertionName, message), innerException);
+        }
+
+        /// <summary>
+        /// Raises failure exceptions.
+        /// </summary>
+        /// <param name="assertionName">Name of the assertion.</param>
+        /// <param name="innerException">The inner exception.</param>
+        /// <param name="message">The message.</param>
+        /// <param name="parameters">The parameters.</param>
+        internal static void HandleFail(string assertionName, Exception innerException, string message, params object[] parameters)
+        {
+            string completeMessage = Assertions.CreateCompleteMessage(message, parameters);
+            throw new AssertionException(FrameworkMessages.AssertionFailed(assertionName, completeMessage), innerException);
         }
 
         /// <summary>

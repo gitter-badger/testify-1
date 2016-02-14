@@ -6,7 +6,7 @@ namespace Testify
     public class AssertionsTests
     {
         [Fact]
-        public void AssertReturnsActualValue()
+        public void Assert_ReturnsActualValue()
         {
             var actualValue = new object();
 
@@ -19,27 +19,11 @@ namespace Testify
         }
 
         [Fact]
-        public void CompoundAssertionNoErrorsShouldNotThrow()
+        public void CompoundAssertion_Errors_ShouldReportErrors()
         {
             try
             {
-                CompoundAssertion(
-                    "An error occurred.",
-                    () => { },
-                    () => { });
-            }
-            catch (AssertionException)
-            {
-                Fail("CompoundAssertion threw when it shouldn't have.");
-            }
-        }
-
-        [Fact]
-        public void CompoundAssertionErrorsShouldReportErrors()
-        {
-            try
-            {
-                CompoundAssertion(
+                AssertAll(
                     "An error occurred.",
                     () => Fail("First"),
                     () => Fail("Second"));
@@ -58,7 +42,23 @@ namespace Testify
         }
 
         [Fact]
-        public void FailShouldThrowException()
+        public void CompoundAssertion_NoErrors_ShouldNotThrow()
+        {
+            try
+            {
+                AssertAll(
+                    "An error occurred.",
+                    () => { },
+                    () => { });
+            }
+            catch (AssertionException)
+            {
+                Fail("CompoundAssertion threw when it shouldn't have.");
+            }
+        }
+
+        [Fact]
+        public void Fail_ShouldThrowException()
         {
             try
             {
@@ -78,7 +78,7 @@ namespace Testify
         }
 
         [Fact]
-        public void FailWithParametersShouldFormatMessage()
+        public void Fail_WithParameters_ShouldFormatMessage()
         {
             try
             {
@@ -95,6 +95,16 @@ namespace Testify
             }
 
             throw new AssertionException("Fail did not throw.");
+        }
+
+        [Fact]
+        public void ReplaceNullChars_StringWithNulls_ShouldReplaceNulls()
+        {
+            var text = "xxx\0xxx";
+
+            var result = ReplaceNullChars(text);
+
+            Assert(result).Equals("xxx\\0xxx");
         }
     }
 }

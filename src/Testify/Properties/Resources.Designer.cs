@@ -89,7 +89,7 @@ namespace Testify.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;null&gt;.
+        ///   Looks up a localized string similar to (null).
         /// </summary>
         internal static string Common_NullInMessages {
             get {
@@ -103,6 +103,15 @@ namespace Testify.Properties {
         internal static string Common_ObjectString {
             get {
                 return ResourceManager.GetString("Common_ObjectString", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Caught the expected exception type &lt;{0}&gt;, but additional assertions failed. {1}.
+        /// </summary>
+        internal static string FrameworkMessage_AdditionalAssertionsFailed {
+            get {
+                return ResourceManager.GetString("FrameworkMessage_AdditionalAssertionsFailed", resourceCulture);
             }
         }
         
@@ -161,11 +170,29 @@ namespace Testify.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Expected exception: &lt;{0}&gt;. The action did not throw any exceptions. {1}.
+        /// </summary>
+        internal static string FrameworkMessage_DidNotThrow {
+            get {
+                return ResourceManager.GetString("FrameworkMessage_DidNotThrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to String &apos;{0}&apos; matches pattern &apos;{1}&apos;. {2}.
         /// </summary>
         internal static string FrameworkMessage_DoesNotMatchFailMsg {
             get {
                 return ResourceManager.GetString("FrameworkMessage_DoesNotMatchFailMsg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Duplicate item found: &lt;{0}&gt;. {1}.
+        /// </summary>
+        internal static string FrameworkMessage_DuplicateFound {
+            get {
+                return ResourceManager.GetString("FrameworkMessage_DuplicateFound", resourceCulture);
             }
         }
         
@@ -283,6 +310,24 @@ namespace Testify.Properties {
         internal static string FrameworkMessage_StartsWithFailMsg {
             get {
                 return ResourceManager.GetString("FrameworkMessage_StartsWithFailMsg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expected exception: &lt;{0}&gt;. Actual exception: &lt;{1}&gt;. {2}.
+        /// </summary>
+        internal static string FrameworkMessage_UnexpectedException {
+            get {
+                return ResourceManager.GetString("FrameworkMessage_UnexpectedException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Element at index {0} is not of expected type: &lt;{1}&gt;. Actual type: &lt;{2}&gt;. {3}.
+        /// </summary>
+        internal static string FrameworMessage_UnexpectedTypeAt {
+            get {
+                return ResourceManager.GetString("FrameworMessage_UnexpectedTypeAt", resourceCulture);
             }
         }
     }

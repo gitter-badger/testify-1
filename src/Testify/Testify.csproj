@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActualValue{T}.cs" />
+    <Compile Include="Argument.cs" />
     <Compile Include="AssertionException.cs" />
     <Compile Include="Assertions.cs" />
+    <Compile Include="CollectionAssertions.cs" />
     <Compile Include="FrameworkMessages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
