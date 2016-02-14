@@ -19,6 +19,36 @@ namespace Testify
             Format(Resources.FrameworkMessage_AssertionFailed, assertionName, userMessage.Trim());
 
         /// <summary>
+        /// Formats a message for Contains failures.
+        /// </summary>
+        /// <param name="value">The value.</param>
+        /// <param name="substring">The substring.</param>
+        /// <param name="message">The user message.</param>
+        /// <returns>The formatted message.</returns>
+        internal static string ContainsFailMsg(string value, string substring, string message) =>
+            Format(Resources.FrameworkMessage_ContainsFailMsg, value, substring, message);
+
+        /// <summary>
+        /// Formats a message for DoesNotMatch failures.
+        /// </summary>
+        /// <param name="value">The value.</param>
+        /// <param name="pattern">The pattern.</param>
+        /// <param name="userMessage">The user message.</param>
+        /// <returns>The formatted message.</returns>
+        internal static string DoesNotMatchFailMsg(string value, string pattern, string userMessage) =>
+            Format(Resources.FrameworkMessage_DoesNotMatchFailMsg, value, pattern, userMessage);
+
+        /// <summary>
+        /// Formats a message for EndsWithFail failures.
+        /// </summary>
+        /// <param name="value">The value.</param>
+        /// <param name="substring">The substring.</param>
+        /// <param name="message">The message.</param>
+        /// <returns>The formatted message.</returns>
+        internal static string EndsWithFailMsg(string value, string substring, string message) =>
+            Format(Resources.FrameworkMessage_EndsWithFailMsg, value, substring, message);
+
+        /// <summary>
         /// Returns a formatted message for IsEqualTo failures due to greater difference than delta.
         /// </summary>
         /// <param name="userMessage">The user message to include.</param>
@@ -113,6 +143,26 @@ namespace Testify
         /// <returns>The formatted message.</returns>
         internal static string IsNotInstanceOfTypeFailMsg(string userMessage, string expected, string actual) =>
             Format(Resources.FrameworkMessage_IsNotInstanceOfTypeFailMsg, expected, actual, userMessage.Trim());
+
+        /// <summary>
+        /// Formats a message for Matches failures.
+        /// </summary>
+        /// <param name="value">The value.</param>
+        /// <param name="pattern">The pattern.</param>
+        /// <param name="message">The user message.</param>
+        /// <returns>The formatted message.</returns>
+        internal static string MatchesFailMsg(string value, string pattern, string message) =>
+            Format(Resources.FrameworkMessage_MatchesFailMsg, value, pattern, message);
+
+        /// <summary>
+        /// Formats a message for StartsWith failures.
+        /// </summary>
+        /// <param name="value">The value.</param>
+        /// <param name="substring">The substring.</param>
+        /// <param name="message">The user message.</param>
+        /// <returns>The formatted message.</returns>
+        internal static string StartsWithFailMsg(string value, string substring, string message) =>
+            Format(Resources.FrameworkMessage_StartsWithFailMsg, value, substring, message);
 
         private static string Format(string format, params object[] args) =>
             string.Format(CultureInfo.CurrentCulture, format, args).Trim();

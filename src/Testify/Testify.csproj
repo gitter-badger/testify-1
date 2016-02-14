@@ -58,6 +58,7 @@
     </Compile>
     <Compile Include="ReflectionExtensions.cs" />
     <Compile Include="StandardAssertions.cs" />
+    <Compile Include="StringAssertions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\..\packages\SonarLint.1.7.0\analyzers\SonarLint.CSharp.dll" />
