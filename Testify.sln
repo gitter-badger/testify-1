@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testify", "src\Testify\Testify.csproj", "{11F9CDD0-E36F-496B-A2C3-849A33E5C4D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{469F900E-5D25-4CD0-A0CC-A255131F2D8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testify.Tests", "Testify.Tests\Testify.Tests.csproj", "{D69C34BF-AC57-4CFC-B43F-593FF3A4A4B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11F9CDD0-E36F-496B-A2C3-849A33E5C4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F9CDD0-E36F-496B-A2C3-849A33E5C4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F9CDD0-E36F-496B-A2C3-849A33E5C4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F9CDD0-E36F-496B-A2C3-849A33E5C4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69C34BF-AC57-4CFC-B43F-593FF3A4A4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69C34BF-AC57-4CFC-B43F-593FF3A4A4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69C34BF-AC57-4CFC-B43F-593FF3A4A4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69C34BF-AC57-4CFC-B43F-593FF3A4A4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D69C34BF-AC57-4CFC-B43F-593FF3A4A4B4} = {469F900E-5D25-4CD0-A0CC-A255131F2D8F}
+	EndGlobalSection
+EndGlobal
