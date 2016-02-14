@@ -63,6 +63,7 @@
     <Compile Include="AssertionExceptionTests.cs" />
     <Compile Include="AssertionsTests.cs" />
     <Compile Include="CollectionAssertionsTests.cs" />
+    <Compile Include="ExceptionAssertionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StandardAssertionsTests.cs" />
     <Compile Include="StringAssertionsTests.cs" />
