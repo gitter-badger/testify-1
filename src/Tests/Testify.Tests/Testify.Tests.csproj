@@ -62,11 +62,27 @@
     <Compile Include="AssertionExceptionExtensions.cs" />
     <Compile Include="AssertionExceptionTests.cs" />
     <Compile Include="AssertionsTests.cs" />
+    <Compile Include="BoolFactoryTests.cs" />
+    <Compile Include="ByteFactoryTests.cs" />
+    <Compile Include="CharFactoryTests.cs" />
     <Compile Include="CollectionAssertionsTests.cs" />
+    <Compile Include="DateTimeFactoryTests.cs" />
+    <Compile Include="DateTimeOffsetFactoryTests.cs" />
+    <Compile Include="DistributionTests.cs" />
+    <Compile Include="DoubleFactoryTests.cs" />
+    <Compile Include="EnumerableFactoryTests.cs" />
+    <Compile Include="EnumFactoryTests.cs" />
     <Compile Include="ExceptionAssertionsTests.cs" />
+    <Compile Include="Int16FactoryTests.cs" />
+    <Compile Include="Int32FactoryTests.cs" />
+    <Compile Include="Int64FactoryTests.cs" />
+    <Compile Include="ObjectFactoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleFactoryTests.cs" />
     <Compile Include="StandardAssertionsTests.cs" />
     <Compile Include="StringAssertionsTests.cs" />
+    <Compile Include="StringFactoryTests.cs" />
+    <Compile Include="TimeSpanFactoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -48,20 +48,46 @@
   <ItemGroup>
     <Compile Include="ActualValue{T}.cs" />
     <Compile Include="Argument.cs" />
+    <Compile Include="ArrayFactory{T}.cs" />
     <Compile Include="AssertionException.cs" />
     <Compile Include="Assertions.cs" />
+    <Compile Include="BoolFactory.cs" />
+    <Compile Include="ByteFactory.cs" />
+    <Compile Include="CharFactory.cs" />
+    <Compile Include="Classification{T}.cs" />
+    <Compile Include="Classifier{TValue}.cs" />
     <Compile Include="CollectionAssertions.cs" />
+    <Compile Include="DateTimeFactory.cs" />
+    <Compile Include="DateTimeOffsetFactory.cs" />
+    <Compile Include="Distribution.cs" />
+    <Compile Include="DoubleFactory.cs" />
+    <Compile Include="EnumerableFactory.cs" />
+    <Compile Include="EnumFactory.cs" />
     <Compile Include="ExceptionAssertions.cs" />
     <Compile Include="FrameworkMessages.cs" />
+    <Compile Include="Int16Factory.cs" />
+    <Compile Include="Int32Factory.cs" />
+    <Compile Include="Int64Factory.cs" />
+    <Compile Include="IObjectFactory.cs" />
+    <Compile Include="IObjectFactoryContext.cs" />
+    <Compile Include="IObjectFactoryCustomization.cs" />
+    <Compile Include="IRegisterObjectFactory.cs" />
+    <Compile Include="ObjectFactory.cs" />
+    <Compile Include="ObjectFactoryExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Range.cs" />
     <Compile Include="ReflectionExtensions.cs" />
+    <Compile Include="SingleFactory.cs" />
     <Compile Include="StandardAssertions.cs" />
     <Compile Include="StringAssertions.cs" />
+    <Compile Include="StringFactory.cs" />
+    <Compile Include="TimeSpanFactory.cs" />
+    <Compile Include="TimeZoneInfoFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\..\packages\SonarLint.1.7.0\analyzers\SonarLint.CSharp.dll" />
