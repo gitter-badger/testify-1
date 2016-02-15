@@ -1,0 +1,2961 @@
+items:
+- uid: Testify.CollectionAssertions
+  id: CollectionAssertions
+  parent: Testify
+  children:
+  - Testify.CollectionAssertions.AllItemsAreInstancesOfType``1(Testify.ActualValue{``0},System.Type)
+  - Testify.CollectionAssertions.AllItemsAreInstancesOfType``1(Testify.ActualValue{``0},System.Type,System.String)
+  - Testify.CollectionAssertions.AllItemsAreInstancesOfType``1(Testify.ActualValue{``0},System.Type,System.String,System.Object[])
+  - Testify.CollectionAssertions.AllItemsAreNotNull``1(Testify.ActualValue{``0})
+  - Testify.CollectionAssertions.AllItemsAreNotNull``1(Testify.ActualValue{``0},System.String)
+  - Testify.CollectionAssertions.AllItemsAreNotNull``1(Testify.ActualValue{``0},System.String,System.Object[])
+  - Testify.CollectionAssertions.AllItemsAreUnique``1(Testify.ActualValue{``0})
+  - Testify.CollectionAssertions.AllItemsAreUnique``1(Testify.ActualValue{``0},System.Collections.IEqualityComparer)
+  - Testify.CollectionAssertions.AllItemsAreUnique``1(Testify.ActualValue{``0},System.Collections.IEqualityComparer,System.String)
+  - Testify.CollectionAssertions.AllItemsAreUnique``1(Testify.ActualValue{``0},System.Collections.IEqualityComparer,System.String,System.Object[])
+  - Testify.CollectionAssertions.AllItemsAreUnique``1(Testify.ActualValue{``0},System.String)
+  - Testify.CollectionAssertions.AllItemsAreUnique``1(Testify.ActualValue{``0},System.String,System.Object[])
+  - Testify.CollectionAssertions.Contains``2(Testify.ActualValue{``0},``1)
+  - Testify.CollectionAssertions.Contains``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer)
+  - Testify.CollectionAssertions.Contains``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer,System.String)
+  - Testify.CollectionAssertions.Contains``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer,System.String,System.Object[])
+  - Testify.CollectionAssertions.Contains``2(Testify.ActualValue{``0},``1,System.String)
+  - Testify.CollectionAssertions.Contains``2(Testify.ActualValue{``0},``1,System.String,System.Object[])
+  - Testify.CollectionAssertions.DoesNotContain``2(Testify.ActualValue{``0},``1)
+  - Testify.CollectionAssertions.DoesNotContain``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer)
+  - Testify.CollectionAssertions.DoesNotContain``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer,System.String)
+  - Testify.CollectionAssertions.DoesNotContain``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer,System.String,System.Object[])
+  - Testify.CollectionAssertions.DoesNotContain``2(Testify.ActualValue{``0},``1,System.String)
+  - Testify.CollectionAssertions.DoesNotContain``2(Testify.ActualValue{``0},``1,System.String,System.Object[])
+  - Testify.CollectionAssertions.IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  - Testify.CollectionAssertions.IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  - Testify.CollectionAssertions.IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  - Testify.CollectionAssertions.IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  - Testify.CollectionAssertions.IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  - Testify.CollectionAssertions.IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  - Testify.CollectionAssertions.IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  - Testify.CollectionAssertions.IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  - Testify.CollectionAssertions.IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  - Testify.CollectionAssertions.IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  - Testify.CollectionAssertions.IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  - Testify.CollectionAssertions.IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  - Testify.CollectionAssertions.IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  - Testify.CollectionAssertions.IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  - Testify.CollectionAssertions.IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  - Testify.CollectionAssertions.IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  - Testify.CollectionAssertions.IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  - Testify.CollectionAssertions.IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  - Testify.CollectionAssertions.IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  - Testify.CollectionAssertions.IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  - Testify.CollectionAssertions.IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  - Testify.CollectionAssertions.IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  - Testify.CollectionAssertions.IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  - Testify.CollectionAssertions.IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  - Testify.CollectionAssertions.IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  - Testify.CollectionAssertions.IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  - Testify.CollectionAssertions.IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  - Testify.CollectionAssertions.IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  - Testify.CollectionAssertions.IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  - Testify.CollectionAssertions.IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  - Testify.CollectionAssertions.IsSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: CollectionAssertions
+  fullName: Testify.CollectionAssertions
+  type: Class
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 11
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Provides assertion methods associated with strings in unit tests.
+  example: []
+  syntax:
+    content: public class CollectionAssertions
+    content.vb: Public Class CollectionAssertions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Testify.CollectionAssertions.AllItemsAreInstancesOfType``1(Testify.ActualValue{``0},System.Type)
+  id: AllItemsAreInstancesOfType``1(Testify.ActualValue{``0},System.Type)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreInstancesOfType<T>(ActualValue<T>, Type)
+  name.vb: AllItemsAreInstancesOfType(Of T)(ActualValue(Of T), Type)
+  fullName: Testify.CollectionAssertions.AllItemsAreInstancesOfType<T>(Testify.ActualValue<T>, System.Type)
+  fullName.vb: Testify.CollectionAssertions.AllItemsAreInstancesOfType(Of T)(Testify.ActualValue(Of T), System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 21
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the elements in the specified collection are instances of the specified type.
+
+    Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void AllItemsAreInstancesOfType<T>(ActualValue<T> collection, Type expectedType)where T : IEnumerable'
+    content.vb: Public Shared Sub AllItemsAreInstancesOfType(Of T As IEnumerable)(collection As ActualValue(Of T), expectedType As Type)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to verify.
+    - id: expectedType
+      type: System.Type
+      description: >-
+        The type expected to be found in the inheritance hierarchy of every
+
+        element in.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.AllItemsAreInstancesOfType``1(Testify.ActualValue{``0},System.Type,System.String)
+  id: AllItemsAreInstancesOfType``1(Testify.ActualValue{``0},System.Type,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreInstancesOfType<T>(ActualValue<T>, Type, String)
+  name.vb: AllItemsAreInstancesOfType(Of T)(ActualValue(Of T), Type, String)
+  fullName: Testify.CollectionAssertions.AllItemsAreInstancesOfType<T>(Testify.ActualValue<T>, System.Type, System.String)
+  fullName.vb: Testify.CollectionAssertions.AllItemsAreInstancesOfType(Of T)(Testify.ActualValue(Of T), System.Type, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 41
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the elements in the specified collection are instances of the specified type.
+
+    Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void AllItemsAreInstancesOfType<T>(ActualValue<T> collection, Type expectedType, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub AllItemsAreInstancesOfType(Of T As IEnumerable)(collection As ActualValue(Of T), expectedType As Type, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to verify.
+    - id: expectedType
+      type: System.Type
+      description: >-
+        The type expected to be found in the inheritance hierarchy of every
+
+        element in.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.AllItemsAreInstancesOfType``1(Testify.ActualValue{``0},System.Type,System.String,System.Object[])
+  id: AllItemsAreInstancesOfType``1(Testify.ActualValue{``0},System.Type,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreInstancesOfType<T>(ActualValue<T>, Type, String, Object[])
+  name.vb: AllItemsAreInstancesOfType(Of T)(ActualValue(Of T), Type, String, Object())
+  fullName: Testify.CollectionAssertions.AllItemsAreInstancesOfType<T>(Testify.ActualValue<T>, System.Type, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.AllItemsAreInstancesOfType(Of T)(Testify.ActualValue(Of T), System.Type, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 62
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the elements in the specified collection are instances of the specified type.
+
+    Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void AllItemsAreInstancesOfType<T>(ActualValue<T> collection, Type expectedType, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub AllItemsAreInstancesOfType(Of T As IEnumerable)(collection As ActualValue(Of T), expectedType As Type, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to verify.
+    - id: expectedType
+      type: System.Type
+      description: >-
+        The type expected to be found in the inheritance hierarchy of every
+
+        element in.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.AllItemsAreNotNull``1(Testify.ActualValue{``0})
+  id: AllItemsAreNotNull``1(Testify.ActualValue{``0})
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreNotNull<T>(ActualValue<T>)
+  name.vb: AllItemsAreNotNull(Of T)(ActualValue(Of T))
+  fullName: Testify.CollectionAssertions.AllItemsAreNotNull<T>(Testify.ActualValue<T>)
+  fullName.vb: Testify.CollectionAssertions.AllItemsAreNotNull(Of T)(Testify.ActualValue(Of T))
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 88
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that all items in the specified collection are not <see langword="null" />. Displays a message if
+
+    the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void AllItemsAreNotNull<T>(ActualValue<T> collection)where T : IEnumerable'
+    content.vb: Public Shared Sub AllItemsAreNotNull(Of T As IEnumerable)(collection As ActualValue(Of T))
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for elements that are <see langword="null" />.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.AllItemsAreNotNull``1(Testify.ActualValue{``0},System.String)
+  id: AllItemsAreNotNull``1(Testify.ActualValue{``0},System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreNotNull<T>(ActualValue<T>, String)
+  name.vb: AllItemsAreNotNull(Of T)(ActualValue(Of T), String)
+  fullName: Testify.CollectionAssertions.AllItemsAreNotNull<T>(Testify.ActualValue<T>, System.String)
+  fullName.vb: Testify.CollectionAssertions.AllItemsAreNotNull(Of T)(Testify.ActualValue(Of T), System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 105
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that all items in the specified collection are not <see langword="null" />. Displays a message if
+
+    the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void AllItemsAreNotNull<T>(ActualValue<T> collection, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub AllItemsAreNotNull(Of T As IEnumerable)(collection As ActualValue(Of T), message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for elements that are <see langword="null" />.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.AllItemsAreNotNull``1(Testify.ActualValue{``0},System.String,System.Object[])
+  id: AllItemsAreNotNull``1(Testify.ActualValue{``0},System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreNotNull<T>(ActualValue<T>, String, Object[])
+  name.vb: AllItemsAreNotNull(Of T)(ActualValue(Of T), String, Object())
+  fullName: Testify.CollectionAssertions.AllItemsAreNotNull<T>(Testify.ActualValue<T>, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.AllItemsAreNotNull(Of T)(Testify.ActualValue(Of T), System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 123
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that all items in the specified collection are not <see langword="null" />. Displays a message if
+
+    the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void AllItemsAreNotNull<T>(ActualValue<T> collection, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub AllItemsAreNotNull(Of T As IEnumerable)(collection As ActualValue(Of T), message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for elements that are <see langword="null" />.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.AllItemsAreUnique``1(Testify.ActualValue{``0})
+  id: AllItemsAreUnique``1(Testify.ActualValue{``0})
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique<T>(ActualValue<T>)
+  name.vb: AllItemsAreUnique(Of T)(ActualValue(Of T))
+  fullName: Testify.CollectionAssertions.AllItemsAreUnique<T>(Testify.ActualValue<T>)
+  fullName.vb: Testify.CollectionAssertions.AllItemsAreUnique(Of T)(Testify.ActualValue(Of T))
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 144
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that all items in the specified collection are unique. Displays a message if the assertion fails,
+
+    and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void AllItemsAreUnique<T>(ActualValue<T> collection)where T : IEnumerable'
+    content.vb: Public Shared Sub AllItemsAreUnique(Of T As IEnumerable)(collection As ActualValue(Of T))
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for duplicate elements.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.AllItemsAreUnique``1(Testify.ActualValue{``0},System.Collections.IEqualityComparer)
+  id: AllItemsAreUnique``1(Testify.ActualValue{``0},System.Collections.IEqualityComparer)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique<T>(ActualValue<T>, IEqualityComparer)
+  name.vb: AllItemsAreUnique(Of T)(ActualValue(Of T), IEqualityComparer)
+  fullName: Testify.CollectionAssertions.AllItemsAreUnique<T>(Testify.ActualValue<T>, System.Collections.IEqualityComparer)
+  fullName.vb: Testify.CollectionAssertions.AllItemsAreUnique(Of T)(Testify.ActualValue(Of T), System.Collections.IEqualityComparer)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 160
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that all items in the specified collection are unique. Displays a message if the assertion fails,
+
+    and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void AllItemsAreUnique<T>(ActualValue<T> collection, IEqualityComparer comparer)where T : IEnumerable'
+    content.vb: Public Shared Sub AllItemsAreUnique(Of T As IEnumerable)(collection As ActualValue(Of T), comparer As IEqualityComparer)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for duplicate elements.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The comparer.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.AllItemsAreUnique``1(Testify.ActualValue{``0},System.String)
+  id: AllItemsAreUnique``1(Testify.ActualValue{``0},System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique<T>(ActualValue<T>, String)
+  name.vb: AllItemsAreUnique(Of T)(ActualValue(Of T), String)
+  fullName: Testify.CollectionAssertions.AllItemsAreUnique<T>(Testify.ActualValue<T>, System.String)
+  fullName.vb: Testify.CollectionAssertions.AllItemsAreUnique(Of T)(Testify.ActualValue(Of T), System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 178
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that all items in the specified collection are unique. Displays a message if the assertion fails,
+
+    and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void AllItemsAreUnique<T>(ActualValue<T> collection, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub AllItemsAreUnique(Of T As IEnumerable)(collection As ActualValue(Of T), message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for duplicate elements.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.AllItemsAreUnique``1(Testify.ActualValue{``0},System.Collections.IEqualityComparer,System.String)
+  id: AllItemsAreUnique``1(Testify.ActualValue{``0},System.Collections.IEqualityComparer,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique<T>(ActualValue<T>, IEqualityComparer, String)
+  name.vb: AllItemsAreUnique(Of T)(ActualValue(Of T), IEqualityComparer, String)
+  fullName: Testify.CollectionAssertions.AllItemsAreUnique<T>(Testify.ActualValue<T>, System.Collections.IEqualityComparer, System.String)
+  fullName.vb: Testify.CollectionAssertions.AllItemsAreUnique(Of T)(Testify.ActualValue(Of T), System.Collections.IEqualityComparer, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 196
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that all items in the specified collection are unique. Displays a message if the assertion fails,
+
+    and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void AllItemsAreUnique<T>(ActualValue<T> collection, IEqualityComparer comparer, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub AllItemsAreUnique(Of T As IEnumerable)(collection As ActualValue(Of T), comparer As IEqualityComparer, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for duplicate elements.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The comparer.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.AllItemsAreUnique``1(Testify.ActualValue{``0},System.String,System.Object[])
+  id: AllItemsAreUnique``1(Testify.ActualValue{``0},System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique<T>(ActualValue<T>, String, Object[])
+  name.vb: AllItemsAreUnique(Of T)(ActualValue(Of T), String, Object())
+  fullName: Testify.CollectionAssertions.AllItemsAreUnique<T>(Testify.ActualValue<T>, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.AllItemsAreUnique(Of T)(Testify.ActualValue(Of T), System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 215
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that all items in the specified collection are unique. Displays a message if the assertion fails,
+
+    and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void AllItemsAreUnique<T>(ActualValue<T> collection, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub AllItemsAreUnique(Of T As IEnumerable)(collection As ActualValue(Of T), message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for duplicate elements.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.AllItemsAreUnique``1(Testify.ActualValue{``0},System.Collections.IEqualityComparer,System.String,System.Object[])
+  id: AllItemsAreUnique``1(Testify.ActualValue{``0},System.Collections.IEqualityComparer,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique<T>(ActualValue<T>, IEqualityComparer, String, Object[])
+  name.vb: AllItemsAreUnique(Of T)(ActualValue(Of T), IEqualityComparer, String, Object())
+  fullName: Testify.CollectionAssertions.AllItemsAreUnique<T>(Testify.ActualValue<T>, System.Collections.IEqualityComparer, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.AllItemsAreUnique(Of T)(Testify.ActualValue(Of T), System.Collections.IEqualityComparer, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 234
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that all items in the specified collection are unique. Displays a message if the assertion fails,
+
+    and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void AllItemsAreUnique<T>(ActualValue<T> collection, IEqualityComparer comparer, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub AllItemsAreUnique(Of T As IEnumerable)(collection As ActualValue(Of T), comparer As IEqualityComparer, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for duplicate elements.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The comparer.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.Contains``2(Testify.ActualValue{``0},``1)
+  id: Contains``2(Testify.ActualValue{``0},``1)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: Contains<T, TElement>(ActualValue<T>, TElement)
+  name.vb: Contains(Of T, TElement)(ActualValue(Of T), TElement)
+  fullName: Testify.CollectionAssertions.Contains<T, TElement>(Testify.ActualValue<T>, TElement)
+  fullName.vb: Testify.CollectionAssertions.Contains(Of T, TElement)(Testify.ActualValue(Of T), TElement)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 276
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection contains the specified element. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void Contains<T, TElement>(ActualValue<T> collection, TElement element)where T : IEnumerable'
+    content.vb: Public Shared Sub Contains(Of T As IEnumerable, TElement)(collection As ActualValue(Of T), element As TElement)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for the element.
+    - id: element
+      type: '{TElement}'
+      description: The element that is expected to be in the collection.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+    - id: TElement
+      description: The type of the element.
+- uid: Testify.CollectionAssertions.Contains``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer)
+  id: Contains``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: Contains<T, TElement>(ActualValue<T>, TElement, IEqualityComparer)
+  name.vb: Contains(Of T, TElement)(ActualValue(Of T), TElement, IEqualityComparer)
+  fullName: Testify.CollectionAssertions.Contains<T, TElement>(Testify.ActualValue<T>, TElement, System.Collections.IEqualityComparer)
+  fullName.vb: Testify.CollectionAssertions.Contains(Of T, TElement)(Testify.ActualValue(Of T), TElement, System.Collections.IEqualityComparer)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 294
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection contains the specified element. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void Contains<T, TElement>(ActualValue<T> collection, TElement element, IEqualityComparer comparer)where T : IEnumerable'
+    content.vb: Public Shared Sub Contains(Of T As IEnumerable, TElement)(collection As ActualValue(Of T), element As TElement, comparer As IEqualityComparer)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for the element.
+    - id: element
+      type: '{TElement}'
+      description: The element that is expected to be in the collection.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+    - id: TElement
+      description: The type of the element.
+- uid: Testify.CollectionAssertions.Contains``2(Testify.ActualValue{``0},``1,System.String)
+  id: Contains``2(Testify.ActualValue{``0},``1,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: Contains<T, TElement>(ActualValue<T>, TElement, String)
+  name.vb: Contains(Of T, TElement)(ActualValue(Of T), TElement, String)
+  fullName: Testify.CollectionAssertions.Contains<T, TElement>(Testify.ActualValue<T>, TElement, System.String)
+  fullName.vb: Testify.CollectionAssertions.Contains(Of T, TElement)(Testify.ActualValue(Of T), TElement, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 314
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection contains the specified element. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void Contains<T, TElement>(ActualValue<T> collection, TElement element, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub Contains(Of T As IEnumerable, TElement)(collection As ActualValue(Of T), element As TElement, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for the element.
+    - id: element
+      type: '{TElement}'
+      description: The element that is expected to be in the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+    - id: TElement
+      description: The type of the element.
+- uid: Testify.CollectionAssertions.Contains``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer,System.String)
+  id: Contains``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: Contains<T, TElement>(ActualValue<T>, TElement, IEqualityComparer, String)
+  name.vb: Contains(Of T, TElement)(ActualValue(Of T), TElement, IEqualityComparer, String)
+  fullName: Testify.CollectionAssertions.Contains<T, TElement>(Testify.ActualValue<T>, TElement, System.Collections.IEqualityComparer, System.String)
+  fullName.vb: Testify.CollectionAssertions.Contains(Of T, TElement)(Testify.ActualValue(Of T), TElement, System.Collections.IEqualityComparer, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 334
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection contains the specified element. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void Contains<T, TElement>(ActualValue<T> collection, TElement element, IEqualityComparer comparer, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub Contains(Of T As IEnumerable, TElement)(collection As ActualValue(Of T), element As TElement, comparer As IEqualityComparer, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for the element.
+    - id: element
+      type: '{TElement}'
+      description: The element that is expected to be in the collection.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+    - id: TElement
+      description: The type of the element.
+- uid: Testify.CollectionAssertions.Contains``2(Testify.ActualValue{``0},``1,System.String,System.Object[])
+  id: Contains``2(Testify.ActualValue{``0},``1,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: Contains<T, TElement>(ActualValue<T>, TElement, String, Object[])
+  name.vb: Contains(Of T, TElement)(ActualValue(Of T), TElement, String, Object())
+  fullName: Testify.CollectionAssertions.Contains<T, TElement>(Testify.ActualValue<T>, TElement, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.Contains(Of T, TElement)(Testify.ActualValue(Of T), TElement, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 355
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection contains the specified element. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void Contains<T, TElement>(ActualValue<T> collection, TElement element, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub Contains(Of T As IEnumerable, TElement)(collection As ActualValue(Of T), element As TElement, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for the element.
+    - id: element
+      type: '{TElement}'
+      description: The element that is expected to be in the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+    - id: TElement
+      description: The type of the element.
+- uid: Testify.CollectionAssertions.Contains``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer,System.String,System.Object[])
+  id: Contains``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: Contains<T, TElement>(ActualValue<T>, TElement, IEqualityComparer, String, Object[])
+  name.vb: Contains(Of T, TElement)(ActualValue(Of T), TElement, IEqualityComparer, String, Object())
+  fullName: Testify.CollectionAssertions.Contains<T, TElement>(Testify.ActualValue<T>, TElement, System.Collections.IEqualityComparer, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.Contains(Of T, TElement)(Testify.ActualValue(Of T), TElement, System.Collections.IEqualityComparer, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 376
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection contains the specified element. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void Contains<T, TElement>(ActualValue<T> collection, TElement element, IEqualityComparer comparer, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub Contains(Of T As IEnumerable, TElement)(collection As ActualValue(Of T), element As TElement, comparer As IEqualityComparer, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for the element.
+    - id: element
+      type: '{TElement}'
+      description: The element that is expected to be in the collection.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+    - id: TElement
+      description: The type of the element.
+- uid: Testify.CollectionAssertions.DoesNotContain``2(Testify.ActualValue{``0},``1)
+  id: DoesNotContain``2(Testify.ActualValue{``0},``1)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain<T, TElement>(ActualValue<T>, TElement)
+  name.vb: DoesNotContain(Of T, TElement)(ActualValue(Of T), TElement)
+  fullName: Testify.CollectionAssertions.DoesNotContain<T, TElement>(Testify.ActualValue<T>, TElement)
+  fullName.vb: Testify.CollectionAssertions.DoesNotContain(Of T, TElement)(Testify.ActualValue(Of T), TElement)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 402
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection does not contain the specified element. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void DoesNotContain<T, TElement>(ActualValue<T> collection, TElement element)where T : IEnumerable'
+    content.vb: Public Shared Sub DoesNotContain(Of T As IEnumerable, TElement)(collection As ActualValue(Of T), element As TElement)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for the element.
+    - id: element
+      type: '{TElement}'
+      description: The element that is expected to be in the collection.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+    - id: TElement
+      description: The type of the element.
+- uid: Testify.CollectionAssertions.DoesNotContain``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer)
+  id: DoesNotContain``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain<T, TElement>(ActualValue<T>, TElement, IEqualityComparer)
+  name.vb: DoesNotContain(Of T, TElement)(ActualValue(Of T), TElement, IEqualityComparer)
+  fullName: Testify.CollectionAssertions.DoesNotContain<T, TElement>(Testify.ActualValue<T>, TElement, System.Collections.IEqualityComparer)
+  fullName.vb: Testify.CollectionAssertions.DoesNotContain(Of T, TElement)(Testify.ActualValue(Of T), TElement, System.Collections.IEqualityComparer)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 420
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection does not contain the specified element. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void DoesNotContain<T, TElement>(ActualValue<T> collection, TElement element, IEqualityComparer comparer)where T : IEnumerable'
+    content.vb: Public Shared Sub DoesNotContain(Of T As IEnumerable, TElement)(collection As ActualValue(Of T), element As TElement, comparer As IEqualityComparer)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for the element.
+    - id: element
+      type: '{TElement}'
+      description: The element that is expected to be in the collection.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+    - id: TElement
+      description: The type of the element.
+- uid: Testify.CollectionAssertions.DoesNotContain``2(Testify.ActualValue{``0},``1,System.String)
+  id: DoesNotContain``2(Testify.ActualValue{``0},``1,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain<T, TElement>(ActualValue<T>, TElement, String)
+  name.vb: DoesNotContain(Of T, TElement)(ActualValue(Of T), TElement, String)
+  fullName: Testify.CollectionAssertions.DoesNotContain<T, TElement>(Testify.ActualValue<T>, TElement, System.String)
+  fullName.vb: Testify.CollectionAssertions.DoesNotContain(Of T, TElement)(Testify.ActualValue(Of T), TElement, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 440
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection does not contain the specified element. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void DoesNotContain<T, TElement>(ActualValue<T> collection, TElement element, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub DoesNotContain(Of T As IEnumerable, TElement)(collection As ActualValue(Of T), element As TElement, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for the element.
+    - id: element
+      type: '{TElement}'
+      description: The element that is expected to be in the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+    - id: TElement
+      description: The type of the element.
+- uid: Testify.CollectionAssertions.DoesNotContain``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer,System.String)
+  id: DoesNotContain``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain<T, TElement>(ActualValue<T>, TElement, IEqualityComparer, String)
+  name.vb: DoesNotContain(Of T, TElement)(ActualValue(Of T), TElement, IEqualityComparer, String)
+  fullName: Testify.CollectionAssertions.DoesNotContain<T, TElement>(Testify.ActualValue<T>, TElement, System.Collections.IEqualityComparer, System.String)
+  fullName.vb: Testify.CollectionAssertions.DoesNotContain(Of T, TElement)(Testify.ActualValue(Of T), TElement, System.Collections.IEqualityComparer, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 460
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection does not contain the specified element. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void DoesNotContain<T, TElement>(ActualValue<T> collection, TElement element, IEqualityComparer comparer, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub DoesNotContain(Of T As IEnumerable, TElement)(collection As ActualValue(Of T), element As TElement, comparer As IEqualityComparer, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for the element.
+    - id: element
+      type: '{TElement}'
+      description: The element that is expected to be in the collection.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+    - id: TElement
+      description: The type of the element.
+- uid: Testify.CollectionAssertions.DoesNotContain``2(Testify.ActualValue{``0},``1,System.String,System.Object[])
+  id: DoesNotContain``2(Testify.ActualValue{``0},``1,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain<T, TElement>(ActualValue<T>, TElement, String, Object[])
+  name.vb: DoesNotContain(Of T, TElement)(ActualValue(Of T), TElement, String, Object())
+  fullName: Testify.CollectionAssertions.DoesNotContain<T, TElement>(Testify.ActualValue<T>, TElement, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.DoesNotContain(Of T, TElement)(Testify.ActualValue(Of T), TElement, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 481
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection does not contain the specified element. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void DoesNotContain<T, TElement>(ActualValue<T> collection, TElement element, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub DoesNotContain(Of T As IEnumerable, TElement)(collection As ActualValue(Of T), element As TElement, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for the element.
+    - id: element
+      type: '{TElement}'
+      description: The element that is expected to be in the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+    - id: TElement
+      description: The type of the element.
+- uid: Testify.CollectionAssertions.DoesNotContain``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer,System.String,System.Object[])
+  id: DoesNotContain``2(Testify.ActualValue{``0},``1,System.Collections.IEqualityComparer,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain<T, TElement>(ActualValue<T>, TElement, IEqualityComparer, String, Object[])
+  name.vb: DoesNotContain(Of T, TElement)(ActualValue(Of T), TElement, IEqualityComparer, String, Object())
+  fullName: Testify.CollectionAssertions.DoesNotContain<T, TElement>(Testify.ActualValue<T>, TElement, System.Collections.IEqualityComparer, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.DoesNotContain(Of T, TElement)(Testify.ActualValue(Of T), TElement, System.Collections.IEqualityComparer, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 502
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection does not contain the specified element. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void DoesNotContain<T, TElement>(ActualValue<T> collection, TElement element, IEqualityComparer comparer, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub DoesNotContain(Of T As IEnumerable, TElement)(collection As ActualValue(Of T), element As TElement, comparer As IEqualityComparer, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection in which to search for the element.
+    - id: element
+      type: '{TElement}'
+      description: The element that is expected to be in the collection.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+    - id: TElement
+      description: The type of the element.
+- uid: Testify.CollectionAssertions.IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  id: IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo<T>(ActualValue<T>, IEnumerable)
+  name.vb: IsEquivalentTo(Of T)(ActualValue(Of T), IEnumerable)
+  fullName: Testify.CollectionAssertions.IsEquivalentTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable)
+  fullName.vb: Testify.CollectionAssertions.IsEquivalentTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 527
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are equivalent. Displays a message if the assertion fails, and
+
+    applies the specified formatting to it.
+  remarks: >-
+    Two collections are equivalent if they have the same elements in the same quantity, but in any
+
+    order.
+  example: []
+  syntax:
+    content: 'public static void IsEquivalentTo<T>(ActualValue<T> collection, IEnumerable expected)where T : IEnumerable'
+    content.vb: Public Shared Sub IsEquivalentTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  id: IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo<T>(ActualValue<T>, IEnumerable, IEqualityComparer)
+  name.vb: IsEquivalentTo(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer)
+  fullName: Testify.CollectionAssertions.IsEquivalentTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer)
+  fullName.vb: Testify.CollectionAssertions.IsEquivalentTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 545
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are equivalent. Displays a message if the assertion fails, and
+
+    applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsEquivalentTo<T>(ActualValue<T> collection, IEnumerable expected, IEqualityComparer comparer)where T : IEnumerable'
+    content.vb: Public Shared Sub IsEquivalentTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, comparer As IEqualityComparer)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  id: IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo<T>(ActualValue<T>, IEnumerable, String)
+  name.vb: IsEquivalentTo(Of T)(ActualValue(Of T), IEnumerable, String)
+  fullName: Testify.CollectionAssertions.IsEquivalentTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.String)
+  fullName.vb: Testify.CollectionAssertions.IsEquivalentTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 567
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are equivalent. Displays a message if the assertion fails, and
+
+    applies the specified formatting to it.
+  remarks: >-
+    Two collections are equivalent if they have the same elements in the same quantity, but in any
+
+    order.
+  example: []
+  syntax:
+    content: 'public static void IsEquivalentTo<T>(ActualValue<T> collection, IEnumerable expected, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub IsEquivalentTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  id: IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo<T>(ActualValue<T>, IEnumerable, IEqualityComparer, String)
+  name.vb: IsEquivalentTo(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer, String)
+  fullName: Testify.CollectionAssertions.IsEquivalentTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String)
+  fullName.vb: Testify.CollectionAssertions.IsEquivalentTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 587
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are equivalent. Displays a message if the assertion fails, and
+
+    applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsEquivalentTo<T>(ActualValue<T> collection, IEnumerable expected, IEqualityComparer comparer, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub IsEquivalentTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, comparer As IEqualityComparer, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  id: IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo<T>(ActualValue<T>, IEnumerable, String, Object[])
+  name.vb: IsEquivalentTo(Of T)(ActualValue(Of T), IEnumerable, String, Object())
+  fullName: Testify.CollectionAssertions.IsEquivalentTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.IsEquivalentTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 610
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are equivalent. Displays a message if the assertion fails, and
+
+    applies the specified formatting to it.
+  remarks: >-
+    Two collections are equivalent if they have the same elements in the same quantity, but in any
+
+    order.
+  example: []
+  syntax:
+    content: 'public static void IsEquivalentTo<T>(ActualValue<T> collection, IEnumerable expected, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub IsEquivalentTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  id: IsEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo<T>(ActualValue<T>, IEnumerable, IEqualityComparer, String, Object[])
+  name.vb: IsEquivalentTo(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer, String, Object())
+  fullName: Testify.CollectionAssertions.IsEquivalentTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.IsEquivalentTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 633
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are equivalent. Displays a message if the assertion fails, and
+
+    applies the specified formatting to it.
+  remarks: >-
+    Two collections are equivalent if they have the same elements in the same quantity, but in any
+
+    order.
+  example: []
+  syntax:
+    content: 'public static void IsEquivalentTo<T>(ActualValue<T> collection, IEnumerable expected, IEqualityComparer comparer, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub IsEquivalentTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, comparer As IEqualityComparer, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  id: IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo<T>(ActualValue<T>, IEnumerable)
+  name.vb: IsNotEquivalentTo(Of T)(ActualValue(Of T), IEnumerable)
+  fullName: Testify.CollectionAssertions.IsNotEquivalentTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable)
+  fullName.vb: Testify.CollectionAssertions.IsNotEquivalentTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 673
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are not equivalent. Displays a message if the assertion fails, and
+
+    applies the specified formatting to it.
+  remarks: >-
+    Two collections are equivalent if they have the same elements in the same quantity, but in any
+
+    order.
+  example: []
+  syntax:
+    content: 'public static void IsNotEquivalentTo<T>(ActualValue<T> collection, IEnumerable expected)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotEquivalentTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  id: IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo<T>(ActualValue<T>, IEnumerable, IEqualityComparer)
+  name.vb: IsNotEquivalentTo(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer)
+  fullName: Testify.CollectionAssertions.IsNotEquivalentTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer)
+  fullName.vb: Testify.CollectionAssertions.IsNotEquivalentTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 693
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are not equivalent. Displays a message if the assertion fails, and
+
+    applies the specified formatting to it.
+  remarks: >-
+    Two collections are equivalent if they have the same elements in the same quantity, but in any
+
+    order.
+  example: []
+  syntax:
+    content: 'public static void IsNotEquivalentTo<T>(ActualValue<T> collection, IEnumerable expected, IEqualityComparer comparer)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotEquivalentTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, comparer As IEqualityComparer)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  id: IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo<T>(ActualValue<T>, IEnumerable, String)
+  name.vb: IsNotEquivalentTo(Of T)(ActualValue(Of T), IEnumerable, String)
+  fullName: Testify.CollectionAssertions.IsNotEquivalentTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.String)
+  fullName.vb: Testify.CollectionAssertions.IsNotEquivalentTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 715
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are not equivalent. Displays a message if the assertion fails, and
+
+    applies the specified formatting to it.
+  remarks: >-
+    Two collections are equivalent if they have the same elements in the same quantity, but in any
+
+    order.
+  example: []
+  syntax:
+    content: 'public static void IsNotEquivalentTo<T>(ActualValue<T> collection, IEnumerable expected, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotEquivalentTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  id: IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo<T>(ActualValue<T>, IEnumerable, IEqualityComparer, String)
+  name.vb: IsNotEquivalentTo(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer, String)
+  fullName: Testify.CollectionAssertions.IsNotEquivalentTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String)
+  fullName.vb: Testify.CollectionAssertions.IsNotEquivalentTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 737
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are not equivalent. Displays a message if the assertion fails, and
+
+    applies the specified formatting to it.
+  remarks: >-
+    Two collections are equivalent if they have the same elements in the same quantity, but in any
+
+    order.
+  example: []
+  syntax:
+    content: 'public static void IsNotEquivalentTo<T>(ActualValue<T> collection, IEnumerable expected, IEqualityComparer comparer, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotEquivalentTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, comparer As IEqualityComparer, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  id: IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo<T>(ActualValue<T>, IEnumerable, String, Object[])
+  name.vb: IsNotEquivalentTo(Of T)(ActualValue(Of T), IEnumerable, String, Object())
+  fullName: Testify.CollectionAssertions.IsNotEquivalentTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.IsNotEquivalentTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 760
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are not equivalent. Displays a message if the assertion fails, and
+
+    applies the specified formatting to it.
+  remarks: >-
+    Two collections are equivalent if they have the same elements in the same quantity, but in any
+
+    order.
+  example: []
+  syntax:
+    content: 'public static void IsNotEquivalentTo<T>(ActualValue<T> collection, IEnumerable expected, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotEquivalentTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  id: IsNotEquivalentTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo<T>(ActualValue<T>, IEnumerable, IEqualityComparer, String, Object[])
+  name.vb: IsNotEquivalentTo(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer, String, Object())
+  fullName: Testify.CollectionAssertions.IsNotEquivalentTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.IsNotEquivalentTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 783
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are not equivalent. Displays a message if the assertion fails, and
+
+    applies the specified formatting to it.
+  remarks: >-
+    Two collections are equivalent if they have the same elements in the same quantity, but in any
+
+    order.
+  example: []
+  syntax:
+    content: 'public static void IsNotEquivalentTo<T>(ActualValue<T> collection, IEnumerable expected, IEqualityComparer comparer, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotEquivalentTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, comparer As IEqualityComparer, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  id: IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo<T>(ActualValue<T>, IEnumerable)
+  name.vb: IsNotSequenceEqualTo(Of T)(ActualValue(Of T), IEnumerable)
+  fullName: Testify.CollectionAssertions.IsNotSequenceEqualTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable)
+  fullName.vb: Testify.CollectionAssertions.IsNotSequenceEqualTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 821
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are not equal, using the specified method to compare the values
+
+    of elements. Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSequenceEqualTo<T>(ActualValue<T> collection, IEnumerable expected)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotSequenceEqualTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  id: IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo<T>(ActualValue<T>, IEnumerable, IEqualityComparer)
+  name.vb: IsNotSequenceEqualTo(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer)
+  fullName: Testify.CollectionAssertions.IsNotSequenceEqualTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer)
+  fullName.vb: Testify.CollectionAssertions.IsNotSequenceEqualTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 835
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are not equal, using the specified method to compare the values
+
+    of elements. Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSequenceEqualTo<T>(ActualValue<T> collection, IEnumerable expected, IEqualityComparer comparer)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotSequenceEqualTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, comparer As IEqualityComparer)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  id: IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo<T>(ActualValue<T>, IEnumerable, String)
+  name.vb: IsNotSequenceEqualTo(Of T)(ActualValue(Of T), IEnumerable, String)
+  fullName: Testify.CollectionAssertions.IsNotSequenceEqualTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.String)
+  fullName.vb: Testify.CollectionAssertions.IsNotSequenceEqualTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 850
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are not equal, using the specified method to compare the values
+
+    of elements. Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSequenceEqualTo<T>(ActualValue<T> collection, IEnumerable expected, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotSequenceEqualTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  id: IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo<T>(ActualValue<T>, IEnumerable, IEqualityComparer, String)
+  name.vb: IsNotSequenceEqualTo(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer, String)
+  fullName: Testify.CollectionAssertions.IsNotSequenceEqualTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String)
+  fullName.vb: Testify.CollectionAssertions.IsNotSequenceEqualTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 866
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are not equal, using the specified method to compare the values
+
+    of elements. Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSequenceEqualTo<T>(ActualValue<T> collection, IEnumerable expected, IEqualityComparer comparer, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotSequenceEqualTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, comparer As IEqualityComparer, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  id: IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo<T>(ActualValue<T>, IEnumerable, String, Object[])
+  name.vb: IsNotSequenceEqualTo(Of T)(ActualValue(Of T), IEnumerable, String, Object())
+  fullName: Testify.CollectionAssertions.IsNotSequenceEqualTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.IsNotSequenceEqualTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 882
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are not equal, using the specified method to compare the values
+
+    of elements. Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSequenceEqualTo<T>(ActualValue<T> collection, IEnumerable expected, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotSequenceEqualTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  id: IsNotSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo<T>(ActualValue<T>, IEnumerable, IEqualityComparer, String, Object[])
+  name.vb: IsNotSequenceEqualTo(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer, String, Object())
+  fullName: Testify.CollectionAssertions.IsNotSequenceEqualTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.IsNotSequenceEqualTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 899
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are not equal, using the specified method to compare the values
+
+    of elements. Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSequenceEqualTo<T>(ActualValue<T> collection, IEnumerable expected, IEqualityComparer comparer, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotSequenceEqualTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, comparer As IEqualityComparer, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  id: IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf<T>(ActualValue<T>, IEnumerable)
+  name.vb: IsNotSubsetOf(Of T)(ActualValue(Of T), IEnumerable)
+  fullName: Testify.CollectionAssertions.IsNotSubsetOf<T>(Testify.ActualValue<T>, System.Collections.IEnumerable)
+  fullName.vb: Testify.CollectionAssertions.IsNotSubsetOf(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 923
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection is not a subset of another collection. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSubsetOf<T>(ActualValue<T> collection, IEnumerable superset)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotSubsetOf(Of T As IEnumerable)(collection As ActualValue(Of T), superset As IEnumerable)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection not expected to be a subset of *superset*.
+    - id: superset
+      type: System.Collections.IEnumerable
+      description: The collection not expected to be a superset of *collection*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  id: IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf<T>(ActualValue<T>, IEnumerable, IEqualityComparer)
+  name.vb: IsNotSubsetOf(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer)
+  fullName: Testify.CollectionAssertions.IsNotSubsetOf<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer)
+  fullName.vb: Testify.CollectionAssertions.IsNotSubsetOf(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 941
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection is not a subset of another collection. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSubsetOf<T>(ActualValue<T> collection, IEnumerable superset, IEqualityComparer comparer)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotSubsetOf(Of T As IEnumerable)(collection As ActualValue(Of T), superset As IEnumerable, comparer As IEqualityComparer)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection not expected to be a subset of *superset*.
+    - id: superset
+      type: System.Collections.IEnumerable
+      description: The collection not expected to be a superset of *collection*.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  id: IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf<T>(ActualValue<T>, IEnumerable, String)
+  name.vb: IsNotSubsetOf(Of T)(ActualValue(Of T), IEnumerable, String)
+  fullName: Testify.CollectionAssertions.IsNotSubsetOf<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.String)
+  fullName.vb: Testify.CollectionAssertions.IsNotSubsetOf(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 961
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection is not a subset of another collection. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSubsetOf<T>(ActualValue<T> collection, IEnumerable superset, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotSubsetOf(Of T As IEnumerable)(collection As ActualValue(Of T), superset As IEnumerable, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection not expected to be a subset of *superset*.
+    - id: superset
+      type: System.Collections.IEnumerable
+      description: The collection not expected to be a superset of *collection*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  id: IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf<T>(ActualValue<T>, IEnumerable, IEqualityComparer, String)
+  name.vb: IsNotSubsetOf(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer, String)
+  fullName: Testify.CollectionAssertions.IsNotSubsetOf<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String)
+  fullName.vb: Testify.CollectionAssertions.IsNotSubsetOf(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 981
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection is not a subset of another collection. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSubsetOf<T>(ActualValue<T> collection, IEnumerable superset, IEqualityComparer comparer, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotSubsetOf(Of T As IEnumerable)(collection As ActualValue(Of T), superset As IEnumerable, comparer As IEqualityComparer, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection not expected to be a subset of *superset*.
+    - id: superset
+      type: System.Collections.IEnumerable
+      description: The collection not expected to be a superset of *collection*.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  id: IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf<T>(ActualValue<T>, IEnumerable, String, Object[])
+  name.vb: IsNotSubsetOf(Of T)(ActualValue(Of T), IEnumerable, String, Object())
+  fullName: Testify.CollectionAssertions.IsNotSubsetOf<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.IsNotSubsetOf(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 1002
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection is not a subset of another collection. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSubsetOf<T>(ActualValue<T> collection, IEnumerable superset, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotSubsetOf(Of T As IEnumerable)(collection As ActualValue(Of T), superset As IEnumerable, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection not expected to be a subset of *superset*.
+    - id: superset
+      type: System.Collections.IEnumerable
+      description: The collection not expected to be a superset of *collection*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  id: IsNotSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf<T>(ActualValue<T>, IEnumerable, IEqualityComparer, String, Object[])
+  name.vb: IsNotSubsetOf(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer, String, Object())
+  fullName: Testify.CollectionAssertions.IsNotSubsetOf<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.IsNotSubsetOf(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 1023
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection is not a subset of another collection. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSubsetOf<T>(ActualValue<T> collection, IEnumerable superset, IEqualityComparer comparer, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub IsNotSubsetOf(Of T As IEnumerable)(collection As ActualValue(Of T), superset As IEnumerable, comparer As IEqualityComparer, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection not expected to be a subset of *superset*.
+    - id: superset
+      type: System.Collections.IEnumerable
+      description: The collection not expected to be a superset of *collection*.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  id: IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo<T>(ActualValue<T>, IEnumerable)
+  name.vb: IsSequenceEqualTo(Of T)(ActualValue(Of T), IEnumerable)
+  fullName: Testify.CollectionAssertions.IsSequenceEqualTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable)
+  fullName.vb: Testify.CollectionAssertions.IsSequenceEqualTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 1046
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are equal, using the specified method to compare the values
+
+    of elements. Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsSequenceEqualTo<T>(ActualValue<T> collection, IEnumerable expected)where T : IEnumerable'
+    content.vb: Public Shared Sub IsSequenceEqualTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  id: IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo<T>(ActualValue<T>, IEnumerable, IEqualityComparer)
+  name.vb: IsSequenceEqualTo(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer)
+  fullName: Testify.CollectionAssertions.IsSequenceEqualTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer)
+  fullName.vb: Testify.CollectionAssertions.IsSequenceEqualTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 1060
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are equal, using the specified method to compare the values
+
+    of elements. Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsSequenceEqualTo<T>(ActualValue<T> collection, IEnumerable expected, IEqualityComparer comparer)where T : IEnumerable'
+    content.vb: Public Shared Sub IsSequenceEqualTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, comparer As IEqualityComparer)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  id: IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo<T>(ActualValue<T>, IEnumerable, String)
+  name.vb: IsSequenceEqualTo(Of T)(ActualValue(Of T), IEnumerable, String)
+  fullName: Testify.CollectionAssertions.IsSequenceEqualTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.String)
+  fullName.vb: Testify.CollectionAssertions.IsSequenceEqualTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 1075
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are equal, using the specified method to compare the values
+
+    of elements. Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsSequenceEqualTo<T>(ActualValue<T> collection, IEnumerable expected, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub IsSequenceEqualTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  id: IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String)
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo<T>(ActualValue<T>, IEnumerable, IEqualityComparer, String)
+  name.vb: IsSequenceEqualTo(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer, String)
+  fullName: Testify.CollectionAssertions.IsSequenceEqualTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String)
+  fullName.vb: Testify.CollectionAssertions.IsSequenceEqualTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 1091
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are equal, using the specified method to compare the values
+
+    of elements. Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsSequenceEqualTo<T>(ActualValue<T> collection, IEnumerable expected, IEqualityComparer comparer, string message)where T : IEnumerable'
+    content.vb: Public Shared Sub IsSequenceEqualTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, comparer As IEqualityComparer, message As String)
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  id: IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo<T>(ActualValue<T>, IEnumerable, String, Object[])
+  name.vb: IsSequenceEqualTo(Of T)(ActualValue(Of T), IEnumerable, String, Object())
+  fullName: Testify.CollectionAssertions.IsSequenceEqualTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.IsSequenceEqualTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 1107
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are equal, using the specified method to compare the values
+
+    of elements. Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsSequenceEqualTo<T>(ActualValue<T> collection, IEnumerable expected, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub IsSequenceEqualTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  id: IsSequenceEqualTo``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo<T>(ActualValue<T>, IEnumerable, IEqualityComparer, String, Object[])
+  name.vb: IsSequenceEqualTo(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer, String, Object())
+  fullName: Testify.CollectionAssertions.IsSequenceEqualTo<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.IsSequenceEqualTo(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 1124
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified collections are equal, using the specified method to compare the values
+
+    of elements. Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsSequenceEqualTo<T>(ActualValue<T> collection, IEnumerable expected, IEqualityComparer comparer, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub IsSequenceEqualTo(Of T As IEnumerable)(collection As ActualValue(Of T), expected As IEnumerable, comparer As IEqualityComparer, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection to compare. This is the collection the unit test produced.
+    - id: expected
+      type: System.Collections.IEnumerable
+      description: The collection to compare to. This is the collection the unit test expects.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+- uid: Testify.CollectionAssertions.IsSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  id: IsSubsetOf``1(Testify.ActualValue{``0},System.Collections.IEnumerable,System.Collections.IEqualityComparer,System.String,System.Object[])
+  parent: Testify.CollectionAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsSubsetOf<T>(ActualValue<T>, IEnumerable, IEqualityComparer, String, Object[])
+  name.vb: IsSubsetOf(Of T)(ActualValue(Of T), IEnumerable, IEqualityComparer, String, Object())
+  fullName: Testify.CollectionAssertions.IsSubsetOf<T>(Testify.ActualValue<T>, System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String, System.Object[])
+  fullName.vb: Testify.CollectionAssertions.IsSubsetOf(Of T)(Testify.ActualValue(Of T), System.Collections.IEnumerable, System.Collections.IEqualityComparer, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/CollectionAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/CollectionAssertions.cs
+    startLine: 1152
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified collection is a subset of another collection. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsSubsetOf<T>(ActualValue<T> collection, IEnumerable superset, IEqualityComparer comparer, string message, params object[] parameters)where T : IEnumerable'
+    content.vb: Public Shared Sub IsSubsetOf(Of T As IEnumerable)(collection As ActualValue(Of T), superset As IEnumerable, comparer As IEqualityComparer, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: collection
+      type: Testify.ActualValue{{T}}
+      description: The collection expected to be a subset of *superset*.
+    - id: superset
+      type: System.Collections.IEnumerable
+      description: The collection expected to be a superset of *collection*.
+    - id: comparer
+      type: System.Collections.IEqualityComparer
+      description: The compare implementation to use when comparing elements of the collection.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the collection.
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: Testify.ActualValue{{T}}
+  parent: Testify
+  definition: Testify.ActualValue`1
+  name: ActualValue<T>
+  fullName: Testify.ActualValue<T>
+  fullname.vb: Testify.ActualValue(Of T)
+  name.vb: ActualValue(Of T)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  fullName: System.Type
+- uid: Testify.ActualValue`1
+  parent: Testify
+  isExternal: false
+  name: ActualValue<T>
+  fullName: Testify.ActualValue<T>
+  fullname.vb: Testify.ActualValue(Of T)
+  name.vb: ActualValue(Of T)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  fullName: System.Object[]
+  fullname.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: System.Collections.IEqualityComparer
+  parent: System.Collections
+  isExternal: true
+  name: IEqualityComparer
+  fullName: System.Collections.IEqualityComparer
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+- uid: '{TElement}'
+  isExternal: false
+  name: TElement
+  fullName: TElement
+- uid: System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  fullName: System.Collections.IEnumerable

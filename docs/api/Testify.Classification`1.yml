@@ -1,0 +1,479 @@
+items:
+- uid: Testify.Classification`1
+  id: Classification`1
+  parent: Testify
+  children:
+  - Testify.Classification`1.#ctor(System.String,System.Predicate{`0})
+  - Testify.Classification`1.Count
+  - Testify.Classification`1.Name
+  - Testify.Classification`1.Predicate
+  langs:
+  - csharp
+  - vb
+  name: Classification<T>
+  name.vb: Classification(Of T)
+  fullName: Testify.Classification<T>
+  fullName.vb: Testify.Classification(Of T)
+  type: Class
+  source:
+    remote:
+      path: src/Testify/Classification{T}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classification{T}.cs
+    startLine: 8
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Provides data about a classification.
+  example: []
+  syntax:
+    content: public sealed class Classification<T>
+    content.vb: Public NotInheritable Class Classification(Of T)
+    typeParameters:
+    - id: T
+      description: The type of values to be classified.
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Testify.Classification`1.#ctor(System.String,System.Predicate{`0})
+  id: '#ctor(System.String,System.Predicate{`0})'
+  parent: Testify.Classification`1
+  langs:
+  - csharp
+  - vb
+  name: Classification(String, Predicate<T>)
+  name.vb: Classification(String, Predicate(Of T))
+  fullName: Testify.Classification<T>.Classification(System.String, System.Predicate<T>)
+  fullName.vb: Testify.Classification(Of T).Classification(System.String, System.Predicate(Of T))
+  type: Constructor
+  source:
+    remote:
+      path: src/Testify/Classification{T}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classification{T}.cs
+    startLine: 15
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Initializes a new instance of the <xref href="Testify.Classification`1" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public Classification(string name, Predicate<T> predicate)
+    content.vb: Public Sub New(name As String, predicate As Predicate(Of T))
+    parameters:
+    - id: name
+      type: System.String
+      description: The classification name.
+    - id: predicate
+      type: System.Predicate{{T}}
+      description: The predicate values must pass to be classified in this classification.
+- uid: Testify.Classification`1.Count
+  id: Count
+  parent: Testify.Classification`1
+  langs:
+  - csharp
+  - vb
+  name: Count
+  fullName: Testify.Classification<T>.Count
+  fullName.vb: Testify.Classification(Of T).Count
+  type: Property
+  source:
+    remote:
+      path: src/Testify/Classification{T}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classification{T}.cs
+    startLine: 24
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Gets or sets the number of values that have been classified in this classification.
+  example: []
+  syntax:
+    content: public int Count { get; set; }
+    content.vb: Public Property Count As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: Testify.Classification`1.Name
+  id: Name
+  parent: Testify.Classification`1
+  langs:
+  - csharp
+  - vb
+  name: Name
+  fullName: Testify.Classification<T>.Name
+  fullName.vb: Testify.Classification(Of T).Name
+  type: Property
+  source:
+    remote:
+      path: src/Testify/Classification{T}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classification{T}.cs
+    startLine: 33
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Gets the classification name.
+  example: []
+  syntax:
+    content: public string Name { get; }
+    content.vb: Public ReadOnly Property Name As String
+    parameters: []
+    return:
+      type: System.String
+- uid: Testify.Classification`1.Predicate
+  id: Predicate
+  parent: Testify.Classification`1
+  langs:
+  - csharp
+  - vb
+  name: Predicate
+  fullName: Testify.Classification<T>.Predicate
+  fullName.vb: Testify.Classification(Of T).Predicate
+  type: Property
+  source:
+    remote:
+      path: src/Testify/Classification{T}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classification{T}.cs
+    startLine: 38
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Gets the predicate values must pass to be classified in this classification.
+  example: []
+  syntax:
+    content: public Predicate<T> Predicate { get; }
+    content.vb: Public ReadOnly Property Predicate As Predicate(Of T)
+    parameters: []
+    return:
+      type: System.Predicate{{T}}
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: Testify.Classification`1
+  isExternal: false
+  name: Classification<T>
+  fullName: Testify.Classification<T>
+  fullname.vb: Testify.Classification(Of T)
+  name.vb: Classification(Of T)
+  spec.csharp:
+  - uid: Testify.Classification`1
+    name: Classification
+    fullName: Testify.Classification
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.Classification`1
+    name: Classification
+    fullName: Testify.Classification
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.Predicate{{T}}
+  parent: System
+  definition: System.Predicate`1
+  name: Predicate<T>
+  fullName: System.Predicate<T>
+  fullname.vb: System.Predicate(Of T)
+  name.vb: Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Predicate`1
+  parent: System
+  isExternal: true
+  name: Predicate<T>
+  fullName: System.Predicate<T>
+  fullname.vb: System.Predicate(Of T)
+  name.vb: Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32

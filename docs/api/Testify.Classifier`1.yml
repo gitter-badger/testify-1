@@ -1,0 +1,815 @@
+items:
+- uid: Testify.Classifier`1
+  id: Classifier`1
+  parent: Testify
+  children:
+  - Testify.Classifier`1.AddClassification(System.String,System.Predicate{`0})
+  - Testify.Classifier`1.Classify(`0)
+  - Testify.Classifier`1.Classify(System.Func{`0})
+  - Testify.Classifier`1.Classify(System.Int32,System.Func{`0})
+  - Testify.Classifier`1.Count
+  - Testify.Classifier`1.GetEnumerator
+  - Testify.Classifier`1.Item(System.String)
+  - Testify.Classifier`1.System#Collections#IEnumerable#GetEnumerator
+  langs:
+  - csharp
+  - vb
+  name: Classifier<TValue>
+  name.vb: Classifier(Of TValue)
+  fullName: Testify.Classifier<TValue>
+  fullName.vb: Testify.Classifier(Of TValue)
+  type: Class
+  source:
+    remote:
+      path: src/Testify/Classifier{TValue}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classifier{TValue}.cs
+    startLine: 11
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Classifies values.
+  example: []
+  syntax:
+    content: 'public sealed class Classifier<TValue> : IEnumerable<Classification<TValue>>, IEnumerable'
+    content.vb: Public NotInheritable Class Classifier(Of TValue) Implements IEnumerable(Of Classification(Of TValue)), IEnumerable
+    typeParameters:
+    - id: TValue
+      description: The type of values to be classified.
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IEnumerable{Testify.Classification{{TValue}}}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Testify.Classifier`1.Count
+  id: Count
+  parent: Testify.Classifier`1
+  langs:
+  - csharp
+  - vb
+  name: Count
+  fullName: Testify.Classifier<TValue>.Count
+  fullName.vb: Testify.Classifier(Of TValue).Count
+  type: Property
+  source:
+    remote:
+      path: src/Testify/Classifier{TValue}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classifier{TValue}.cs
+    startLine: 21
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Gets the number of values that have been classified.
+  example: []
+  syntax:
+    content: public int Count { get; }
+    content.vb: Public ReadOnly Property Count As Integer
+    parameters: []
+    return:
+      type: System.Int32
+- uid: Testify.Classifier`1.Item(System.String)
+  id: Item(System.String)
+  parent: Testify.Classifier`1
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  name.vb: Item(String)
+  fullName: Testify.Classifier<TValue>.Item[System.String]
+  fullName.vb: Testify.Classifier(Of TValue).Item(System.String)
+  type: Property
+  source:
+    remote:
+      path: src/Testify/Classifier{TValue}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classifier{TValue}.cs
+    startLine: 32
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Gets the number of values that have been classified in the specified category.
+  example: []
+  syntax:
+    content: public double this[string category] { get; }
+    content.vb: Public ReadOnly Property Item(category As String) As Double
+    parameters:
+    - id: category
+      type: System.String
+      description: The classification category.
+    return:
+      type: System.Double
+      description: The number of values that were classified in the specified category.
+- uid: Testify.Classifier`1.AddClassification(System.String,System.Predicate{`0})
+  id: AddClassification(System.String,System.Predicate{`0})
+  parent: Testify.Classifier`1
+  langs:
+  - csharp
+  - vb
+  name: AddClassification(String, Predicate<TValue>)
+  name.vb: AddClassification(String, Predicate(Of TValue))
+  fullName: Testify.Classifier<TValue>.AddClassification(System.String, System.Predicate<TValue>)
+  fullName.vb: Testify.Classifier(Of TValue).AddClassification(System.String, System.Predicate(Of TValue))
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Classifier{TValue}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classifier{TValue}.cs
+    startLine: 40
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Adds a classification category.
+  example: []
+  syntax:
+    content: public void AddClassification(string name, Predicate<TValue> predicate)
+    content.vb: Public Sub AddClassification(name As String, predicate As Predicate(Of TValue))
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the classification category.
+    - id: predicate
+      type: System.Predicate{{TValue}}
+      description: The predicate values must pass in order to be classified in this category.
+- uid: Testify.Classifier`1.Classify(`0)
+  id: Classify(`0)
+  parent: Testify.Classifier`1
+  langs:
+  - csharp
+  - vb
+  name: Classify(TValue)
+  fullName: Testify.Classifier<TValue>.Classify(TValue)
+  fullName.vb: Testify.Classifier(Of TValue).Classify(TValue)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Classifier{TValue}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classifier{TValue}.cs
+    startLine: 54
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Adds the value to every valid classification category.
+  example: []
+  syntax:
+    content: public void Classify(TValue value)
+    content.vb: Public Sub Classify(value As TValue)
+    parameters:
+    - id: value
+      type: '{TValue}'
+      description: The value to classify.
+- uid: Testify.Classifier`1.Classify(System.Func{`0})
+  id: Classify(System.Func{`0})
+  parent: Testify.Classifier`1
+  langs:
+  - csharp
+  - vb
+  name: Classify(Func<TValue>)
+  name.vb: Classify(Func(Of TValue))
+  fullName: Testify.Classifier<TValue>.Classify(System.Func<TValue>)
+  fullName.vb: Testify.Classifier(Of TValue).Classify(System.Func(Of TValue))
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Classifier{TValue}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classifier{TValue}.cs
+    startLine: 71
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Produces and classifies 1000 values.
+  example: []
+  syntax:
+    content: public void Classify(Func<TValue> producer)
+    content.vb: Public Sub Classify(producer As Func(Of TValue))
+    parameters:
+    - id: producer
+      type: System.Func{{TValue}}
+      description: The delegate used to produce values.
+- uid: Testify.Classifier`1.Classify(System.Int32,System.Func{`0})
+  id: Classify(System.Int32,System.Func{`0})
+  parent: Testify.Classifier`1
+  langs:
+  - csharp
+  - vb
+  name: Classify(Int32, Func<TValue>)
+  name.vb: Classify(Int32, Func(Of TValue))
+  fullName: Testify.Classifier<TValue>.Classify(System.Int32, System.Func<TValue>)
+  fullName.vb: Testify.Classifier(Of TValue).Classify(System.Int32, System.Func(Of TValue))
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Classifier{TValue}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classifier{TValue}.cs
+    startLine: 83
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Produces and classifies values.
+  example: []
+  syntax:
+    content: public void Classify(int runs, Func<TValue> producer)
+    content.vb: Public Sub Classify(runs As Integer, producer As Func(Of TValue))
+    parameters:
+    - id: runs
+      type: System.Int32
+      description: The number of values to produce.
+    - id: producer
+      type: System.Func{{TValue}}
+      description: The delegate used to produce values.
+- uid: Testify.Classifier`1.GetEnumerator
+  id: GetEnumerator
+  parent: Testify.Classifier`1
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  fullName: Testify.Classifier<TValue>.GetEnumerator()
+  fullName.vb: Testify.Classifier(Of TValue).GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Classifier{TValue}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classifier{TValue}.cs
+    startLine: 97
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Returns an enumerator that iterates through a collection.
+  example: []
+  syntax:
+    content: public IEnumerator<Classification<TValue>> GetEnumerator()
+    content.vb: Public Function GetEnumerator As IEnumerator(Of Classification(Of TValue))
+    return:
+      type: System.Collections.Generic.IEnumerator{Testify.Classification{{TValue}}}
+      description: An IEnumerator object that can be used to iterate through the collection.
+- uid: Testify.Classifier`1.System#Collections#IEnumerable#GetEnumerator
+  id: System#Collections#IEnumerable#GetEnumerator
+  parent: Testify.Classifier`1
+  langs:
+  - csharp
+  - vb
+  name: IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: Testify.Classifier<TValue>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: Testify.Classifier(Of TValue).System.Collections.IEnumerable.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Classifier{TValue}.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Classifier{TValue}.cs
+    startLine: 104
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Returns an enumerator that iterates through a collection.
+  example: []
+  syntax:
+    content: IEnumerator IEnumerable.GetEnumerator()
+    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
+    return:
+      type: System.Collections.IEnumerator
+      description: An IEnumerator object that can be used to iterate through the collection.
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Collections.Generic.IEnumerable{Testify.Classification{{TValue}}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Classification<TValue>>
+  fullName: System.Collections.Generic.IEnumerable<Testify.Classification<TValue>>
+  fullname.vb: System.Collections.Generic.IEnumerable(Of Testify.Classification(Of TValue))
+  name.vb: IEnumerable(Of Classification(Of TValue))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    fullName: <
+  - uid: Testify.Classification`1
+    name: Classification
+    fullName: Testify.Classification
+  - name: <
+    fullName: <
+  - name: TValue
+    fullName: TValue
+  - name: '>'
+    fullName: '>'
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: Testify.Classification`1
+    name: Classification
+    fullName: Testify.Classification
+  - name: '(Of '
+    fullName: '(Of '
+  - name: TValue
+    fullName: TValue
+  - name: )
+    fullName: )
+  - name: )
+    fullName: )
+- uid: System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  parent: System.Collections.Generic
+  isExternal: true
+  name: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  fullname.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections
+  isExternal: false
+  name: System.Collections
+  fullName: System.Collections
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  fullName: System.Double
+- uid: System.Predicate{{TValue}}
+  parent: System
+  definition: System.Predicate`1
+  name: Predicate<TValue>
+  fullName: System.Predicate<TValue>
+  fullname.vb: System.Predicate(Of TValue)
+  name.vb: Predicate(Of TValue)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: TValue
+    fullName: TValue
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: TValue
+    fullName: TValue
+  - name: )
+    fullName: )
+- uid: System.Predicate`1
+  parent: System
+  isExternal: true
+  name: Predicate<T>
+  fullName: System.Predicate<T>
+  fullname.vb: System.Predicate(Of T)
+  name.vb: Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: '{TValue}'
+  isExternal: false
+  name: TValue
+  fullName: TValue
+- uid: System.Func{{TValue}}
+  parent: System
+  definition: System.Func`1
+  name: Func<TValue>
+  fullName: System.Func<TValue>
+  fullname.vb: System.Func(Of TValue)
+  name.vb: Func(Of TValue)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: TValue
+    fullName: TValue
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: TValue
+    fullName: TValue
+  - name: )
+    fullName: )
+- uid: System.Func`1
+  parent: System
+  isExternal: true
+  name: Func<TResult>
+  fullName: System.Func<TResult>
+  fullname.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: TResult
+    fullName: TResult
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    fullName: TResult
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerator{Testify.Classification{{TValue}}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  name: IEnumerator<Classification<TValue>>
+  fullName: System.Collections.Generic.IEnumerator<Testify.Classification<TValue>>
+  fullname.vb: System.Collections.Generic.IEnumerator(Of Testify.Classification(Of TValue))
+  name.vb: IEnumerator(Of Classification(Of TValue))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: <
+    fullName: <
+  - uid: Testify.Classification`1
+    name: Classification
+    fullName: Testify.Classification
+  - name: <
+    fullName: <
+  - name: TValue
+    fullName: TValue
+  - name: '>'
+    fullName: '>'
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: Testify.Classification`1
+    name: Classification
+    fullName: Testify.Classification
+  - name: '(Of '
+    fullName: '(Of '
+  - name: TValue
+    fullName: TValue
+  - name: )
+    fullName: )
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerator`1
+  parent: System.Collections.Generic
+  isExternal: true
+  name: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  fullname.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  fullName: System.Collections.IEnumerator

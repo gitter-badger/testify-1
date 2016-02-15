@@ -1,0 +1,128 @@
+items:
+- uid: Testify.IObjectFactory
+  id: IObjectFactory
+  parent: Testify
+  children:
+  - Testify.IObjectFactory.Create(System.Type)
+  - Testify.IObjectFactory.CreateDouble(System.Double,System.Double,Testify.Distribution)
+  langs:
+  - csharp
+  - vb
+  name: IObjectFactory
+  fullName: Testify.IObjectFactory
+  type: Interface
+  source:
+    remote:
+      path: src/Testify/IObjectFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/IObjectFactory.cs
+    startLine: 7
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Defines an interface for a factory object that can be used to create other objects.
+  example: []
+  syntax:
+    content: public interface IObjectFactory
+    content.vb: Public Interface IObjectFactory
+- uid: Testify.IObjectFactory.Create(System.Type)
+  id: Create(System.Type)
+  parent: Testify.IObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(Type)
+  fullName: Testify.IObjectFactory.Create(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/IObjectFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/IObjectFactory.cs
+    startLine: 14
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Creates an object of the specified type.
+  example: []
+  syntax:
+    content: object Create(Type type)
+    content.vb: Function Create(type As Type) As Object
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type of object to create.
+    return:
+      type: System.Object
+      description: An instance of the specified type.
+- uid: Testify.IObjectFactory.CreateDouble(System.Double,System.Double,Testify.Distribution)
+  id: CreateDouble(System.Double,System.Double,Testify.Distribution)
+  parent: Testify.IObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDouble(Double, Double, Distribution)
+  fullName: Testify.IObjectFactory.CreateDouble(System.Double, System.Double, Testify.Distribution)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/IObjectFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/IObjectFactory.cs
+    startLine: 24
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Creates a random <see langword="double" /> value within the specified range using the specified
+
+    distribution algorithm.
+  example: []
+  syntax:
+    content: double CreateDouble(double minimum, double maximum, Distribution distribution)
+    content.vb: Function CreateDouble(minimum As Double, maximum As Double, distribution As Distribution) As Double
+    parameters:
+    - id: minimum
+      type: System.Double
+      description: The minimum value.
+    - id: maximum
+      type: System.Double
+      description: The maximum value.
+    - id: distribution
+      type: Testify.Distribution
+      description: The distribution algorithm to use.
+    return:
+      type: System.Double
+      description: A random <see langword="int" /> value.
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  fullName: System.Type
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  fullName: System.Double
+- uid: Testify.Distribution
+  parent: Testify
+  isExternal: false
+  name: Distribution
+  fullName: Testify.Distribution

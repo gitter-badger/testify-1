@@ -1,0 +1,349 @@
+items:
+- uid: Testify.SingleFactoryTests
+  id: SingleFactoryTests
+  parent: Testify
+  children:
+  - Testify.SingleFactoryTests.CreateSingle
+  - Testify.SingleFactoryTests.CreateSingle_Distribution
+  - Testify.SingleFactoryTests.CreateSingle_MinMax
+  - Testify.SingleFactoryTests.CreateSingle_MinMaxDistribution
+  langs:
+  - csharp
+  - vb
+  name: SingleFactoryTests
+  fullName: Testify.SingleFactoryTests
+  type: Class
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/SingleFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/SingleFactoryTests.cs
+    startLine: 4
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public class SingleFactoryTests
+    content.vb: Public Class SingleFactoryTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Testify.SingleFactoryTests.CreateSingle
+  id: CreateSingle
+  parent: Testify.SingleFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateSingle()
+  fullName: Testify.SingleFactoryTests.CreateSingle()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/SingleFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/SingleFactoryTests.cs
+    startLine: 6
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateSingle()
+    content.vb: Public Sub CreateSingle
+- uid: Testify.SingleFactoryTests.CreateSingle_Distribution
+  id: CreateSingle_Distribution
+  parent: Testify.SingleFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateSingle_Distribution()
+  fullName: Testify.SingleFactoryTests.CreateSingle_Distribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/SingleFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/SingleFactoryTests.cs
+    startLine: 20
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateSingle_Distribution()
+    content.vb: Public Sub CreateSingle_Distribution
+- uid: Testify.SingleFactoryTests.CreateSingle_MinMax
+  id: CreateSingle_MinMax
+  parent: Testify.SingleFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateSingle_MinMax()
+  fullName: Testify.SingleFactoryTests.CreateSingle_MinMax()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/SingleFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/SingleFactoryTests.cs
+    startLine: 34
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateSingle_MinMax()
+    content.vb: Public Sub CreateSingle_MinMax
+- uid: Testify.SingleFactoryTests.CreateSingle_MinMaxDistribution
+  id: CreateSingle_MinMaxDistribution
+  parent: Testify.SingleFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateSingle_MinMaxDistribution()
+  fullName: Testify.SingleFactoryTests.CreateSingle_MinMaxDistribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/SingleFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/SingleFactoryTests.cs
+    startLine: 48
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateSingle_MinMaxDistribution()
+    content.vb: Public Sub CreateSingle_MinMaxDistribution
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System

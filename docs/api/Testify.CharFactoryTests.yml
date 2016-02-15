@@ -1,0 +1,625 @@
+items:
+- uid: Testify.CharFactoryTests
+  id: CharFactoryTests
+  parent: Testify
+  children:
+  - Testify.CharFactoryTests.CreateAlphaChar
+  - Testify.CharFactoryTests.CreateAlphaChar_Distribution
+  - Testify.CharFactoryTests.CreateAlphaNumericChar
+  - Testify.CharFactoryTests.CreateAlphaNumericChar_Distribution
+  - Testify.CharFactoryTests.CreateBasicLatinChar
+  - Testify.CharFactoryTests.CreateBasicLatinChar_Distribution
+  - Testify.CharFactoryTests.CreateChar
+  - Testify.CharFactoryTests.CreateChar_Distribution
+  - Testify.CharFactoryTests.CreateChar_MinMax
+  - Testify.CharFactoryTests.CreateChar_MinMaxDistribution
+  - Testify.CharFactoryTests.CreateLatinSupplementChar
+  - Testify.CharFactoryTests.CreateLatinSupplementChar_Distribution
+  - Testify.CharFactoryTests.CreateNumericChar
+  - Testify.CharFactoryTests.CreateNumericChar_Distribution
+  - Testify.CharFactoryTests.CreatePrintableChar
+  - Testify.CharFactoryTests.CreatePrintableChar_Distribution
+  langs:
+  - csharp
+  - vb
+  name: CharFactoryTests
+  fullName: Testify.CharFactoryTests
+  type: Class
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 4
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public class CharFactoryTests
+    content.vb: Public Class CharFactoryTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Testify.CharFactoryTests.CreateAlphaChar
+  id: CreateAlphaChar
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateAlphaChar()
+  fullName: Testify.CharFactoryTests.CreateAlphaChar()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 6
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateAlphaChar()
+    content.vb: Public Sub CreateAlphaChar
+- uid: Testify.CharFactoryTests.CreateAlphaChar_Distribution
+  id: CreateAlphaChar_Distribution
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateAlphaChar_Distribution()
+  fullName: Testify.CharFactoryTests.CreateAlphaChar_Distribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 18
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateAlphaChar_Distribution()
+    content.vb: Public Sub CreateAlphaChar_Distribution
+- uid: Testify.CharFactoryTests.CreateAlphaNumericChar
+  id: CreateAlphaNumericChar
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateAlphaNumericChar()
+  fullName: Testify.CharFactoryTests.CreateAlphaNumericChar()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 30
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateAlphaNumericChar()
+    content.vb: Public Sub CreateAlphaNumericChar
+- uid: Testify.CharFactoryTests.CreateAlphaNumericChar_Distribution
+  id: CreateAlphaNumericChar_Distribution
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateAlphaNumericChar_Distribution()
+  fullName: Testify.CharFactoryTests.CreateAlphaNumericChar_Distribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 42
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateAlphaNumericChar_Distribution()
+    content.vb: Public Sub CreateAlphaNumericChar_Distribution
+- uid: Testify.CharFactoryTests.CreateBasicLatinChar
+  id: CreateBasicLatinChar
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateBasicLatinChar()
+  fullName: Testify.CharFactoryTests.CreateBasicLatinChar()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 54
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateBasicLatinChar()
+    content.vb: Public Sub CreateBasicLatinChar
+- uid: Testify.CharFactoryTests.CreateBasicLatinChar_Distribution
+  id: CreateBasicLatinChar_Distribution
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateBasicLatinChar_Distribution()
+  fullName: Testify.CharFactoryTests.CreateBasicLatinChar_Distribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 66
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateBasicLatinChar_Distribution()
+    content.vb: Public Sub CreateBasicLatinChar_Distribution
+- uid: Testify.CharFactoryTests.CreateChar
+  id: CreateChar
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateChar()
+  fullName: Testify.CharFactoryTests.CreateChar()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 78
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateChar()
+    content.vb: Public Sub CreateChar
+- uid: Testify.CharFactoryTests.CreateChar_Distribution
+  id: CreateChar_Distribution
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateChar_Distribution()
+  fullName: Testify.CharFactoryTests.CreateChar_Distribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 92
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateChar_Distribution()
+    content.vb: Public Sub CreateChar_Distribution
+- uid: Testify.CharFactoryTests.CreateChar_MinMax
+  id: CreateChar_MinMax
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateChar_MinMax()
+  fullName: Testify.CharFactoryTests.CreateChar_MinMax()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 106
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateChar_MinMax()
+    content.vb: Public Sub CreateChar_MinMax
+- uid: Testify.CharFactoryTests.CreateChar_MinMaxDistribution
+  id: CreateChar_MinMaxDistribution
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateChar_MinMaxDistribution()
+  fullName: Testify.CharFactoryTests.CreateChar_MinMaxDistribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 120
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateChar_MinMaxDistribution()
+    content.vb: Public Sub CreateChar_MinMaxDistribution
+- uid: Testify.CharFactoryTests.CreateLatinSupplementChar
+  id: CreateLatinSupplementChar
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateLatinSupplementChar()
+  fullName: Testify.CharFactoryTests.CreateLatinSupplementChar()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 134
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateLatinSupplementChar()
+    content.vb: Public Sub CreateLatinSupplementChar
+- uid: Testify.CharFactoryTests.CreateLatinSupplementChar_Distribution
+  id: CreateLatinSupplementChar_Distribution
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateLatinSupplementChar_Distribution()
+  fullName: Testify.CharFactoryTests.CreateLatinSupplementChar_Distribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 146
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateLatinSupplementChar_Distribution()
+    content.vb: Public Sub CreateLatinSupplementChar_Distribution
+- uid: Testify.CharFactoryTests.CreateNumericChar
+  id: CreateNumericChar
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateNumericChar()
+  fullName: Testify.CharFactoryTests.CreateNumericChar()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 158
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateNumericChar()
+    content.vb: Public Sub CreateNumericChar
+- uid: Testify.CharFactoryTests.CreateNumericChar_Distribution
+  id: CreateNumericChar_Distribution
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateNumericChar_Distribution()
+  fullName: Testify.CharFactoryTests.CreateNumericChar_Distribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 170
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateNumericChar_Distribution()
+    content.vb: Public Sub CreateNumericChar_Distribution
+- uid: Testify.CharFactoryTests.CreatePrintableChar
+  id: CreatePrintableChar
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreatePrintableChar()
+  fullName: Testify.CharFactoryTests.CreatePrintableChar()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 182
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreatePrintableChar()
+    content.vb: Public Sub CreatePrintableChar
+- uid: Testify.CharFactoryTests.CreatePrintableChar_Distribution
+  id: CreatePrintableChar_Distribution
+  parent: Testify.CharFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreatePrintableChar_Distribution()
+  fullName: Testify.CharFactoryTests.CreatePrintableChar_Distribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CharFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CharFactoryTests.cs
+    startLine: 194
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreatePrintableChar_Distribution()
+    content.vb: Public Sub CreatePrintableChar_Distribution
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System

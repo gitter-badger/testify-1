@@ -1,0 +1,866 @@
+items:
+- uid: Testify.AssertionException
+  id: AssertionException
+  parent: Testify
+  children:
+  - Testify.AssertionException.#ctor
+  - Testify.AssertionException.#ctor(System.Collections.Generic.IEnumerable{System.Exception})
+  - Testify.AssertionException.#ctor(System.Exception[])
+  - Testify.AssertionException.#ctor(System.String)
+  - Testify.AssertionException.#ctor(System.String,System.Collections.Generic.IEnumerable{System.Exception})
+  - Testify.AssertionException.#ctor(System.String,System.Collections.Generic.IList{System.Exception})
+  - Testify.AssertionException.#ctor(System.String,System.Exception)
+  - Testify.AssertionException.#ctor(System.String,System.Exception[])
+  langs:
+  - csharp
+  - vb
+  name: AssertionException
+  fullName: Testify.AssertionException
+  type: Class
+  source:
+    remote:
+      path: src/Testify/AssertionException.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/AssertionException.cs
+    startLine: 11
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Represents one or more assertion errors.
+  example: []
+  syntax:
+    content: 'public class AssertionException : AggregateException'
+    content.vb: Public Class AssertionException Inherits AggregateException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.AggregateException
+  inheritedMembers:
+  - System.AggregateException.Flatten
+  - System.AggregateException.GetBaseException
+  - System.AggregateException.Handle(System.Func{System.Exception,System.Boolean})
+  - System.AggregateException.ToString
+  - System.AggregateException.InnerExceptions
+  - System.Exception.Data
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Testify.AssertionException.#ctor
+  id: '#ctor'
+  parent: Testify.AssertionException
+  langs:
+  - csharp
+  - vb
+  name: AssertionException()
+  fullName: Testify.AssertionException.AssertionException()
+  type: Constructor
+  source:
+    remote:
+      path: src/Testify/AssertionException.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/AssertionException.cs
+    startLine: 17
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Initializes a new instance of the <xref href="Testify.AssertionException" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public AssertionException()
+    content.vb: Public Sub New
+- uid: Testify.AssertionException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Testify.AssertionException
+  langs:
+  - csharp
+  - vb
+  name: AssertionException(String)
+  fullName: Testify.AssertionException.AssertionException(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/Testify/AssertionException.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/AssertionException.cs
+    startLine: 26
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Initializes a new instance of the <xref href="Testify.AssertionException" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public AssertionException(string message)
+    content.vb: Public Sub New(message As String)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message that describes the error.
+- uid: Testify.AssertionException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: Testify.AssertionException
+  langs:
+  - csharp
+  - vb
+  name: AssertionException(String, Exception)
+  fullName: Testify.AssertionException.AssertionException(System.String, System.Exception)
+  type: Constructor
+  source:
+    remote:
+      path: src/Testify/AssertionException.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/AssertionException.cs
+    startLine: 37
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Initializes a new instance of the <xref href="Testify.AssertionException" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public AssertionException(string message, Exception innerException)
+    content.vb: Public Sub New(message As String, innerException As Exception)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner.
+  exceptions:
+  - type: System.ArgumentNullException
+    description: The *innerException* argument is null.
+- uid: Testify.AssertionException.#ctor(System.Collections.Generic.IEnumerable{System.Exception})
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Exception})'
+  parent: Testify.AssertionException
+  langs:
+  - csharp
+  - vb
+  name: AssertionException(IEnumerable<Exception>)
+  name.vb: AssertionException(IEnumerable(Of Exception))
+  fullName: Testify.AssertionException.AssertionException(System.Collections.Generic.IEnumerable<System.Exception>)
+  fullName.vb: Testify.AssertionException.AssertionException(System.Collections.Generic.IEnumerable(Of System.Exception))
+  type: Constructor
+  source:
+    remote:
+      path: src/Testify/AssertionException.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/AssertionException.cs
+    startLine: 48
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Initializes a new instance of the <xref href="Testify.AssertionException" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public AssertionException(IEnumerable<Exception> innerExceptions)
+    content.vb: Public Sub New(innerExceptions As IEnumerable(Of Exception))
+    parameters:
+    - id: innerExceptions
+      type: System.Collections.Generic.IEnumerable{System.Exception}
+      description: The inner exceptions.
+  exceptions:
+  - type: System.ArgumentNullException
+    description: The *innerExceptions* argument is null.
+  - type: System.ArgumentException
+    description: An element of *innerExceptions* is null.
+- uid: Testify.AssertionException.#ctor(System.Exception[])
+  id: '#ctor(System.Exception[])'
+  parent: Testify.AssertionException
+  langs:
+  - csharp
+  - vb
+  name: AssertionException(Exception[])
+  name.vb: AssertionException(Exception())
+  fullName: Testify.AssertionException.AssertionException(System.Exception[])
+  fullName.vb: Testify.AssertionException.AssertionException(System.Exception())
+  type: Constructor
+  source:
+    remote:
+      path: src/Testify/AssertionException.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/AssertionException.cs
+    startLine: 59
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Initializes a new instance of the <xref href="Testify.AssertionException" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public AssertionException(params Exception[] innerExceptions)
+    content.vb: Public Sub New(ParamArray innerExceptions As Exception())
+    parameters:
+    - id: innerExceptions
+      type: System.Exception[]
+      description: The inner exceptions.
+  exceptions:
+  - type: System.ArgumentNullException
+    description: The *innerExceptions* argument is null.
+  - type: System.ArgumentException
+    description: An element of *innerExceptions* is null.
+- uid: Testify.AssertionException.#ctor(System.String,System.Collections.Generic.IEnumerable{System.Exception})
+  id: '#ctor(System.String,System.Collections.Generic.IEnumerable{System.Exception})'
+  parent: Testify.AssertionException
+  langs:
+  - csharp
+  - vb
+  name: AssertionException(String, IEnumerable<Exception>)
+  name.vb: AssertionException(String, IEnumerable(Of Exception))
+  fullName: Testify.AssertionException.AssertionException(System.String, System.Collections.Generic.IEnumerable<System.Exception>)
+  fullName.vb: Testify.AssertionException.AssertionException(System.String, System.Collections.Generic.IEnumerable(Of System.Exception))
+  type: Constructor
+  source:
+    remote:
+      path: src/Testify/AssertionException.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/AssertionException.cs
+    startLine: 71
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Initializes a new instance of the <xref href="Testify.AssertionException" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public AssertionException(string message, IEnumerable<Exception> innerExceptions)
+    content.vb: Public Sub New(message As String, innerExceptions As IEnumerable(Of Exception))
+    parameters:
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerExceptions
+      type: System.Collections.Generic.IEnumerable{System.Exception}
+      description: The inner exceptions.
+  exceptions:
+  - type: System.ArgumentNullException
+    description: The *innerExceptions* argument is null.
+  - type: System.ArgumentException
+    description: An element of *innerExceptions* is null.
+- uid: Testify.AssertionException.#ctor(System.String,System.Exception[])
+  id: '#ctor(System.String,System.Exception[])'
+  parent: Testify.AssertionException
+  langs:
+  - csharp
+  - vb
+  name: AssertionException(String, Exception[])
+  name.vb: AssertionException(String, Exception())
+  fullName: Testify.AssertionException.AssertionException(System.String, System.Exception[])
+  fullName.vb: Testify.AssertionException.AssertionException(System.String, System.Exception())
+  type: Constructor
+  source:
+    remote:
+      path: src/Testify/AssertionException.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/AssertionException.cs
+    startLine: 83
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Initializes a new instance of the <xref href="Testify.AssertionException" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public AssertionException(string message, params Exception[] innerExceptions)
+    content.vb: Public Sub New(message As String, ParamArray innerExceptions As Exception())
+    parameters:
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerExceptions
+      type: System.Exception[]
+      description: The inner exceptions.
+  exceptions:
+  - type: System.ArgumentNullException
+    description: The *innerExceptions* argument is null.
+  - type: System.ArgumentException
+    description: An element of *innerExceptions* is null.
+- uid: Testify.AssertionException.#ctor(System.String,System.Collections.Generic.IList{System.Exception})
+  id: '#ctor(System.String,System.Collections.Generic.IList{System.Exception})'
+  parent: Testify.AssertionException
+  langs:
+  - csharp
+  - vb
+  name: AssertionException(String, IList<Exception>)
+  name.vb: AssertionException(String, IList(Of Exception))
+  fullName: Testify.AssertionException.AssertionException(System.String, System.Collections.Generic.IList<System.Exception>)
+  fullName.vb: Testify.AssertionException.AssertionException(System.String, System.Collections.Generic.IList(Of System.Exception))
+  type: Constructor
+  source:
+    remote:
+      path: src/Testify/AssertionException.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/AssertionException.cs
+    startLine: 95
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Initializes a new instance of the <xref href="Testify.AssertionException" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public AssertionException(string message, IList<Exception> innerExceptions)
+    content.vb: Public Sub New(message As String, innerExceptions As IList(Of Exception))
+    parameters:
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerExceptions
+      type: System.Collections.Generic.IList{System.Exception}
+      description: The inner exceptions.
+  exceptions:
+  - type: System.ArgumentNullException
+    description: The *innerExceptions* argument is null.
+  - type: System.ArgumentException
+    description: An element of *innerExceptions* is null.
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  fullName: System.Exception
+- uid: System.AggregateException
+  parent: System
+  isExternal: true
+  name: AggregateException
+  fullName: System.AggregateException
+- uid: System.AggregateException.Flatten
+  parent: System.AggregateException
+  isExternal: true
+  name: Flatten()
+  fullName: System.AggregateException.Flatten()
+  spec.csharp:
+  - uid: System.AggregateException.Flatten
+    name: Flatten
+    fullName: System.AggregateException.Flatten
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.AggregateException.Flatten
+    name: Flatten
+    fullName: System.AggregateException.Flatten
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.AggregateException.GetBaseException
+  parent: System.AggregateException
+  isExternal: true
+  name: GetBaseException()
+  fullName: System.AggregateException.GetBaseException()
+  spec.csharp:
+  - uid: System.AggregateException.GetBaseException
+    name: GetBaseException
+    fullName: System.AggregateException.GetBaseException
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.AggregateException.GetBaseException
+    name: GetBaseException
+    fullName: System.AggregateException.GetBaseException
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.AggregateException.Handle(System.Func{System.Exception,System.Boolean})
+  parent: System.AggregateException
+  isExternal: true
+  name: Handle(Func<Exception, Boolean>)
+  fullName: System.AggregateException.Handle(System.Func<System.Exception, System.Boolean>)
+  fullname.vb: System.AggregateException.Handle(System.Func(Of System.Exception, System.Boolean))
+  name.vb: Handle(Func(Of Exception, Boolean))
+  spec.csharp:
+  - uid: System.AggregateException.Handle(System.Func{System.Exception,System.Boolean})
+    name: Handle
+    fullName: System.AggregateException.Handle
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    fullName: <
+  - uid: System.Exception
+    name: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    fullName: '>'
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.AggregateException.Handle(System.Func{System.Exception,System.Boolean})
+    name: Handle
+    fullName: System.AggregateException.Handle
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Exception
+    name: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    fullName: )
+  - name: )
+    fullName: )
+- uid: System.AggregateException.ToString
+  parent: System.AggregateException
+  isExternal: true
+  name: ToString()
+  fullName: System.AggregateException.ToString()
+  spec.csharp:
+  - uid: System.AggregateException.ToString
+    name: ToString
+    fullName: System.AggregateException.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.AggregateException.ToString
+    name: ToString
+    fullName: System.AggregateException.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.AggregateException.InnerExceptions
+  parent: System.AggregateException
+  isExternal: true
+  name: InnerExceptions
+  fullName: System.AggregateException.InnerExceptions
+- uid: System.Exception.Data
+  parent: System.Exception
+  isExternal: true
+  name: Data
+  fullName: System.Exception.Data
+- uid: System.Exception.HelpLink
+  parent: System.Exception
+  isExternal: true
+  name: HelpLink
+  fullName: System.Exception.HelpLink
+- uid: System.Exception.HResult
+  parent: System.Exception
+  isExternal: true
+  name: HResult
+  fullName: System.Exception.HResult
+- uid: System.Exception.InnerException
+  parent: System.Exception
+  isExternal: true
+  name: InnerException
+  fullName: System.Exception.InnerException
+- uid: System.Exception.Message
+  parent: System.Exception
+  isExternal: true
+  name: Message
+  fullName: System.Exception.Message
+- uid: System.Exception.Source
+  parent: System.Exception
+  isExternal: true
+  name: Source
+  fullName: System.Exception.Source
+- uid: System.Exception.StackTrace
+  parent: System.Exception
+  isExternal: true
+  name: StackTrace
+  fullName: System.Exception.StackTrace
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: Testify.AssertionException
+  isExternal: false
+  name: AssertionException
+  fullName: Testify.AssertionException
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.ArgumentNullException
+- uid: System.ArgumentException
+- uid: System.Collections.Generic.IEnumerable{System.Exception}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Exception>
+  fullName: System.Collections.Generic.IEnumerable<System.Exception>
+  fullname.vb: System.Collections.Generic.IEnumerable(Of System.Exception)
+  name.vb: IEnumerable(Of Exception)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    fullName: <
+  - uid: System.Exception
+    name: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Exception
+    name: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  parent: System.Collections.Generic
+  isExternal: true
+  name: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  fullname.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Exception[]
+  isExternal: true
+  name: Exception[]
+  fullName: System.Exception[]
+  fullname.vb: System.Exception()
+  name.vb: Exception()
+  spec.csharp:
+  - uid: System.Exception
+    name: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Exception
+    name: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: System.Collections.Generic.IList{System.Exception}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<Exception>
+  fullName: System.Collections.Generic.IList<System.Exception>
+  fullname.vb: System.Collections.Generic.IList(Of System.Exception)
+  name.vb: IList(Of Exception)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    fullName: <
+  - uid: System.Exception
+    name: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Exception
+    name: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  parent: System.Collections.Generic
+  isExternal: true
+  name: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  fullname.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )

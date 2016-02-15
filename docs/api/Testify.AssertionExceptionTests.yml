@@ -1,0 +1,418 @@
+items:
+- uid: Testify.AssertionExceptionTests
+  id: AssertionExceptionTests
+  parent: Testify
+  children:
+  - Testify.AssertionExceptionTests.Construct_InnerException_ShouldContainInnerException
+  - Testify.AssertionExceptionTests.Construct_InnerExceptions_ShouldContainInnerExceptions
+  - Testify.AssertionExceptionTests.Construct_InnerExceptionsList_ShouldContainInnerExceptions
+  - Testify.AssertionExceptionTests.Construct_MessageAndInnerException_ShouldContainMessageAndInnerException
+  - Testify.AssertionExceptionTests.Construct_MessageAndInnerExceptions_ShouldContainMessageAndInnerExceptions
+  - Testify.AssertionExceptionTests.Construct_MessageAndInnerExceptionsList_ShouldContainMessageAndInnerExceptions
+  - Testify.AssertionExceptionTests.Construction_NoArgs_ShouldUseExpectedMessage
+  langs:
+  - csharp
+  - vb
+  name: AssertionExceptionTests
+  fullName: Testify.AssertionExceptionTests
+  type: Class
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+    startLine: 6
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public class AssertionExceptionTests
+    content.vb: Public Class AssertionExceptionTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Testify.AssertionExceptionTests.Construct_InnerException_ShouldContainInnerException
+  id: Construct_InnerException_ShouldContainInnerException
+  parent: Testify.AssertionExceptionTests
+  langs:
+  - csharp
+  - vb
+  name: Construct_InnerException_ShouldContainInnerException()
+  fullName: Testify.AssertionExceptionTests.Construct_InnerException_ShouldContainInnerException()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+    startLine: 8
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Construct_InnerException_ShouldContainInnerException()
+    content.vb: Public Sub Construct_InnerException_ShouldContainInnerException
+- uid: Testify.AssertionExceptionTests.Construct_InnerExceptions_ShouldContainInnerExceptions
+  id: Construct_InnerExceptions_ShouldContainInnerExceptions
+  parent: Testify.AssertionExceptionTests
+  langs:
+  - csharp
+  - vb
+  name: Construct_InnerExceptions_ShouldContainInnerExceptions()
+  fullName: Testify.AssertionExceptionTests.Construct_InnerExceptions_ShouldContainInnerExceptions()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+    startLine: 20
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Construct_InnerExceptions_ShouldContainInnerExceptions()
+    content.vb: Public Sub Construct_InnerExceptions_ShouldContainInnerExceptions
+- uid: Testify.AssertionExceptionTests.Construct_InnerExceptionsList_ShouldContainInnerExceptions
+  id: Construct_InnerExceptionsList_ShouldContainInnerExceptions
+  parent: Testify.AssertionExceptionTests
+  langs:
+  - csharp
+  - vb
+  name: Construct_InnerExceptionsList_ShouldContainInnerExceptions()
+  fullName: Testify.AssertionExceptionTests.Construct_InnerExceptionsList_ShouldContainInnerExceptions()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+    startLine: 33
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Construct_InnerExceptionsList_ShouldContainInnerExceptions()
+    content.vb: Public Sub Construct_InnerExceptionsList_ShouldContainInnerExceptions
+- uid: Testify.AssertionExceptionTests.Construct_MessageAndInnerException_ShouldContainMessageAndInnerException
+  id: Construct_MessageAndInnerException_ShouldContainMessageAndInnerException
+  parent: Testify.AssertionExceptionTests
+  langs:
+  - csharp
+  - vb
+  name: Construct_MessageAndInnerException_ShouldContainMessageAndInnerException()
+  fullName: Testify.AssertionExceptionTests.Construct_MessageAndInnerException_ShouldContainMessageAndInnerException()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+    startLine: 45
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Construct_MessageAndInnerException_ShouldContainMessageAndInnerException()
+    content.vb: Public Sub Construct_MessageAndInnerException_ShouldContainMessageAndInnerException
+- uid: Testify.AssertionExceptionTests.Construct_MessageAndInnerExceptions_ShouldContainMessageAndInnerExceptions
+  id: Construct_MessageAndInnerExceptions_ShouldContainMessageAndInnerExceptions
+  parent: Testify.AssertionExceptionTests
+  langs:
+  - csharp
+  - vb
+  name: Construct_MessageAndInnerExceptions_ShouldContainMessageAndInnerExceptions()
+  fullName: Testify.AssertionExceptionTests.Construct_MessageAndInnerExceptions_ShouldContainMessageAndInnerExceptions()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+    startLine: 57
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Construct_MessageAndInnerExceptions_ShouldContainMessageAndInnerExceptions()
+    content.vb: Public Sub Construct_MessageAndInnerExceptions_ShouldContainMessageAndInnerExceptions
+- uid: Testify.AssertionExceptionTests.Construct_MessageAndInnerExceptionsList_ShouldContainMessageAndInnerExceptions
+  id: Construct_MessageAndInnerExceptionsList_ShouldContainMessageAndInnerExceptions
+  parent: Testify.AssertionExceptionTests
+  langs:
+  - csharp
+  - vb
+  name: Construct_MessageAndInnerExceptionsList_ShouldContainMessageAndInnerExceptions()
+  fullName: Testify.AssertionExceptionTests.Construct_MessageAndInnerExceptionsList_ShouldContainMessageAndInnerExceptions()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+    startLine: 69
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Construct_MessageAndInnerExceptionsList_ShouldContainMessageAndInnerExceptions()
+    content.vb: Public Sub Construct_MessageAndInnerExceptionsList_ShouldContainMessageAndInnerExceptions
+- uid: Testify.AssertionExceptionTests.Construction_NoArgs_ShouldUseExpectedMessage
+  id: Construction_NoArgs_ShouldUseExpectedMessage
+  parent: Testify.AssertionExceptionTests
+  langs:
+  - csharp
+  - vb
+  name: Construction_NoArgs_ShouldUseExpectedMessage()
+  fullName: Testify.AssertionExceptionTests.Construction_NoArgs_ShouldUseExpectedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionExceptionTests.cs
+    startLine: 81
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Construction_NoArgs_ShouldUseExpectedMessage()
+    content.vb: Public Sub Construction_NoArgs_ShouldUseExpectedMessage
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System

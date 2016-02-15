@@ -1,0 +1,423 @@
+items:
+- uid: Testify.Int32Factory
+  id: Int32Factory
+  parent: Testify
+  children:
+  - Testify.Int32Factory.CreateInt32(Testify.IObjectFactory)
+  - Testify.Int32Factory.CreateInt32(Testify.IObjectFactory,System.Int32,System.Int32)
+  - Testify.Int32Factory.CreateInt32(Testify.IObjectFactory,System.Int32,System.Int32,Testify.Distribution)
+  - Testify.Int32Factory.CreateInt32(Testify.IObjectFactory,Testify.Distribution)
+  langs:
+  - csharp
+  - vb
+  name: Int32Factory
+  fullName: Testify.Int32Factory
+  type: Class
+  source:
+    remote:
+      path: src/Testify/Int32Factory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Int32Factory.cs
+    startLine: 5
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Defines factory methods for creating <see langword="int" /> values.
+  example: []
+  syntax:
+    content: public class Int32Factory
+    content.vb: Public Class Int32Factory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Testify.Int32Factory.CreateInt32(Testify.IObjectFactory)
+  id: CreateInt32(Testify.IObjectFactory)
+  parent: Testify.Int32Factory
+  langs:
+  - csharp
+  - vb
+  name: CreateInt32(IObjectFactory)
+  fullName: Testify.Int32Factory.CreateInt32(Testify.IObjectFactory)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Int32Factory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Int32Factory.cs
+    startLine: 12
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Creates a random <see langword="int" /> value using a uniform distribution algorithm.
+  example: []
+  syntax:
+    content: public static int CreateInt32(IObjectFactory factory)
+    content.vb: Public Shared Function CreateInt32(factory As IObjectFactory) As Integer
+    parameters:
+    - id: factory
+      type: Testify.IObjectFactory
+      description: The factory instance.
+    return:
+      type: System.Int32
+      description: A random <see langword="int" /> value.
+- uid: Testify.Int32Factory.CreateInt32(Testify.IObjectFactory,System.Int32,System.Int32)
+  id: CreateInt32(Testify.IObjectFactory,System.Int32,System.Int32)
+  parent: Testify.Int32Factory
+  langs:
+  - csharp
+  - vb
+  name: CreateInt32(IObjectFactory, Int32, Int32)
+  fullName: Testify.Int32Factory.CreateInt32(Testify.IObjectFactory, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Int32Factory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Int32Factory.cs
+    startLine: 26
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Creates a random <see langword="int" /> value within the specified range using a uniform distribution algorithm.
+  example: []
+  syntax:
+    content: public static int CreateInt32(IObjectFactory factory, int minimum, int maximum)
+    content.vb: Public Shared Function CreateInt32(factory As IObjectFactory, minimum As Integer, maximum As Integer) As Integer
+    parameters:
+    - id: factory
+      type: Testify.IObjectFactory
+      description: The factory instance.
+    - id: minimum
+      type: System.Int32
+      description: The minimum value.
+    - id: maximum
+      type: System.Int32
+      description: The maximum value.
+    return:
+      type: System.Int32
+      description: A random <see langword="int" /> value.
+- uid: Testify.Int32Factory.CreateInt32(Testify.IObjectFactory,Testify.Distribution)
+  id: CreateInt32(Testify.IObjectFactory,Testify.Distribution)
+  parent: Testify.Int32Factory
+  langs:
+  - csharp
+  - vb
+  name: CreateInt32(IObjectFactory, Distribution)
+  fullName: Testify.Int32Factory.CreateInt32(Testify.IObjectFactory, Testify.Distribution)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Int32Factory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Int32Factory.cs
+    startLine: 40
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Creates a random <see langword="int" /> value using the specified distribution algorithm.
+  example: []
+  syntax:
+    content: public static int CreateInt32(IObjectFactory factory, Distribution distribution)
+    content.vb: Public Shared Function CreateInt32(factory As IObjectFactory, distribution As Distribution) As Integer
+    parameters:
+    - id: factory
+      type: Testify.IObjectFactory
+      description: The factory instance.
+    - id: distribution
+      type: Testify.Distribution
+      description: The distribution algorithm to use.
+    return:
+      type: System.Int32
+      description: A random <see langword="int" /> value.
+- uid: Testify.Int32Factory.CreateInt32(Testify.IObjectFactory,System.Int32,System.Int32,Testify.Distribution)
+  id: CreateInt32(Testify.IObjectFactory,System.Int32,System.Int32,Testify.Distribution)
+  parent: Testify.Int32Factory
+  langs:
+  - csharp
+  - vb
+  name: CreateInt32(IObjectFactory, Int32, Int32, Distribution)
+  fullName: Testify.Int32Factory.CreateInt32(Testify.IObjectFactory, System.Int32, System.Int32, Testify.Distribution)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Int32Factory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Int32Factory.cs
+    startLine: 57
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Creates a random <see langword="int" /> value within the specified range using the specified
+
+    distribution algorithm.
+  example: []
+  syntax:
+    content: public static int CreateInt32(IObjectFactory factory, int minimum, int maximum, Distribution distribution)
+    content.vb: Public Shared Function CreateInt32(factory As IObjectFactory, minimum As Integer, maximum As Integer, distribution As Distribution) As Integer
+    parameters:
+    - id: factory
+      type: Testify.IObjectFactory
+      description: The factory instance.
+    - id: minimum
+      type: System.Int32
+      description: The minimum value.
+    - id: maximum
+      type: System.Int32
+      description: The maximum value.
+    - id: distribution
+      type: Testify.Distribution
+      description: The distribution algorithm to use.
+    return:
+      type: System.Int32
+      description: A random <see langword="int" /> value.
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: Testify.IObjectFactory
+  parent: Testify
+  isExternal: false
+  name: IObjectFactory
+  fullName: Testify.IObjectFactory
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: Testify.Distribution
+  parent: Testify
+  isExternal: false
+  name: Distribution
+  fullName: Testify.Distribution

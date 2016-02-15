@@ -1,0 +1,92 @@
+items:
+- uid: Testify.IObjectFactoryCustomization
+  id: IObjectFactoryCustomization
+  parent: Testify
+  children:
+  - Testify.IObjectFactoryCustomization.Create(Testify.IObjectFactoryContext,System.Object@)
+  langs:
+  - csharp
+  - vb
+  name: IObjectFactoryCustomization
+  fullName: Testify.IObjectFactoryCustomization
+  type: Interface
+  source:
+    remote:
+      path: src/Testify/IObjectFactoryCustomization.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/IObjectFactoryCustomization.cs
+    startLine: 5
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Defines an interface used to customize the <xref href="Testify.ObjectFactory" data-throw-if-not-resolved="false"></xref> behavior.
+  example: []
+  syntax:
+    content: public interface IObjectFactoryCustomization
+    content.vb: Public Interface IObjectFactoryCustomization
+- uid: Testify.IObjectFactoryCustomization.Create(Testify.IObjectFactoryContext,System.Object@)
+  id: Create(Testify.IObjectFactoryContext,System.Object@)
+  parent: Testify.IObjectFactoryCustomization
+  langs:
+  - csharp
+  - vb
+  name: Create(IObjectFactoryContext, out Object)
+  name.vb: Create(IObjectFactoryContext, ByRef Object)
+  fullName: Testify.IObjectFactoryCustomization.Create(Testify.IObjectFactoryContext, out System.Object)
+  fullName.vb: Testify.IObjectFactoryCustomization.Create(Testify.IObjectFactoryContext, ByRef System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/IObjectFactoryCustomization.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/IObjectFactoryCustomization.cs
+    startLine: 13
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Creates an object of a specified type.
+  example: []
+  syntax:
+    content: bool Create(IObjectFactoryContext context, out object result)
+    content.vb: Function Create(context As IObjectFactoryContext, ByRef result As Object) As Boolean
+    parameters:
+    - id: context
+      type: Testify.IObjectFactoryContext
+      description: The current context.
+    - id: result
+      type: System.Object
+      description: The result.
+    return:
+      type: System.Boolean
+      description: <see langword="true" /> if an object was created, otherwise <see langword="false" />.
+references:
+- uid: Testify.ObjectFactory
+  parent: Testify
+  isExternal: false
+  name: ObjectFactory
+  fullName: Testify.ObjectFactory
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: Testify.IObjectFactoryContext
+  parent: Testify
+  isExternal: false
+  name: IObjectFactoryContext
+  fullName: Testify.IObjectFactoryContext
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System

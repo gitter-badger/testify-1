@@ -1,0 +1,572 @@
+items:
+- uid: Testify.ObjectFactory
+  id: ObjectFactory
+  parent: Testify
+  children:
+  - Testify.ObjectFactory.#ctor
+  - Testify.ObjectFactory.#ctor(System.Int32)
+  - Testify.ObjectFactory.Create(System.Type)
+  - Testify.ObjectFactory.CreateDouble(System.Double,System.Double,Testify.Distribution)
+  - Testify.ObjectFactory.Customize(Testify.IObjectFactoryCustomization)
+  - Testify.ObjectFactory.Register(System.Type,System.Func{Testify.IObjectFactory,System.Object})
+  langs:
+  - csharp
+  - vb
+  name: ObjectFactory
+  fullName: Testify.ObjectFactory
+  type: Class
+  source:
+    remote:
+      path: src/Testify/ObjectFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/ObjectFactory.cs
+    startLine: 12
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Provides an object factory that can be used to create objects for use in unit tests.
+  example: []
+  syntax:
+    content: 'public sealed class ObjectFactory : IObjectFactory, IRegisterObjectFactory'
+    content.vb: Public NotInheritable Class ObjectFactory Implements IObjectFactory, IRegisterObjectFactory
+  inheritance:
+  - System.Object
+  implements:
+  - Testify.IObjectFactory
+  - Testify.IRegisterObjectFactory
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Testify.ObjectFactory.#ctor
+  id: '#ctor'
+  parent: Testify.ObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: ObjectFactory()
+  fullName: Testify.ObjectFactory.ObjectFactory()
+  type: Constructor
+  source:
+    remote:
+      path: src/Testify/ObjectFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/ObjectFactory.cs
+    startLine: 21
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Initializes a new instance of the <xref href="Testify.ObjectFactory" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public ObjectFactory()
+    content.vb: Public Sub New
+- uid: Testify.ObjectFactory.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: Testify.ObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: ObjectFactory(Int32)
+  fullName: Testify.ObjectFactory.ObjectFactory(System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: src/Testify/ObjectFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/ObjectFactory.cs
+    startLine: 30
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Initializes a new instance of the <xref href="Testify.ObjectFactory" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public ObjectFactory(int seed)
+    content.vb: Public Sub New(seed As Integer)
+    parameters:
+    - id: seed
+      type: System.Int32
+      description: The seed to provide to the random number generator.
+- uid: Testify.ObjectFactory.Create(System.Type)
+  id: Create(System.Type)
+  parent: Testify.ObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(Type)
+  fullName: Testify.ObjectFactory.Create(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/ObjectFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/ObjectFactory.cs
+    startLine: 41
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Creates an instance of the specified type of object.
+  example: []
+  syntax:
+    content: public object Create(Type type)
+    content.vb: Public Function Create(type As Type) As Object
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type to create.
+    return:
+      type: System.Object
+      description: An instance of the specified type.
+- uid: Testify.ObjectFactory.CreateDouble(System.Double,System.Double,Testify.Distribution)
+  id: CreateDouble(System.Double,System.Double,Testify.Distribution)
+  parent: Testify.ObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDouble(Double, Double, Distribution)
+  fullName: Testify.ObjectFactory.CreateDouble(System.Double, System.Double, Testify.Distribution)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/ObjectFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/ObjectFactory.cs
+    startLine: 73
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Creates a random double value within a specified range using the specified distribution algorithm.
+  example: []
+  syntax:
+    content: public double CreateDouble(double minimum, double maximum, Distribution distribution)
+    content.vb: Public Function CreateDouble(minimum As Double, maximum As Double, distribution As Distribution) As Double
+    parameters:
+    - id: minimum
+      type: System.Double
+      description: The minimum value.
+    - id: maximum
+      type: System.Double
+      description: The maximum value.
+    - id: distribution
+      type: Testify.Distribution
+      description: The distribution algorithm to use.
+    return:
+      type: System.Double
+      description: A random double value.
+- uid: Testify.ObjectFactory.Customize(Testify.IObjectFactoryCustomization)
+  id: Customize(Testify.IObjectFactoryCustomization)
+  parent: Testify.ObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: Customize(IObjectFactoryCustomization)
+  fullName: Testify.ObjectFactory.Customize(Testify.IObjectFactoryCustomization)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/ObjectFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/ObjectFactory.cs
+    startLine: 86
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Customizes how the <xref href="Testify.ObjectFactory" data-throw-if-not-resolved="false"></xref> creates objects.
+  example: []
+  syntax:
+    content: public ObjectFactory Customize(IObjectFactoryCustomization customization)
+    content.vb: Public Function Customize(customization As IObjectFactoryCustomization) As ObjectFactory
+    parameters:
+    - id: customization
+      type: Testify.IObjectFactoryCustomization
+      description: The customization to apply.
+    return:
+      type: Testify.ObjectFactory
+      description: The current <xref href="Testify.ObjectFactory" data-throw-if-not-resolved="false"></xref> to allow for method call chaining.
+- uid: Testify.ObjectFactory.Register(System.Type,System.Func{Testify.IObjectFactory,System.Object})
+  id: Register(System.Type,System.Func{Testify.IObjectFactory,System.Object})
+  parent: Testify.ObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: Register(Type, Func<IObjectFactory, Object>)
+  name.vb: Register(Type, Func(Of IObjectFactory, Object))
+  fullName: Testify.ObjectFactory.Register(System.Type, System.Func<Testify.IObjectFactory, System.Object>)
+  fullName.vb: Testify.ObjectFactory.Register(System.Type, System.Func(Of Testify.IObjectFactory, System.Object))
+  type: Method
+  source:
+    remote:
+      path: src/Testify/ObjectFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/ObjectFactory.cs
+    startLine: 99
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Register a factory method for the specified type.
+  example: []
+  syntax:
+    content: public void Register(Type type, Func<IObjectFactory, object> factory)
+    content.vb: Public Sub Register(type As Type, factory As Func(Of IObjectFactory, Object))
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type of object the factory method creates.
+    - id: factory
+      type: System.Func{Testify.IObjectFactory,System.Object}
+      description: The factory method.
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: Testify.IObjectFactory
+  parent: Testify
+  isExternal: false
+  name: IObjectFactory
+  fullName: Testify.IObjectFactory
+- uid: Testify.IRegisterObjectFactory
+  parent: Testify
+  isExternal: false
+  name: IRegisterObjectFactory
+  fullName: Testify.IRegisterObjectFactory
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: Testify.ObjectFactory
+  parent: Testify
+  isExternal: false
+  name: ObjectFactory
+  fullName: Testify.ObjectFactory
+- uid: System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  fullName: System.Int32
+- uid: System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  fullName: System.Type
+- uid: System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  fullName: System.Double
+- uid: Testify.Distribution
+  parent: Testify
+  isExternal: false
+  name: Distribution
+  fullName: Testify.Distribution
+- uid: Testify.IObjectFactoryCustomization
+  parent: Testify
+  isExternal: false
+  name: IObjectFactoryCustomization
+  fullName: Testify.IObjectFactoryCustomization
+- uid: System.Func{Testify.IObjectFactory,System.Object}
+  parent: System
+  definition: System.Func`2
+  name: Func<IObjectFactory, Object>
+  fullName: System.Func<Testify.IObjectFactory, System.Object>
+  fullname.vb: System.Func(Of Testify.IObjectFactory, System.Object)
+  name.vb: Func(Of IObjectFactory, Object)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    fullName: <
+  - uid: Testify.IObjectFactory
+    name: IObjectFactory
+    fullName: Testify.IObjectFactory
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: Testify.IObjectFactory
+    name: IObjectFactory
+    fullName: Testify.IObjectFactory
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Func`2
+  parent: System
+  isExternal: true
+  name: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  fullname.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: )
+    fullName: )

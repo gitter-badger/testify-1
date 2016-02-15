@@ -1,0 +1,981 @@
+items:
+- uid: Testify.StringAssertions
+  id: StringAssertions
+  parent: Testify
+  children:
+  - Testify.StringAssertions.Contains(Testify.ActualValue{System.String},System.String)
+  - Testify.StringAssertions.Contains(Testify.ActualValue{System.String},System.String,System.String)
+  - Testify.StringAssertions.Contains(Testify.ActualValue{System.String},System.String,System.String,System.Object[])
+  - Testify.StringAssertions.DoesNotMatch(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex)
+  - Testify.StringAssertions.DoesNotMatch(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex,System.String)
+  - Testify.StringAssertions.DoesNotMatch(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex,System.String,System.Object[])
+  - Testify.StringAssertions.EndsWith(Testify.ActualValue{System.String},System.String)
+  - Testify.StringAssertions.EndsWith(Testify.ActualValue{System.String},System.String,System.String)
+  - Testify.StringAssertions.EndsWith(Testify.ActualValue{System.String},System.String,System.String,System.Object[])
+  - Testify.StringAssertions.Matches(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex)
+  - Testify.StringAssertions.Matches(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex,System.String)
+  - Testify.StringAssertions.Matches(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex,System.String,System.Object[])
+  - Testify.StringAssertions.StartsWith(Testify.ActualValue{System.String},System.String)
+  - Testify.StringAssertions.StartsWith(Testify.ActualValue{System.String},System.String,System.String)
+  - Testify.StringAssertions.StartsWith(Testify.ActualValue{System.String},System.String,System.String,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: StringAssertions
+  fullName: Testify.StringAssertions
+  type: Class
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 9
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Provides assertion methods associated with strings in unit tests.
+  example: []
+  syntax:
+    content: public class StringAssertions
+    content.vb: Public Class StringAssertions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Testify.StringAssertions.Contains(Testify.ActualValue{System.String},System.String)
+  id: Contains(Testify.ActualValue{System.String},System.String)
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: Contains(ActualValue<String>, String)
+  name.vb: Contains(ActualValue(Of String), String)
+  fullName: Testify.StringAssertions.Contains(Testify.ActualValue<System.String>, System.String)
+  fullName.vb: Testify.StringAssertions.Contains(Testify.ActualValue(Of System.String), System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 18
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the string contains the specified substring. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it. This method is case sensitive.
+  example: []
+  syntax:
+    content: public static void Contains(ActualValue<string> value, string substring)
+    content.vb: Public Shared Sub Contains(value As ActualValue(Of String), substring As String)
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: substring
+      type: System.String
+      description: The string expected to occur within *value*.
+- uid: Testify.StringAssertions.Contains(Testify.ActualValue{System.String},System.String,System.String)
+  id: Contains(Testify.ActualValue{System.String},System.String,System.String)
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: Contains(ActualValue<String>, String, String)
+  name.vb: Contains(ActualValue(Of String), String, String)
+  fullName: Testify.StringAssertions.Contains(Testify.ActualValue<System.String>, System.String, System.String)
+  fullName.vb: Testify.StringAssertions.Contains(Testify.ActualValue(Of System.String), System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 29
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the string contains the specified substring. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it. This method is case sensitive.
+  example: []
+  syntax:
+    content: public static void Contains(ActualValue<string> value, string substring, string message)
+    content.vb: Public Shared Sub Contains(value As ActualValue(Of String), substring As String, message As String)
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: substring
+      type: System.String
+      description: The string expected to occur within *value*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+- uid: Testify.StringAssertions.Contains(Testify.ActualValue{System.String},System.String,System.String,System.Object[])
+  id: Contains(Testify.ActualValue{System.String},System.String,System.String,System.Object[])
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: Contains(ActualValue<String>, String, String, Object[])
+  name.vb: Contains(ActualValue(Of String), String, String, Object())
+  fullName: Testify.StringAssertions.Contains(Testify.ActualValue<System.String>, System.String, System.String, System.Object[])
+  fullName.vb: Testify.StringAssertions.Contains(Testify.ActualValue(Of System.String), System.String, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 41
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the string contains the specified substring. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it. This method is case sensitive.
+  example: []
+  syntax:
+    content: public static void Contains(ActualValue<string> value, string substring, string message, params object[] parameters)
+    content.vb: Public Shared Sub Contains(value As ActualValue(Of String), substring As String, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: substring
+      type: System.String
+      description: The string expected to occur within *value*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+- uid: Testify.StringAssertions.DoesNotMatch(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex)
+  id: DoesNotMatch(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex)
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: DoesNotMatch(ActualValue<String>, Regex)
+  name.vb: DoesNotMatch(ActualValue(Of String), Regex)
+  fullName: Testify.StringAssertions.DoesNotMatch(Testify.ActualValue<System.String>, System.Text.RegularExpressions.Regex)
+  fullName.vb: Testify.StringAssertions.DoesNotMatch(Testify.ActualValue(Of System.String), System.Text.RegularExpressions.Regex)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 58
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified string does not match the regular expression. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void DoesNotMatch(ActualValue<string> value, Regex pattern)
+    content.vb: Public Shared Sub DoesNotMatch(value As ActualValue(Of String), pattern As Regex)
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: pattern
+      type: System.Text.RegularExpressions.Regex
+      description: The regular expression that *value* is not expected to match.
+- uid: Testify.StringAssertions.DoesNotMatch(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex,System.String)
+  id: DoesNotMatch(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex,System.String)
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: DoesNotMatch(ActualValue<String>, Regex, String)
+  name.vb: DoesNotMatch(ActualValue(Of String), Regex, String)
+  fullName: Testify.StringAssertions.DoesNotMatch(Testify.ActualValue<System.String>, System.Text.RegularExpressions.Regex, System.String)
+  fullName.vb: Testify.StringAssertions.DoesNotMatch(Testify.ActualValue(Of System.String), System.Text.RegularExpressions.Regex, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 69
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified string does not match the regular expression. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void DoesNotMatch(ActualValue<string> value, Regex pattern, string message)
+    content.vb: Public Shared Sub DoesNotMatch(value As ActualValue(Of String), pattern As Regex, message As String)
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: pattern
+      type: System.Text.RegularExpressions.Regex
+      description: The regular expression that *value* is not expected to match.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+- uid: Testify.StringAssertions.DoesNotMatch(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex,System.String,System.Object[])
+  id: DoesNotMatch(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex,System.String,System.Object[])
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: DoesNotMatch(ActualValue<String>, Regex, String, Object[])
+  name.vb: DoesNotMatch(ActualValue(Of String), Regex, String, Object())
+  fullName: Testify.StringAssertions.DoesNotMatch(Testify.ActualValue<System.String>, System.Text.RegularExpressions.Regex, System.String, System.Object[])
+  fullName.vb: Testify.StringAssertions.DoesNotMatch(Testify.ActualValue(Of System.String), System.Text.RegularExpressions.Regex, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 81
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified string does not match the regular expression. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void DoesNotMatch(ActualValue<string> value, Regex pattern, string message, params object[] parameters)
+    content.vb: Public Shared Sub DoesNotMatch(value As ActualValue(Of String), pattern As Regex, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: pattern
+      type: System.Text.RegularExpressions.Regex
+      description: The regular expression that *value* is not expected to match.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+- uid: Testify.StringAssertions.EndsWith(Testify.ActualValue{System.String},System.String)
+  id: EndsWith(Testify.ActualValue{System.String},System.String)
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: EndsWith(ActualValue<String>, String)
+  name.vb: EndsWith(ActualValue(Of String), String)
+  fullName: Testify.StringAssertions.EndsWith(Testify.ActualValue<System.String>, System.String)
+  fullName.vb: Testify.StringAssertions.EndsWith(Testify.ActualValue(Of System.String), System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 98
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified string ends with the specified substring. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void EndsWith(ActualValue<string> value, string substring)
+    content.vb: Public Shared Sub EndsWith(value As ActualValue(Of String), substring As String)
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: substring
+      type: System.String
+      description: The string expected to be a suffix of *value*.
+- uid: Testify.StringAssertions.EndsWith(Testify.ActualValue{System.String},System.String,System.String)
+  id: EndsWith(Testify.ActualValue{System.String},System.String,System.String)
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: EndsWith(ActualValue<String>, String, String)
+  name.vb: EndsWith(ActualValue(Of String), String, String)
+  fullName: Testify.StringAssertions.EndsWith(Testify.ActualValue<System.String>, System.String, System.String)
+  fullName.vb: Testify.StringAssertions.EndsWith(Testify.ActualValue(Of System.String), System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 109
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified string ends with the specified substring. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void EndsWith(ActualValue<string> value, string substring, string message)
+    content.vb: Public Shared Sub EndsWith(value As ActualValue(Of String), substring As String, message As String)
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: substring
+      type: System.String
+      description: The string expected to be a suffix of *value*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+- uid: Testify.StringAssertions.EndsWith(Testify.ActualValue{System.String},System.String,System.String,System.Object[])
+  id: EndsWith(Testify.ActualValue{System.String},System.String,System.String,System.Object[])
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: EndsWith(ActualValue<String>, String, String, Object[])
+  name.vb: EndsWith(ActualValue(Of String), String, String, Object())
+  fullName: Testify.StringAssertions.EndsWith(Testify.ActualValue<System.String>, System.String, System.String, System.Object[])
+  fullName.vb: Testify.StringAssertions.EndsWith(Testify.ActualValue(Of System.String), System.String, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 121
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified string ends with the specified substring. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void EndsWith(ActualValue<string> value, string substring, string message, params object[] parameters)
+    content.vb: Public Shared Sub EndsWith(value As ActualValue(Of String), substring As String, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: substring
+      type: System.String
+      description: The string expected to be a suffix of *value*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+- uid: Testify.StringAssertions.Matches(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex)
+  id: Matches(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex)
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: Matches(ActualValue<String>, Regex)
+  name.vb: Matches(ActualValue(Of String), Regex)
+  fullName: Testify.StringAssertions.Matches(Testify.ActualValue<System.String>, System.Text.RegularExpressions.Regex)
+  fullName.vb: Testify.StringAssertions.Matches(Testify.ActualValue(Of System.String), System.Text.RegularExpressions.Regex)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 138
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified string matches the regular expression. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void Matches(ActualValue<string> value, Regex pattern)
+    content.vb: Public Shared Sub Matches(value As ActualValue(Of String), pattern As Regex)
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: pattern
+      type: System.Text.RegularExpressions.Regex
+      description: The regular expression that *value* is expected to match.
+- uid: Testify.StringAssertions.Matches(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex,System.String)
+  id: Matches(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex,System.String)
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: Matches(ActualValue<String>, Regex, String)
+  name.vb: Matches(ActualValue(Of String), Regex, String)
+  fullName: Testify.StringAssertions.Matches(Testify.ActualValue<System.String>, System.Text.RegularExpressions.Regex, System.String)
+  fullName.vb: Testify.StringAssertions.Matches(Testify.ActualValue(Of System.String), System.Text.RegularExpressions.Regex, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 149
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified string matches the regular expression. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void Matches(ActualValue<string> value, Regex pattern, string message)
+    content.vb: Public Shared Sub Matches(value As ActualValue(Of String), pattern As Regex, message As String)
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: pattern
+      type: System.Text.RegularExpressions.Regex
+      description: The regular expression that *value* is expected to match.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+- uid: Testify.StringAssertions.Matches(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex,System.String,System.Object[])
+  id: Matches(Testify.ActualValue{System.String},System.Text.RegularExpressions.Regex,System.String,System.Object[])
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: Matches(ActualValue<String>, Regex, String, Object[])
+  name.vb: Matches(ActualValue(Of String), Regex, String, Object())
+  fullName: Testify.StringAssertions.Matches(Testify.ActualValue<System.String>, System.Text.RegularExpressions.Regex, System.String, System.Object[])
+  fullName.vb: Testify.StringAssertions.Matches(Testify.ActualValue(Of System.String), System.Text.RegularExpressions.Regex, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 161
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified string matches the regular expression. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void Matches(ActualValue<string> value, Regex pattern, string message, params object[] parameters)
+    content.vb: Public Shared Sub Matches(value As ActualValue(Of String), pattern As Regex, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: pattern
+      type: System.Text.RegularExpressions.Regex
+      description: The regular expression that *value* is expected to match.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+- uid: Testify.StringAssertions.StartsWith(Testify.ActualValue{System.String},System.String)
+  id: StartsWith(Testify.ActualValue{System.String},System.String)
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: StartsWith(ActualValue<String>, String)
+  name.vb: StartsWith(ActualValue(Of String), String)
+  fullName: Testify.StringAssertions.StartsWith(Testify.ActualValue<System.String>, System.String)
+  fullName.vb: Testify.StringAssertions.StartsWith(Testify.ActualValue(Of System.String), System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 178
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified string starts with the specified substring. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void StartsWith(ActualValue<string> value, string substring)
+    content.vb: Public Shared Sub StartsWith(value As ActualValue(Of String), substring As String)
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: substring
+      type: System.String
+      description: The string expected to be a suffix of *value*.
+- uid: Testify.StringAssertions.StartsWith(Testify.ActualValue{System.String},System.String,System.String)
+  id: StartsWith(Testify.ActualValue{System.String},System.String,System.String)
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: StartsWith(ActualValue<String>, String, String)
+  name.vb: StartsWith(ActualValue(Of String), String, String)
+  fullName: Testify.StringAssertions.StartsWith(Testify.ActualValue<System.String>, System.String, System.String)
+  fullName.vb: Testify.StringAssertions.StartsWith(Testify.ActualValue(Of System.String), System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 189
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified string starts with the specified substring. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void StartsWith(ActualValue<string> value, string substring, string message)
+    content.vb: Public Shared Sub StartsWith(value As ActualValue(Of String), substring As String, message As String)
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: substring
+      type: System.String
+      description: The string expected to be a suffix of *value*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+- uid: Testify.StringAssertions.StartsWith(Testify.ActualValue{System.String},System.String,System.String,System.Object[])
+  id: StartsWith(Testify.ActualValue{System.String},System.String,System.String,System.Object[])
+  parent: Testify.StringAssertions
+  langs:
+  - csharp
+  - vb
+  name: StartsWith(ActualValue<String>, String, String, Object[])
+  name.vb: StartsWith(ActualValue(Of String), String, String, Object())
+  fullName: Testify.StringAssertions.StartsWith(Testify.ActualValue<System.String>, System.String, System.String, System.Object[])
+  fullName.vb: Testify.StringAssertions.StartsWith(Testify.ActualValue(Of System.String), System.String, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StringAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StringAssertions.cs
+    startLine: 201
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified string starts with the specified substring. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void StartsWith(ActualValue<string> value, string substring, string message, params object[] parameters)
+    content.vb: Public Shared Sub StartsWith(value As ActualValue(Of String), substring As String, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: value
+      type: Testify.ActualValue{System.String}
+      description: The actual value.
+    - id: substring
+      type: System.String
+      description: The string expected to be a suffix of *value*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: Testify.ActualValue{System.String}
+  parent: Testify
+  definition: Testify.ActualValue`1
+  name: ActualValue<String>
+  fullName: Testify.ActualValue<System.String>
+  fullname.vb: Testify.ActualValue(Of System.String)
+  name.vb: ActualValue(Of String)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: Testify.ActualValue`1
+  parent: Testify
+  isExternal: false
+  name: ActualValue<T>
+  fullName: Testify.ActualValue<T>
+  fullname.vb: Testify.ActualValue(Of T)
+  name.vb: ActualValue(Of T)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  fullName: System.Object[]
+  fullname.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: System.Text.RegularExpressions.Regex
+  parent: System.Text.RegularExpressions
+  isExternal: true
+  name: Regex
+  fullName: System.Text.RegularExpressions.Regex
+- uid: System.Text.RegularExpressions
+  isExternal: false
+  name: System.Text.RegularExpressions
+  fullName: System.Text.RegularExpressions

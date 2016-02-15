@@ -1,0 +1,2569 @@
+items:
+- uid: Testify.StandardAssertions
+  id: StandardAssertions
+  parent: Testify
+  children:
+  - Testify.StandardAssertions.IsEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double)
+  - Testify.StandardAssertions.IsEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double,System.String)
+  - Testify.StandardAssertions.IsEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double,System.String,System.Object[])
+  - Testify.StandardAssertions.IsEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single)
+  - Testify.StandardAssertions.IsEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single,System.String)
+  - Testify.StandardAssertions.IsEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single,System.String,System.Object[])
+  - Testify.StandardAssertions.IsEqualTo``1(Testify.ActualValue{``0},``0)
+  - Testify.StandardAssertions.IsEqualTo``1(Testify.ActualValue{``0},``0,System.String)
+  - Testify.StandardAssertions.IsEqualTo``1(Testify.ActualValue{``0},``0,System.String,System.Object[])
+  - Testify.StandardAssertions.IsEqualTo``1(Testify.ActualValue{``0},System.Object)
+  - Testify.StandardAssertions.IsEqualTo``1(Testify.ActualValue{``0},System.Object,System.String)
+  - Testify.StandardAssertions.IsEqualTo``1(Testify.ActualValue{``0},System.Object,System.String,System.Object[])
+  - Testify.StandardAssertions.IsFalse(Testify.ActualValue{System.Boolean})
+  - Testify.StandardAssertions.IsFalse(Testify.ActualValue{System.Boolean},System.String)
+  - Testify.StandardAssertions.IsFalse(Testify.ActualValue{System.Boolean},System.String,System.Object[])
+  - Testify.StandardAssertions.IsInstanceOfType``1(Testify.ActualValue{``0},System.Type)
+  - Testify.StandardAssertions.IsInstanceOfType``1(Testify.ActualValue{``0},System.Type,System.String)
+  - Testify.StandardAssertions.IsInstanceOfType``1(Testify.ActualValue{``0},System.Type,System.String,System.Object[])
+  - Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double)
+  - Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double,System.String)
+  - Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double,System.String,System.Object[])
+  - Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single)
+  - Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single,System.String)
+  - Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single,System.String,System.Object[])
+  - Testify.StandardAssertions.IsNotEqualTo``1(Testify.ActualValue{``0},``0)
+  - Testify.StandardAssertions.IsNotEqualTo``1(Testify.ActualValue{``0},``0,System.String)
+  - Testify.StandardAssertions.IsNotEqualTo``1(Testify.ActualValue{``0},``0,System.String,System.Object[])
+  - Testify.StandardAssertions.IsNotEqualTo``1(Testify.ActualValue{``0},System.Object)
+  - Testify.StandardAssertions.IsNotEqualTo``1(Testify.ActualValue{``0},System.Object,System.String)
+  - Testify.StandardAssertions.IsNotEqualTo``1(Testify.ActualValue{``0},System.Object,System.String,System.Object[])
+  - Testify.StandardAssertions.IsNotInstanceOfType``1(Testify.ActualValue{``0},System.Type)
+  - Testify.StandardAssertions.IsNotInstanceOfType``1(Testify.ActualValue{``0},System.Type,System.String)
+  - Testify.StandardAssertions.IsNotInstanceOfType``1(Testify.ActualValue{``0},System.Type,System.String,System.Object[])
+  - Testify.StandardAssertions.IsNotNull``1(Testify.ActualValue{``0})
+  - Testify.StandardAssertions.IsNotNull``1(Testify.ActualValue{``0},System.String)
+  - Testify.StandardAssertions.IsNotNull``1(Testify.ActualValue{``0},System.String,System.Object[])
+  - Testify.StandardAssertions.IsNotSameAs``1(Testify.ActualValue{``0},``0)
+  - Testify.StandardAssertions.IsNotSameAs``1(Testify.ActualValue{``0},``0,System.String)
+  - Testify.StandardAssertions.IsNotSameAs``1(Testify.ActualValue{``0},``0,System.String,System.Object[])
+  - Testify.StandardAssertions.IsNull``1(Testify.ActualValue{``0})
+  - Testify.StandardAssertions.IsNull``1(Testify.ActualValue{``0},System.String)
+  - Testify.StandardAssertions.IsNull``1(Testify.ActualValue{``0},System.String,System.Object[])
+  - Testify.StandardAssertions.IsSameAs``1(Testify.ActualValue{``0},``0)
+  - Testify.StandardAssertions.IsSameAs``1(Testify.ActualValue{``0},``0,System.String)
+  - Testify.StandardAssertions.IsSameAs``1(Testify.ActualValue{``0},``0,System.String,System.Object[])
+  - Testify.StandardAssertions.IsTrue(Testify.ActualValue{System.Boolean})
+  - Testify.StandardAssertions.IsTrue(Testify.ActualValue{System.Boolean},System.String)
+  - Testify.StandardAssertions.IsTrue(Testify.ActualValue{System.Boolean},System.String,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: StandardAssertions
+  fullName: Testify.StandardAssertions
+  type: Class
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 10
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Defines standard assertion methods used with the fluent <xref href="Testify.Assertions.Assert``1(``0)" data-throw-if-not-resolved="false"></xref> method.
+  example: []
+  syntax:
+    content: public class StandardAssertions
+    content.vb: Public Class StandardAssertions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double)
+  id: IsEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo(ActualValue<Double>, Double, Double)
+  name.vb: IsEqualTo(ActualValue(Of Double), Double, Double)
+  fullName: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue<System.Double>, System.Double, System.Double)
+  fullName.vb: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue(Of System.Double), System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 20
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Verifies that two specified doubles are equal or within the specified accuracy of each other.
+  example: []
+  syntax:
+    content: public static void IsEqualTo(ActualValue<double> actualValue, double expected, double delta)
+    content.vb: Public Shared Sub IsEqualTo(actualValue As ActualValue(Of Double), expected As Double, delta As Double)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Double}
+      description: The actual value.
+    - id: expected
+      type: System.Double
+      description: The expected value.
+    - id: delta
+      type: System.Double
+      description: >-
+        The required accuracy. The assertion will fail only if *expected*
+
+        is different from *actualValue* by more than *delta*.
+- uid: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double,System.String)
+  id: IsEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double,System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo(ActualValue<Double>, Double, Double, String)
+  name.vb: IsEqualTo(ActualValue(Of Double), Double, Double, String)
+  fullName: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue<System.Double>, System.Double, System.Double, System.String)
+  fullName.vb: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue(Of System.Double), System.Double, System.Double, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 35
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified doubles are equal or within the specified accuracy of each other.
+
+    Displays a message if the assertion fails.
+  example: []
+  syntax:
+    content: public static void IsEqualTo(ActualValue<double> actualValue, double expected, double delta, string message)
+    content.vb: Public Shared Sub IsEqualTo(actualValue As ActualValue(Of Double), expected As Double, delta As Double, message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Double}
+      description: The actual value.
+    - id: expected
+      type: System.Double
+      description: The expected value.
+    - id: delta
+      type: System.Double
+      description: >-
+        The required accuracy. The assertion will fail only if *expected*
+
+        is different from *actualValue* by more than *delta*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+- uid: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double,System.String,System.Object[])
+  id: IsEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double,System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo(ActualValue<Double>, Double, Double, String, Object[])
+  name.vb: IsEqualTo(ActualValue(Of Double), Double, Double, String, Object())
+  fullName: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue<System.Double>, System.Double, System.Double, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue(Of System.Double), System.Double, System.Double, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 51
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified doubles are equal or within the specified accuracy of each other.
+
+    Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsEqualTo(ActualValue<double> actualValue, double expected, double delta, string message, params object[] parameters)
+    content.vb: Public Shared Sub IsEqualTo(actualValue As ActualValue(Of Double), expected As Double, delta As Double, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Double}
+      description: The actual value.
+    - id: expected
+      type: System.Double
+      description: The expected value.
+    - id: delta
+      type: System.Double
+      description: >-
+        The required accuracy. The assertion will fail only if *expected*
+
+        is different from *actualValue* by more than *delta*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+- uid: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single)
+  id: IsEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo(ActualValue<Single>, Single, Single)
+  name.vb: IsEqualTo(ActualValue(Of Single), Single, Single)
+  fullName: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue<System.Single>, System.Single, System.Single)
+  fullName.vb: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue(Of System.Single), System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 86
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Verifies that two specified singles are equal or within the specified accuracy of each other.
+  example: []
+  syntax:
+    content: public static void IsEqualTo(ActualValue<float> actualValue, float expected, float delta)
+    content.vb: Public Shared Sub IsEqualTo(actualValue As ActualValue(Of Single), expected As Single, delta As Single)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Single}
+      description: The actual value.
+    - id: expected
+      type: System.Single
+      description: The expected value.
+    - id: delta
+      type: System.Single
+      description: >-
+        The required accuracy. The assertion will fail only if *expected*
+
+        is different from *actualValue* by more than *delta*.
+- uid: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single,System.String)
+  id: IsEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single,System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo(ActualValue<Single>, Single, Single, String)
+  name.vb: IsEqualTo(ActualValue(Of Single), Single, Single, String)
+  fullName: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue<System.Single>, System.Single, System.Single, System.String)
+  fullName.vb: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue(Of System.Single), System.Single, System.Single, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 101
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified singles are equal or within the specified accuracy of each other.
+
+    Displays a message if the assertion fails.
+  example: []
+  syntax:
+    content: public static void IsEqualTo(ActualValue<float> actualValue, float expected, float delta, string message)
+    content.vb: Public Shared Sub IsEqualTo(actualValue As ActualValue(Of Single), expected As Single, delta As Single, message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Single}
+      description: The actual value.
+    - id: expected
+      type: System.Single
+      description: The expected value.
+    - id: delta
+      type: System.Single
+      description: >-
+        The required accuracy. The assertion will fail only if *expected*
+
+        is different from *actualValue* by more than *delta*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+- uid: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single,System.String,System.Object[])
+  id: IsEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single,System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo(ActualValue<Single>, Single, Single, String, Object[])
+  name.vb: IsEqualTo(ActualValue(Of Single), Single, Single, String, Object())
+  fullName: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue<System.Single>, System.Single, System.Single, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsEqualTo(Testify.ActualValue(Of System.Single), System.Single, System.Single, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 117
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified singles are equal or within the specified accuracy of each other.
+
+    Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsEqualTo(ActualValue<float> actualValue, float expected, float delta, string message, params object[] parameters)
+    content.vb: Public Shared Sub IsEqualTo(actualValue As ActualValue(Of Single), expected As Single, delta As Single, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Single}
+      description: The actual value.
+    - id: expected
+      type: System.Single
+      description: The expected value.
+    - id: delta
+      type: System.Single
+      description: >-
+        The required accuracy. The assertion will fail only if *expected*
+
+        is different from *actualValue* by more than *delta*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+- uid: Testify.StandardAssertions.IsEqualTo``1(Testify.ActualValue{``0},System.Object)
+  id: IsEqualTo``1(Testify.ActualValue{``0},System.Object)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo<T>(ActualValue<T>, Object)
+  name.vb: IsEqualTo(Of T)(ActualValue(Of T), Object)
+  fullName: Testify.StandardAssertions.IsEqualTo<T>(Testify.ActualValue<T>, System.Object)
+  fullName.vb: Testify.StandardAssertions.IsEqualTo(Of T)(Testify.ActualValue(Of T), System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 148
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Verifies that two specified objects are equal.
+  example: []
+  syntax:
+    content: public static void IsEqualTo<T>(ActualValue<T> actualValue, object expected)
+    content.vb: Public Shared Sub IsEqualTo(Of T)(actualValue As ActualValue(Of T), expected As Object)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: System.Object
+      description: The expected value.
+    typeParameters:
+    - id: T
+      description: The actual value type.
+- uid: Testify.StandardAssertions.IsEqualTo``1(Testify.ActualValue{``0},System.Object,System.String)
+  id: IsEqualTo``1(Testify.ActualValue{``0},System.Object,System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo<T>(ActualValue<T>, Object, String)
+  name.vb: IsEqualTo(Of T)(ActualValue(Of T), Object, String)
+  fullName: Testify.StandardAssertions.IsEqualTo<T>(Testify.ActualValue<T>, System.Object, System.String)
+  fullName.vb: Testify.StandardAssertions.IsEqualTo(Of T)(Testify.ActualValue(Of T), System.Object, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 161
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Verifies that two specified objects are equal. Displays a message if the assertion fails.
+  example: []
+  syntax:
+    content: public static void IsEqualTo<T>(ActualValue<T> actualValue, object expected, string message)
+    content.vb: Public Shared Sub IsEqualTo(Of T)(actualValue As ActualValue(Of T), expected As Object, message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: System.Object
+      description: The expected value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The actual value type.
+- uid: Testify.StandardAssertions.IsEqualTo``1(Testify.ActualValue{``0},System.Object,System.String,System.Object[])
+  id: IsEqualTo``1(Testify.ActualValue{``0},System.Object,System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo<T>(ActualValue<T>, Object, String, Object[])
+  name.vb: IsEqualTo(Of T)(ActualValue(Of T), Object, String, Object())
+  fullName: Testify.StandardAssertions.IsEqualTo<T>(Testify.ActualValue<T>, System.Object, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsEqualTo(Of T)(Testify.ActualValue(Of T), System.Object, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 176
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified objects are equal. Displays a message if the assertion fails,
+
+    and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsEqualTo<T>(ActualValue<T> actualValue, object expected, string message, params object[] parameters)
+    content.vb: Public Shared Sub IsEqualTo(Of T)(actualValue As ActualValue(Of T), expected As Object, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: System.Object
+      description: The expected value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The actual value type.
+- uid: Testify.StandardAssertions.IsEqualTo``1(Testify.ActualValue{``0},``0)
+  id: IsEqualTo``1(Testify.ActualValue{``0},``0)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo<T>(ActualValue<T>, T)
+  name.vb: IsEqualTo(Of T)(ActualValue(Of T), T)
+  fullName: Testify.StandardAssertions.IsEqualTo<T>(Testify.ActualValue<T>, T)
+  fullName.vb: Testify.StandardAssertions.IsEqualTo(Of T)(Testify.ActualValue(Of T), T)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 195
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Verifies that two specified objects are equal.
+  example: []
+  syntax:
+    content: public static void IsEqualTo<T>(ActualValue<T> actualValue, T expected)
+    content.vb: Public Shared Sub IsEqualTo(Of T)(actualValue As ActualValue(Of T), expected As T)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: '{T}'
+      description: The expected value.
+    typeParameters:
+    - id: T
+      description: The actual value type.
+- uid: Testify.StandardAssertions.IsEqualTo``1(Testify.ActualValue{``0},``0,System.String)
+  id: IsEqualTo``1(Testify.ActualValue{``0},``0,System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo<T>(ActualValue<T>, T, String)
+  name.vb: IsEqualTo(Of T)(ActualValue(Of T), T, String)
+  fullName: Testify.StandardAssertions.IsEqualTo<T>(Testify.ActualValue<T>, T, System.String)
+  fullName.vb: Testify.StandardAssertions.IsEqualTo(Of T)(Testify.ActualValue(Of T), T, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 208
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Verifies that two specified objects are equal. Displays a message if the assertion fails.
+  example: []
+  syntax:
+    content: public static void IsEqualTo<T>(ActualValue<T> actualValue, T expected, string message)
+    content.vb: Public Shared Sub IsEqualTo(Of T)(actualValue As ActualValue(Of T), expected As T, message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: '{T}'
+      description: The expected value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The actual value type.
+- uid: Testify.StandardAssertions.IsEqualTo``1(Testify.ActualValue{``0},``0,System.String,System.Object[])
+  id: IsEqualTo``1(Testify.ActualValue{``0},``0,System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo<T>(ActualValue<T>, T, String, Object[])
+  name.vb: IsEqualTo(Of T)(ActualValue(Of T), T, String, Object())
+  fullName: Testify.StandardAssertions.IsEqualTo<T>(Testify.ActualValue<T>, T, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsEqualTo(Of T)(Testify.ActualValue(Of T), T, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 223
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified objects are equal. Displays a message if the assertion fails,
+
+    and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsEqualTo<T>(ActualValue<T> actualValue, T expected, string message, params object[] parameters)
+    content.vb: Public Shared Sub IsEqualTo(Of T)(actualValue As ActualValue(Of T), expected As T, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: '{T}'
+      description: The expected value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The actual value type.
+- uid: Testify.StandardAssertions.IsFalse(Testify.ActualValue{System.Boolean})
+  id: IsFalse(Testify.ActualValue{System.Boolean})
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsFalse(ActualValue<Boolean>)
+  name.vb: IsFalse(ActualValue(Of Boolean))
+  fullName: Testify.StandardAssertions.IsFalse(Testify.ActualValue<System.Boolean>)
+  fullName.vb: Testify.StandardAssertions.IsFalse(Testify.ActualValue(Of System.Boolean))
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 240
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Asserts that the actual value is <see langword="false" />.
+  example: []
+  syntax:
+    content: public static void IsFalse(ActualValue<bool> actualValue)
+    content.vb: Public Shared Sub IsFalse(actualValue As ActualValue(Of Boolean))
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Boolean}
+      description: The actual value.
+- uid: Testify.StandardAssertions.IsFalse(Testify.ActualValue{System.Boolean},System.String)
+  id: IsFalse(Testify.ActualValue{System.Boolean},System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsFalse(ActualValue<Boolean>, String)
+  name.vb: IsFalse(ActualValue(Of Boolean), String)
+  fullName: Testify.StandardAssertions.IsFalse(Testify.ActualValue<System.Boolean>, System.String)
+  fullName.vb: Testify.StandardAssertions.IsFalse(Testify.ActualValue(Of System.Boolean), System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 252
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Asserts that the actual value is <see langword="false" />. Displays a message if the assertion
+
+    fails.
+  example: []
+  syntax:
+    content: public static void IsFalse(ActualValue<bool> actualValue, string message)
+    content.vb: Public Shared Sub IsFalse(actualValue As ActualValue(Of Boolean), message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Boolean}
+      description: The actual value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+- uid: Testify.StandardAssertions.IsFalse(Testify.ActualValue{System.Boolean},System.String,System.Object[])
+  id: IsFalse(Testify.ActualValue{System.Boolean},System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsFalse(ActualValue<Boolean>, String, Object[])
+  name.vb: IsFalse(ActualValue(Of Boolean), String, Object())
+  fullName: Testify.StandardAssertions.IsFalse(Testify.ActualValue<System.Boolean>, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsFalse(Testify.ActualValue(Of System.Boolean), System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 265
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Asserts that the actual value is <see langword="false" />. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsFalse(ActualValue<bool> actualValue, string message, params object[] parameters)
+    content.vb: Public Shared Sub IsFalse(actualValue As ActualValue(Of Boolean), message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Boolean}
+      description: The actual value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+- uid: Testify.StandardAssertions.IsInstanceOfType``1(Testify.ActualValue{``0},System.Type)
+  id: IsInstanceOfType``1(Testify.ActualValue{``0},System.Type)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsInstanceOfType<T>(ActualValue<T>, Type)
+  name.vb: IsInstanceOfType(Of T)(ActualValue(Of T), Type)
+  fullName: Testify.StandardAssertions.IsInstanceOfType<T>(Testify.ActualValue<T>, System.Type)
+  fullName.vb: Testify.StandardAssertions.IsInstanceOfType(Of T)(Testify.ActualValue(Of T), System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 281
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified object is an instance of the specified type. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsInstanceOfType<T>(ActualValue<T> actualValue, Type expectedType)
+    content.vb: Public Shared Sub IsInstanceOfType(Of T)(actualValue As ActualValue(Of T), expectedType As Type)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expectedType
+      type: System.Type
+      description: >-
+        The type expected to be found in the inheritance hierarchy of
+
+        *actualValue.Value.Value*.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+- uid: Testify.StandardAssertions.IsInstanceOfType``1(Testify.ActualValue{``0},System.Type,System.String)
+  id: IsInstanceOfType``1(Testify.ActualValue{``0},System.Type,System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsInstanceOfType<T>(ActualValue<T>, Type, String)
+  name.vb: IsInstanceOfType(Of T)(ActualValue(Of T), Type, String)
+  fullName: Testify.StandardAssertions.IsInstanceOfType<T>(Testify.ActualValue<T>, System.Type, System.String)
+  fullName.vb: Testify.StandardAssertions.IsInstanceOfType(Of T)(Testify.ActualValue(Of T), System.Type, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 296
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified object is an instance of the specified type. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsInstanceOfType<T>(ActualValue<T> actualValue, Type expectedType, string message)
+    content.vb: Public Shared Sub IsInstanceOfType(Of T)(actualValue As ActualValue(Of T), expectedType As Type, message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expectedType
+      type: System.Type
+      description: >-
+        The type expected to be found in the inheritance hierarchy of
+
+        *actualValue.Value.Value*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+- uid: Testify.StandardAssertions.IsInstanceOfType``1(Testify.ActualValue{``0},System.Type,System.String,System.Object[])
+  id: IsInstanceOfType``1(Testify.ActualValue{``0},System.Type,System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsInstanceOfType<T>(ActualValue<T>, Type, String, Object[])
+  name.vb: IsInstanceOfType(Of T)(ActualValue(Of T), Type, String, Object())
+  fullName: Testify.StandardAssertions.IsInstanceOfType<T>(Testify.ActualValue<T>, System.Type, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsInstanceOfType(Of T)(Testify.ActualValue(Of T), System.Type, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 312
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified object is an instance of the specified type. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsInstanceOfType<T>(ActualValue<T> actualValue, Type expectedType, string message, params object[] parameters)
+    content.vb: Public Shared Sub IsInstanceOfType(Of T)(actualValue As ActualValue(Of T), expectedType As Type, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expectedType
+      type: System.Type
+      description: >-
+        The type expected to be found in the inheritance hierarchy of
+
+        *actualValue.Value.Value*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+- uid: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double)
+  id: IsNotEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo(ActualValue<Double>, Double, Double)
+  name.vb: IsNotEqualTo(ActualValue(Of Double), Double, Double)
+  fullName: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue<System.Double>, System.Double, System.Double)
+  fullName.vb: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue(Of System.Double), System.Double, System.Double)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 339
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified doubles are not equal or within the specified accuracy of each
+
+    other.
+  example: []
+  syntax:
+    content: public static void IsNotEqualTo(ActualValue<double> actualValue, double expected, double delta)
+    content.vb: Public Shared Sub IsNotEqualTo(actualValue As ActualValue(Of Double), expected As Double, delta As Double)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Double}
+      description: The actual value.
+    - id: expected
+      type: System.Double
+      description: The expected value.
+    - id: delta
+      type: System.Double
+      description: >-
+        The required accuracy. The assertion will fail only if *expected*
+
+        is different from *actualValue* by more than *delta*.
+- uid: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double,System.String)
+  id: IsNotEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double,System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo(ActualValue<Double>, Double, Double, String)
+  name.vb: IsNotEqualTo(ActualValue(Of Double), Double, Double, String)
+  fullName: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue<System.Double>, System.Double, System.Double, System.String)
+  fullName.vb: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue(Of System.Double), System.Double, System.Double, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 354
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified doubles are not equal or within the specified accuracy of each other.
+
+    Displays a message if the assertion fails.
+  example: []
+  syntax:
+    content: public static void IsNotEqualTo(ActualValue<double> actualValue, double expected, double delta, string message)
+    content.vb: Public Shared Sub IsNotEqualTo(actualValue As ActualValue(Of Double), expected As Double, delta As Double, message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Double}
+      description: The actual value.
+    - id: expected
+      type: System.Double
+      description: The expected value.
+    - id: delta
+      type: System.Double
+      description: >-
+        The required accuracy. The assertion will fail only if *expected*
+
+        is different from *actualValue* by more than *delta*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+- uid: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double,System.String,System.Object[])
+  id: IsNotEqualTo(Testify.ActualValue{System.Double},System.Double,System.Double,System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo(ActualValue<Double>, Double, Double, String, Object[])
+  name.vb: IsNotEqualTo(ActualValue(Of Double), Double, Double, String, Object())
+  fullName: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue<System.Double>, System.Double, System.Double, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue(Of System.Double), System.Double, System.Double, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 370
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified doubles are not equal or within the specified accuracy of each other.
+
+    Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsNotEqualTo(ActualValue<double> actualValue, double expected, double delta, string message, params object[] parameters)
+    content.vb: Public Shared Sub IsNotEqualTo(actualValue As ActualValue(Of Double), expected As Double, delta As Double, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Double}
+      description: The actual value.
+    - id: expected
+      type: System.Double
+      description: The expected value.
+    - id: delta
+      type: System.Double
+      description: >-
+        The required accuracy. The assertion will fail only if *expected*
+
+        is different from *actualValue* by more than *delta*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+- uid: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single)
+  id: IsNotEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo(ActualValue<Single>, Single, Single)
+  name.vb: IsNotEqualTo(ActualValue(Of Single), Single, Single)
+  fullName: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue<System.Single>, System.Single, System.Single)
+  fullName.vb: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue(Of System.Single), System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 402
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Verifies that two specified singles are not equal or within the specified accuracy of each other.
+  example: []
+  syntax:
+    content: public static void IsNotEqualTo(ActualValue<float> actualValue, float expected, float delta)
+    content.vb: Public Shared Sub IsNotEqualTo(actualValue As ActualValue(Of Single), expected As Single, delta As Single)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Single}
+      description: The actual value.
+    - id: expected
+      type: System.Single
+      description: The expected value.
+    - id: delta
+      type: System.Single
+      description: >-
+        The required accuracy. The assertion will fail only if *expected*
+
+        is different from *actualValue* by more than *delta*.
+- uid: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single,System.String)
+  id: IsNotEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single,System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo(ActualValue<Single>, Single, Single, String)
+  name.vb: IsNotEqualTo(ActualValue(Of Single), Single, Single, String)
+  fullName: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue<System.Single>, System.Single, System.Single, System.String)
+  fullName.vb: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue(Of System.Single), System.Single, System.Single, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 417
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified singles are not equal or within the specified accuracy of each other.
+
+    Displays a message if the assertion fails.
+  example: []
+  syntax:
+    content: public static void IsNotEqualTo(ActualValue<float> actualValue, float expected, float delta, string message)
+    content.vb: Public Shared Sub IsNotEqualTo(actualValue As ActualValue(Of Single), expected As Single, delta As Single, message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Single}
+      description: The actual value.
+    - id: expected
+      type: System.Single
+      description: The expected value.
+    - id: delta
+      type: System.Single
+      description: >-
+        The required accuracy. The assertion will fail only if *expected*
+
+        is different from *actualValue* by more than *delta*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+- uid: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single,System.String,System.Object[])
+  id: IsNotEqualTo(Testify.ActualValue{System.Single},System.Single,System.Single,System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo(ActualValue<Single>, Single, Single, String, Object[])
+  name.vb: IsNotEqualTo(ActualValue(Of Single), Single, Single, String, Object())
+  fullName: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue<System.Single>, System.Single, System.Single, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsNotEqualTo(Testify.ActualValue(Of System.Single), System.Single, System.Single, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 433
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified singles are not equal or within the specified accuracy of each other.
+
+    Displays a message if the assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsNotEqualTo(ActualValue<float> actualValue, float expected, float delta, string message, params object[] parameters)
+    content.vb: Public Shared Sub IsNotEqualTo(actualValue As ActualValue(Of Single), expected As Single, delta As Single, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Single}
+      description: The actual value.
+    - id: expected
+      type: System.Single
+      description: The expected value.
+    - id: delta
+      type: System.Single
+      description: >-
+        The required accuracy. The assertion will fail only if *expected*
+
+        is different from *actualValue* by more than *delta*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+- uid: Testify.StandardAssertions.IsNotEqualTo``1(Testify.ActualValue{``0},System.Object)
+  id: IsNotEqualTo``1(Testify.ActualValue{``0},System.Object)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo<T>(ActualValue<T>, Object)
+  name.vb: IsNotEqualTo(Of T)(ActualValue(Of T), Object)
+  fullName: Testify.StandardAssertions.IsNotEqualTo<T>(Testify.ActualValue<T>, System.Object)
+  fullName.vb: Testify.StandardAssertions.IsNotEqualTo(Of T)(Testify.ActualValue(Of T), System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 464
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Verifies that two specified objects are not equal.
+  example: []
+  syntax:
+    content: public static void IsNotEqualTo<T>(ActualValue<T> actualValue, object expected)
+    content.vb: Public Shared Sub IsNotEqualTo(Of T)(actualValue As ActualValue(Of T), expected As Object)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: System.Object
+      description: The expected value.
+    typeParameters:
+    - id: T
+      description: The actual value type.
+- uid: Testify.StandardAssertions.IsNotEqualTo``1(Testify.ActualValue{``0},System.Object,System.String)
+  id: IsNotEqualTo``1(Testify.ActualValue{``0},System.Object,System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo<T>(ActualValue<T>, Object, String)
+  name.vb: IsNotEqualTo(Of T)(ActualValue(Of T), Object, String)
+  fullName: Testify.StandardAssertions.IsNotEqualTo<T>(Testify.ActualValue<T>, System.Object, System.String)
+  fullName.vb: Testify.StandardAssertions.IsNotEqualTo(Of T)(Testify.ActualValue(Of T), System.Object, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 477
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Verifies that two specified objects are not equal. Displays a message if the assertion fails.
+  example: []
+  syntax:
+    content: public static void IsNotEqualTo<T>(ActualValue<T> actualValue, object expected, string message)
+    content.vb: Public Shared Sub IsNotEqualTo(Of T)(actualValue As ActualValue(Of T), expected As Object, message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: System.Object
+      description: The expected value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The actual value type.
+- uid: Testify.StandardAssertions.IsNotEqualTo``1(Testify.ActualValue{``0},System.Object,System.String,System.Object[])
+  id: IsNotEqualTo``1(Testify.ActualValue{``0},System.Object,System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo<T>(ActualValue<T>, Object, String, Object[])
+  name.vb: IsNotEqualTo(Of T)(ActualValue(Of T), Object, String, Object())
+  fullName: Testify.StandardAssertions.IsNotEqualTo<T>(Testify.ActualValue<T>, System.Object, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsNotEqualTo(Of T)(Testify.ActualValue(Of T), System.Object, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 492
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified objects are not equal. Displays a message if the assertion fails,
+
+    and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsNotEqualTo<T>(ActualValue<T> actualValue, object expected, string message, params object[] parameters)
+    content.vb: Public Shared Sub IsNotEqualTo(Of T)(actualValue As ActualValue(Of T), expected As Object, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: System.Object
+      description: The expected value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The actual value type.
+- uid: Testify.StandardAssertions.IsNotEqualTo``1(Testify.ActualValue{``0},``0)
+  id: IsNotEqualTo``1(Testify.ActualValue{``0},``0)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo<T>(ActualValue<T>, T)
+  name.vb: IsNotEqualTo(Of T)(ActualValue(Of T), T)
+  fullName: Testify.StandardAssertions.IsNotEqualTo<T>(Testify.ActualValue<T>, T)
+  fullName.vb: Testify.StandardAssertions.IsNotEqualTo(Of T)(Testify.ActualValue(Of T), T)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 512
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Verifies that two specified objects are not equal.
+  example: []
+  syntax:
+    content: public static void IsNotEqualTo<T>(ActualValue<T> actualValue, T expected)
+    content.vb: Public Shared Sub IsNotEqualTo(Of T)(actualValue As ActualValue(Of T), expected As T)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: '{T}'
+      description: The expected value.
+    typeParameters:
+    - id: T
+      description: The actual value type.
+- uid: Testify.StandardAssertions.IsNotEqualTo``1(Testify.ActualValue{``0},``0,System.String)
+  id: IsNotEqualTo``1(Testify.ActualValue{``0},``0,System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo<T>(ActualValue<T>, T, String)
+  name.vb: IsNotEqualTo(Of T)(ActualValue(Of T), T, String)
+  fullName: Testify.StandardAssertions.IsNotEqualTo<T>(Testify.ActualValue<T>, T, System.String)
+  fullName.vb: Testify.StandardAssertions.IsNotEqualTo(Of T)(Testify.ActualValue(Of T), T, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 525
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Verifies that two specified objects are not equal.
+  example: []
+  syntax:
+    content: public static void IsNotEqualTo<T>(ActualValue<T> actualValue, T expected, string message)
+    content.vb: Public Shared Sub IsNotEqualTo(Of T)(actualValue As ActualValue(Of T), expected As T, message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: '{T}'
+      description: The expected value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The actual value type.
+- uid: Testify.StandardAssertions.IsNotEqualTo``1(Testify.ActualValue{``0},``0,System.String,System.Object[])
+  id: IsNotEqualTo``1(Testify.ActualValue{``0},``0,System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo<T>(ActualValue<T>, T, String, Object[])
+  name.vb: IsNotEqualTo(Of T)(ActualValue(Of T), T, String, Object())
+  fullName: Testify.StandardAssertions.IsNotEqualTo<T>(Testify.ActualValue<T>, T, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsNotEqualTo(Of T)(Testify.ActualValue(Of T), T, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 540
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified objects are not equal. Displays a message if the assertion fails,
+
+    and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsNotEqualTo<T>(ActualValue<T> actualValue, T expected, string message, params object[] parameters)
+    content.vb: Public Shared Sub IsNotEqualTo(Of T)(actualValue As ActualValue(Of T), expected As T, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: '{T}'
+      description: The expected value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The actual value type.
+- uid: Testify.StandardAssertions.IsNotInstanceOfType``1(Testify.ActualValue{``0},System.Type)
+  id: IsNotInstanceOfType``1(Testify.ActualValue{``0},System.Type)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotInstanceOfType<T>(ActualValue<T>, Type)
+  name.vb: IsNotInstanceOfType(Of T)(ActualValue(Of T), Type)
+  fullName: Testify.StandardAssertions.IsNotInstanceOfType<T>(Testify.ActualValue<T>, System.Type)
+  fullName.vb: Testify.StandardAssertions.IsNotInstanceOfType(Of T)(Testify.ActualValue(Of T), System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 562
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified object is not an instance of the specified type. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsNotInstanceOfType<T>(ActualValue<T> actualValue, Type expectedType)
+    content.vb: Public Shared Sub IsNotInstanceOfType(Of T)(actualValue As ActualValue(Of T), expectedType As Type)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expectedType
+      type: System.Type
+      description: >-
+        The type not expected to be found in the inheritance hierarchy of
+
+        *actualValue.Value.Value*.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+- uid: Testify.StandardAssertions.IsNotInstanceOfType``1(Testify.ActualValue{``0},System.Type,System.String)
+  id: IsNotInstanceOfType``1(Testify.ActualValue{``0},System.Type,System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotInstanceOfType<T>(ActualValue<T>, Type, String)
+  name.vb: IsNotInstanceOfType(Of T)(ActualValue(Of T), Type, String)
+  fullName: Testify.StandardAssertions.IsNotInstanceOfType<T>(Testify.ActualValue<T>, System.Type, System.String)
+  fullName.vb: Testify.StandardAssertions.IsNotInstanceOfType(Of T)(Testify.ActualValue(Of T), System.Type, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 577
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified object is not an instance of the specified type. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsNotInstanceOfType<T>(ActualValue<T> actualValue, Type expectedType, string message)
+    content.vb: Public Shared Sub IsNotInstanceOfType(Of T)(actualValue As ActualValue(Of T), expectedType As Type, message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expectedType
+      type: System.Type
+      description: >-
+        The type not expected to be found in the inheritance hierarchy of
+
+        *actualValue.Value.Value*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+- uid: Testify.StandardAssertions.IsNotInstanceOfType``1(Testify.ActualValue{``0},System.Type,System.String,System.Object[])
+  id: IsNotInstanceOfType``1(Testify.ActualValue{``0},System.Type,System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotInstanceOfType<T>(ActualValue<T>, Type, String, Object[])
+  name.vb: IsNotInstanceOfType(Of T)(ActualValue(Of T), Type, String, Object())
+  fullName: Testify.StandardAssertions.IsNotInstanceOfType<T>(Testify.ActualValue<T>, System.Type, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsNotInstanceOfType(Of T)(Testify.ActualValue(Of T), System.Type, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 593
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified object is not an instance of the specified type. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsNotInstanceOfType<T>(ActualValue<T> actualValue, Type expectedType, string message, params object[] parameters)
+    content.vb: Public Shared Sub IsNotInstanceOfType(Of T)(actualValue As ActualValue(Of T), expectedType As Type, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expectedType
+      type: System.Type
+      description: >-
+        The type not expected to be found in the inheritance hierarchy of
+
+        *actualValue.Value.Value*.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+- uid: Testify.StandardAssertions.IsNotNull``1(Testify.ActualValue{``0})
+  id: IsNotNull``1(Testify.ActualValue{``0})
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotNull<T>(ActualValue<T>)
+  name.vb: IsNotNull(Of T)(ActualValue(Of T))
+  fullName: Testify.StandardAssertions.IsNotNull<T>(Testify.ActualValue<T>)
+  fullName.vb: Testify.StandardAssertions.IsNotNull(Of T)(Testify.ActualValue(Of T))
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 618
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified object is not <see langword="null" />. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotNull<T>(ActualValue<T> actualValue)where T : class'
+    content.vb: Public Shared Sub IsNotNull(Of T As Class)(actualValue As ActualValue(Of T))
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+- uid: Testify.StandardAssertions.IsNotNull``1(Testify.ActualValue{``0},System.String)
+  id: IsNotNull``1(Testify.ActualValue{``0},System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotNull<T>(ActualValue<T>, String)
+  name.vb: IsNotNull(Of T)(ActualValue(Of T), String)
+  fullName: Testify.StandardAssertions.IsNotNull<T>(Testify.ActualValue<T>, System.String)
+  fullName.vb: Testify.StandardAssertions.IsNotNull(Of T)(Testify.ActualValue(Of T), System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 632
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified object is not <see langword="null" />. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotNull<T>(ActualValue<T> actualValue, string message)where T : class'
+    content.vb: Public Shared Sub IsNotNull(Of T As Class)(actualValue As ActualValue(Of T), message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+- uid: Testify.StandardAssertions.IsNotNull``1(Testify.ActualValue{``0},System.String,System.Object[])
+  id: IsNotNull``1(Testify.ActualValue{``0},System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotNull<T>(ActualValue<T>, String, Object[])
+  name.vb: IsNotNull(Of T)(ActualValue(Of T), String, Object())
+  fullName: Testify.StandardAssertions.IsNotNull<T>(Testify.ActualValue<T>, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsNotNull(Of T)(Testify.ActualValue(Of T), System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 647
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified object is not <see langword="null" />. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotNull<T>(ActualValue<T> actualValue, string message, params object[] parameters)where T : class'
+    content.vb: Public Shared Sub IsNotNull(Of T As Class)(actualValue As ActualValue(Of T), message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+- uid: Testify.StandardAssertions.IsNotSameAs``1(Testify.ActualValue{``0},``0)
+  id: IsNotSameAs``1(Testify.ActualValue{``0},``0)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSameAs<T>(ActualValue<T>, T)
+  name.vb: IsNotSameAs(Of T)(ActualValue(Of T), T)
+  fullName: Testify.StandardAssertions.IsNotSameAs<T>(Testify.ActualValue<T>, T)
+  fullName.vb: Testify.StandardAssertions.IsNotSameAs(Of T)(Testify.ActualValue(Of T), T)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 665
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified object variables refer to different objects. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSameAs<T>(ActualValue<T> actualValue, T expected)where T : class'
+    content.vb: Public Shared Sub IsNotSameAs(Of T As Class)(actualValue As ActualValue(Of T), expected As T)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: '{T}'
+      description: The expected value.
+    typeParameters:
+    - id: T
+      description: The type of the actual object.
+- uid: Testify.StandardAssertions.IsNotSameAs``1(Testify.ActualValue{``0},``0,System.String)
+  id: IsNotSameAs``1(Testify.ActualValue{``0},``0,System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSameAs<T>(ActualValue<T>, T, String)
+  name.vb: IsNotSameAs(Of T)(ActualValue(Of T), T, String)
+  fullName: Testify.StandardAssertions.IsNotSameAs<T>(Testify.ActualValue<T>, T, System.String)
+  fullName.vb: Testify.StandardAssertions.IsNotSameAs(Of T)(Testify.ActualValue(Of T), T, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 680
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified object variables refer to different objects. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSameAs<T>(ActualValue<T> actualValue, T expected, string message)where T : class'
+    content.vb: Public Shared Sub IsNotSameAs(Of T As Class)(actualValue As ActualValue(Of T), expected As T, message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: '{T}'
+      description: The expected value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the actual object.
+- uid: Testify.StandardAssertions.IsNotSameAs``1(Testify.ActualValue{``0},``0,System.String,System.Object[])
+  id: IsNotSameAs``1(Testify.ActualValue{``0},``0,System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNotSameAs<T>(ActualValue<T>, T, String, Object[])
+  name.vb: IsNotSameAs(Of T)(ActualValue(Of T), T, String, Object())
+  fullName: Testify.StandardAssertions.IsNotSameAs<T>(Testify.ActualValue<T>, T, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsNotSameAs(Of T)(Testify.ActualValue(Of T), T, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 696
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified object variables refer to different objects. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNotSameAs<T>(ActualValue<T> actualValue, T expected, string message, params object[] parameters)where T : class'
+    content.vb: Public Shared Sub IsNotSameAs(Of T As Class)(actualValue As ActualValue(Of T), expected As T, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: '{T}'
+      description: The expected value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the actual object.
+- uid: Testify.StandardAssertions.IsNull``1(Testify.ActualValue{``0})
+  id: IsNull``1(Testify.ActualValue{``0})
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNull<T>(ActualValue<T>)
+  name.vb: IsNull(Of T)(ActualValue(Of T))
+  fullName: Testify.StandardAssertions.IsNull<T>(Testify.ActualValue<T>)
+  fullName.vb: Testify.StandardAssertions.IsNull(Of T)(Testify.ActualValue(Of T))
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 713
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified object is <see langword="null" />. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNull<T>(ActualValue<T> actualValue)where T : class'
+    content.vb: Public Shared Sub IsNull(Of T As Class)(actualValue As ActualValue(Of T))
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+- uid: Testify.StandardAssertions.IsNull``1(Testify.ActualValue{``0},System.String)
+  id: IsNull``1(Testify.ActualValue{``0},System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNull<T>(ActualValue<T>, String)
+  name.vb: IsNull(Of T)(ActualValue(Of T), String)
+  fullName: Testify.StandardAssertions.IsNull<T>(Testify.ActualValue<T>, System.String)
+  fullName.vb: Testify.StandardAssertions.IsNull(Of T)(Testify.ActualValue(Of T), System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 727
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified object is <see langword="null" />. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNull<T>(ActualValue<T> actualValue, string message)where T : class'
+    content.vb: Public Shared Sub IsNull(Of T As Class)(actualValue As ActualValue(Of T), message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+- uid: Testify.StandardAssertions.IsNull``1(Testify.ActualValue{``0},System.String,System.Object[])
+  id: IsNull``1(Testify.ActualValue{``0},System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsNull<T>(ActualValue<T>, String, Object[])
+  name.vb: IsNull(Of T)(ActualValue(Of T), String, Object())
+  fullName: Testify.StandardAssertions.IsNull<T>(Testify.ActualValue<T>, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsNull(Of T)(Testify.ActualValue(Of T), System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 742
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that the specified object is <see langword="null" />. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsNull<T>(ActualValue<T> actualValue, string message, params object[] parameters)where T : class'
+    content.vb: Public Shared Sub IsNull(Of T As Class)(actualValue As ActualValue(Of T), message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+- uid: Testify.StandardAssertions.IsSameAs``1(Testify.ActualValue{``0},``0)
+  id: IsSameAs``1(Testify.ActualValue{``0},``0)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsSameAs<T>(ActualValue<T>, T)
+  name.vb: IsSameAs(Of T)(ActualValue(Of T), T)
+  fullName: Testify.StandardAssertions.IsSameAs<T>(Testify.ActualValue<T>, T)
+  fullName.vb: Testify.StandardAssertions.IsSameAs(Of T)(Testify.ActualValue(Of T), T)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 759
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Verifies that two specified object variables refer to the same object.
+  example: []
+  syntax:
+    content: 'public static void IsSameAs<T>(ActualValue<T> actualValue, T expected)where T : class'
+    content.vb: Public Shared Sub IsSameAs(Of T As Class)(actualValue As ActualValue(Of T), expected As T)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: '{T}'
+      description: The expected value.
+    typeParameters:
+    - id: T
+      description: The type of the actual object.
+- uid: Testify.StandardAssertions.IsSameAs``1(Testify.ActualValue{``0},``0,System.String)
+  id: IsSameAs``1(Testify.ActualValue{``0},``0,System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsSameAs<T>(ActualValue<T>, T, String)
+  name.vb: IsSameAs(Of T)(ActualValue(Of T), T, String)
+  fullName: Testify.StandardAssertions.IsSameAs<T>(Testify.ActualValue<T>, T, System.String)
+  fullName.vb: Testify.StandardAssertions.IsSameAs(Of T)(Testify.ActualValue(Of T), T, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 774
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified object variables refer to the same object. Displays a message if the
+
+    assertion fails.
+  example: []
+  syntax:
+    content: 'public static void IsSameAs<T>(ActualValue<T> actualValue, T expected, string message)where T : class'
+    content.vb: Public Shared Sub IsSameAs(Of T As Class)(actualValue As ActualValue(Of T), expected As T, message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: '{T}'
+      description: The expected value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    typeParameters:
+    - id: T
+      description: The type of the actual object.
+- uid: Testify.StandardAssertions.IsSameAs``1(Testify.ActualValue{``0},``0,System.String,System.Object[])
+  id: IsSameAs``1(Testify.ActualValue{``0},``0,System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsSameAs<T>(ActualValue<T>, T, String, Object[])
+  name.vb: IsSameAs(Of T)(ActualValue(Of T), T, String, Object())
+  fullName: Testify.StandardAssertions.IsSameAs<T>(Testify.ActualValue<T>, T, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsSameAs(Of T)(Testify.ActualValue(Of T), T, System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 790
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Verifies that two specified object variables refer to the same object. Displays a message if the
+
+    assertion fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: 'public static void IsSameAs<T>(ActualValue<T> actualValue, T expected, string message, params object[] parameters)where T : class'
+    content.vb: Public Shared Sub IsSameAs(Of T As Class)(actualValue As ActualValue(Of T), expected As T, message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{{T}}
+      description: The actual value.
+    - id: expected
+      type: '{T}'
+      description: The expected value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+    typeParameters:
+    - id: T
+      description: The type of the actual object.
+- uid: Testify.StandardAssertions.IsTrue(Testify.ActualValue{System.Boolean})
+  id: IsTrue(Testify.ActualValue{System.Boolean})
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsTrue(ActualValue<Boolean>)
+  name.vb: IsTrue(ActualValue(Of Boolean))
+  fullName: Testify.StandardAssertions.IsTrue(Testify.ActualValue<System.Boolean>)
+  fullName.vb: Testify.StandardAssertions.IsTrue(Testify.ActualValue(Of System.Boolean))
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 805
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Asserts that the actual value is <see langword="true" />.
+  example: []
+  syntax:
+    content: public static void IsTrue(ActualValue<bool> actualValue)
+    content.vb: Public Shared Sub IsTrue(actualValue As ActualValue(Of Boolean))
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Boolean}
+      description: The actual value.
+- uid: Testify.StandardAssertions.IsTrue(Testify.ActualValue{System.Boolean},System.String)
+  id: IsTrue(Testify.ActualValue{System.Boolean},System.String)
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsTrue(ActualValue<Boolean>, String)
+  name.vb: IsTrue(ActualValue(Of Boolean), String)
+  fullName: Testify.StandardAssertions.IsTrue(Testify.ActualValue<System.Boolean>, System.String)
+  fullName.vb: Testify.StandardAssertions.IsTrue(Testify.ActualValue(Of System.Boolean), System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 817
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Asserts that the actual value is <see langword="true" />. Displays a message if the assertion
+
+    fails.
+  example: []
+  syntax:
+    content: public static void IsTrue(ActualValue<bool> actualValue, string message)
+    content.vb: Public Shared Sub IsTrue(actualValue As ActualValue(Of Boolean), message As String)
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Boolean}
+      description: The actual value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+- uid: Testify.StandardAssertions.IsTrue(Testify.ActualValue{System.Boolean},System.String,System.Object[])
+  id: IsTrue(Testify.ActualValue{System.Boolean},System.String,System.Object[])
+  parent: Testify.StandardAssertions
+  langs:
+  - csharp
+  - vb
+  name: IsTrue(ActualValue<Boolean>, String, Object[])
+  name.vb: IsTrue(ActualValue(Of Boolean), String, Object())
+  fullName: Testify.StandardAssertions.IsTrue(Testify.ActualValue<System.Boolean>, System.String, System.Object[])
+  fullName.vb: Testify.StandardAssertions.IsTrue(Testify.ActualValue(Of System.Boolean), System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/StandardAssertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/StandardAssertions.cs
+    startLine: 830
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Asserts that the actual value is <see langword="true" />. Displays a message if the assertion
+
+    fails, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void IsTrue(ActualValue<bool> actualValue, string message, params object[] parameters)
+    content.vb: Public Shared Sub IsTrue(actualValue As ActualValue(Of Boolean), message As String, ParamArray parameters As Object())
+    parameters:
+    - id: actualValue
+      type: Testify.ActualValue{System.Boolean}
+      description: The actual value.
+    - id: message
+      type: System.String
+      description: >-
+        A message to display if the assertion fails. This message can
+
+        be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+references:
+- uid: Testify.Assertions.Assert``1(``0)
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: Testify.ActualValue{System.Double}
+  parent: Testify
+  definition: Testify.ActualValue`1
+  name: ActualValue<Double>
+  fullName: Testify.ActualValue<System.Double>
+  fullname.vb: Testify.ActualValue(Of System.Double)
+  name.vb: ActualValue(Of Double)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  fullName: System.Double
+- uid: Testify.ActualValue`1
+  parent: Testify
+  isExternal: false
+  name: ActualValue<T>
+  fullName: Testify.ActualValue<T>
+  fullname.vb: Testify.ActualValue(Of T)
+  name.vb: ActualValue(Of T)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  fullName: System.Object[]
+  fullname.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: Testify.ActualValue{System.Single}
+  parent: Testify
+  definition: Testify.ActualValue`1
+  name: ActualValue<Single>
+  fullName: Testify.ActualValue<System.Single>
+  fullname.vb: Testify.ActualValue(Of System.Single)
+  name.vb: ActualValue(Of Single)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  fullName: System.Single
+- uid: Testify.ActualValue{{T}}
+  parent: Testify
+  definition: Testify.ActualValue`1
+  name: ActualValue<T>
+  fullName: Testify.ActualValue<T>
+  fullname.vb: Testify.ActualValue(Of T)
+  name.vb: ActualValue(Of T)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: '{T}'
+  isExternal: false
+  name: T
+  fullName: T
+- uid: Testify.ActualValue{System.Boolean}
+  parent: Testify
+  definition: Testify.ActualValue`1
+  name: ActualValue<Boolean>
+  fullName: Testify.ActualValue<System.Boolean>
+  fullname.vb: Testify.ActualValue(Of System.Boolean)
+  name.vb: ActualValue(Of Boolean)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  fullName: System.Type

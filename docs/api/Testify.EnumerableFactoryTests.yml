@@ -1,0 +1,349 @@
+items:
+- uid: Testify.EnumerableFactoryTests
+  id: EnumerableFactoryTests
+  parent: Testify
+  children:
+  - Testify.EnumerableFactoryTests.TestCreateEnumerable_Type
+  - Testify.EnumerableFactoryTests.TestCreateEnumerable_TypeMinMaxLength
+  - Testify.EnumerableFactoryTests.TestCreateEnumerableOfT
+  - Testify.EnumerableFactoryTests.TestCreateEnumerableT_MinMaxLength
+  langs:
+  - csharp
+  - vb
+  name: EnumerableFactoryTests
+  fullName: Testify.EnumerableFactoryTests
+  type: Class
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumerableFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumerableFactoryTests.cs
+    startLine: 5
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public class EnumerableFactoryTests
+    content.vb: Public Class EnumerableFactoryTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Testify.EnumerableFactoryTests.TestCreateEnumerable_Type
+  id: TestCreateEnumerable_Type
+  parent: Testify.EnumerableFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: TestCreateEnumerable_Type()
+  fullName: Testify.EnumerableFactoryTests.TestCreateEnumerable_Type()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumerableFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumerableFactoryTests.cs
+    startLine: 7
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void TestCreateEnumerable_Type()
+    content.vb: Public Sub TestCreateEnumerable_Type
+- uid: Testify.EnumerableFactoryTests.TestCreateEnumerable_TypeMinMaxLength
+  id: TestCreateEnumerable_TypeMinMaxLength
+  parent: Testify.EnumerableFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: TestCreateEnumerable_TypeMinMaxLength()
+  fullName: Testify.EnumerableFactoryTests.TestCreateEnumerable_TypeMinMaxLength()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumerableFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumerableFactoryTests.cs
+    startLine: 17
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void TestCreateEnumerable_TypeMinMaxLength()
+    content.vb: Public Sub TestCreateEnumerable_TypeMinMaxLength
+- uid: Testify.EnumerableFactoryTests.TestCreateEnumerableOfT
+  id: TestCreateEnumerableOfT
+  parent: Testify.EnumerableFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: TestCreateEnumerableOfT()
+  fullName: Testify.EnumerableFactoryTests.TestCreateEnumerableOfT()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumerableFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumerableFactoryTests.cs
+    startLine: 29
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void TestCreateEnumerableOfT()
+    content.vb: Public Sub TestCreateEnumerableOfT
+- uid: Testify.EnumerableFactoryTests.TestCreateEnumerableT_MinMaxLength
+  id: TestCreateEnumerableT_MinMaxLength
+  parent: Testify.EnumerableFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: TestCreateEnumerableT_MinMaxLength()
+  fullName: Testify.EnumerableFactoryTests.TestCreateEnumerableT_MinMaxLength()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumerableFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumerableFactoryTests.cs
+    startLine: 39
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void TestCreateEnumerableT_MinMaxLength()
+    content.vb: Public Sub TestCreateEnumerableT_MinMaxLength
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System

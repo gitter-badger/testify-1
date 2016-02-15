@@ -1,0 +1,1821 @@
+items:
+- uid: Testify.StandardAssertionsTests
+  id: StandardAssertionsTests
+  parent: Testify
+  children:
+  - Testify.StandardAssertionsTests.IsEqual_GivenSameValues_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsEqualTo_Double_GivenValuesThatDifferByDelta_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldThrow
+  - Testify.StandardAssertionsTests.IsEqualTo_Double_NaN_ShouldThrow
+  - Testify.StandardAssertionsTests.IsEqualTo_GivenDifferentTypes_ShouldThrow
+  - Testify.StandardAssertionsTests.IsEqualTo_GivenDifferentTypesAndMessage_ShouldThrow
+  - Testify.StandardAssertionsTests.IsEqualTo_GivenDifferentTypesAndMessageParameters_ShouldThrow
+  - Testify.StandardAssertionsTests.IsEqualTo_GivenDifferentValues_ShouldThrow
+  - Testify.StandardAssertionsTests.IsEqualTo_GivenMessage_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsEqualTo_Single_GivenValuesThatDifferByDelta_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldThrow
+  - Testify.StandardAssertionsTests.IsEqualTo_Single_NaN_ShouldThrow
+  - Testify.StandardAssertionsTests.IsFalse_GivenFalse_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsFalse_GivenMessage_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsFalse_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsFalse_GivenTrue_ShouldThrow
+  - Testify.StandardAssertionsTests.IsInstanceOfType_GivenCorrectType_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsInstanceOfType_GivenIncorrectType_ShouldThrow
+  - Testify.StandardAssertionsTests.IsInstanceOfType_GivenMessage_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsNotEqual_GivenDifferentValues_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenValuesThatDifferByDelta_ShouldThrow
+  - Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldThrow
+  - Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsNotEqualTo_GivenDifferentTypes_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsNotEqualTo_GivenDifferentTypesAndMessage_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsNotEqualTo_GivenDifferentTypesMessageParameters_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsNotEqualTo_GivenMessage_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsNotEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsNotEqualTo_GivenSameValues_ShouldThrow
+  - Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenValuesThatDifferByDelta_ShouldThrow
+  - Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldThrow
+  - Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsNotInstanceOfType_GivenCorrectType_ShouldThrow
+  - Testify.StandardAssertionsTests.IsNotInstanceOfType_GivenIncorrectType_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsNotInstanceOfType_GivenMessage_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsNotInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsNotNull_GivenMessage_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsNotNull_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsNotNull_GivenNull_ShouldThrow
+  - Testify.StandardAssertionsTests.IsNotNull_GivenReference_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsNotSameAs_GivenDifferentInstances_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsNotSameAs_GivenMessage_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsNotSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsNotSameAs_GivenSameInstances_ShouldThrow
+  - Testify.StandardAssertionsTests.IsNull_GivenMessage_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsNull_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsNull_GivenNull_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsNull_GivenReference_ShouldThrow
+  - Testify.StandardAssertionsTests.IsSameAs_GivenDifferentInstances_ShouldThrow
+  - Testify.StandardAssertionsTests.IsSameAs_GivenMessage_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsSameAs_GivenSameInstances_ShouldNotThrow
+  - Testify.StandardAssertionsTests.IsTrue_GivenFalse_ShouldThrow
+  - Testify.StandardAssertionsTests.IsTrue_GivenMessage_ShouldDisplayMessage
+  - Testify.StandardAssertionsTests.IsTrue_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StandardAssertionsTests.IsTrue_GivenTrue_ShouldNotThrow
+  langs:
+  - csharp
+  - vb
+  name: StandardAssertionsTests
+  fullName: Testify.StandardAssertionsTests
+  type: Class
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 6
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public class StandardAssertionsTests
+    content.vb: Public Class StandardAssertionsTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Testify.StandardAssertionsTests.IsEqual_GivenSameValues_ShouldNotThrow
+  id: IsEqual_GivenSameValues_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqual_GivenSameValues_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqual_GivenSameValues_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 8
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqual_GivenSameValues_ShouldNotThrow()
+    content.vb: Public Sub IsEqual_GivenSameValues_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 15
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage
+  id: IsEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 31
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage()
+    content.vb: Public Sub IsEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsEqualTo_Double_GivenValuesThatDifferByDelta_ShouldNotThrow
+  id: IsEqualTo_Double_GivenValuesThatDifferByDelta_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_Double_GivenValuesThatDifferByDelta_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_Double_GivenValuesThatDifferByDelta_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 47
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_Double_GivenValuesThatDifferByDelta_ShouldNotThrow()
+    content.vb: Public Sub IsEqualTo_Double_GivenValuesThatDifferByDelta_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow
+  id: IsEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 53
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow()
+    content.vb: Public Sub IsEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldThrow
+  id: IsEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 59
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldThrow()
+    content.vb: Public Sub IsEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsEqualTo_Double_NaN_ShouldThrow
+  id: IsEqualTo_Double_NaN_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_Double_NaN_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_Double_NaN_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 75
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_Double_NaN_ShouldThrow()
+    content.vb: Public Sub IsEqualTo_Double_NaN_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsEqualTo_GivenDifferentTypes_ShouldThrow
+  id: IsEqualTo_GivenDifferentTypes_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_GivenDifferentTypes_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_GivenDifferentTypes_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 91
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_GivenDifferentTypes_ShouldThrow()
+    content.vb: Public Sub IsEqualTo_GivenDifferentTypes_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsEqualTo_GivenDifferentTypesAndMessage_ShouldThrow
+  id: IsEqualTo_GivenDifferentTypesAndMessage_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_GivenDifferentTypesAndMessage_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_GivenDifferentTypesAndMessage_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 109
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_GivenDifferentTypesAndMessage_ShouldThrow()
+    content.vb: Public Sub IsEqualTo_GivenDifferentTypesAndMessage_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsEqualTo_GivenDifferentTypesAndMessageParameters_ShouldThrow
+  id: IsEqualTo_GivenDifferentTypesAndMessageParameters_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_GivenDifferentTypesAndMessageParameters_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_GivenDifferentTypesAndMessageParameters_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 127
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_GivenDifferentTypesAndMessageParameters_ShouldThrow()
+    content.vb: Public Sub IsEqualTo_GivenDifferentTypesAndMessageParameters_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsEqualTo_GivenDifferentValues_ShouldThrow
+  id: IsEqualTo_GivenDifferentValues_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_GivenDifferentValues_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_GivenDifferentValues_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 145
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_GivenDifferentValues_ShouldThrow()
+    content.vb: Public Sub IsEqualTo_GivenDifferentValues_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsEqualTo_GivenMessage_ShouldDisplayMessage
+  id: IsEqualTo_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 163
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub IsEqualTo_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 181
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 199
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage
+  id: IsEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 215
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage()
+    content.vb: Public Sub IsEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsEqualTo_Single_GivenValuesThatDifferByDelta_ShouldNotThrow
+  id: IsEqualTo_Single_GivenValuesThatDifferByDelta_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_Single_GivenValuesThatDifferByDelta_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_Single_GivenValuesThatDifferByDelta_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 231
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_Single_GivenValuesThatDifferByDelta_ShouldNotThrow()
+    content.vb: Public Sub IsEqualTo_Single_GivenValuesThatDifferByDelta_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow
+  id: IsEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 237
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow()
+    content.vb: Public Sub IsEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldThrow
+  id: IsEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 243
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldThrow()
+    content.vb: Public Sub IsEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsEqualTo_Single_NaN_ShouldThrow
+  id: IsEqualTo_Single_NaN_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo_Single_NaN_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsEqualTo_Single_NaN_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 259
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEqualTo_Single_NaN_ShouldThrow()
+    content.vb: Public Sub IsEqualTo_Single_NaN_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsFalse_GivenFalse_ShouldNotThrow
+  id: IsFalse_GivenFalse_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsFalse_GivenFalse_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsFalse_GivenFalse_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 275
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsFalse_GivenFalse_ShouldNotThrow()
+    content.vb: Public Sub IsFalse_GivenFalse_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsFalse_GivenMessage_ShouldDisplayMessage
+  id: IsFalse_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsFalse_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsFalse_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 281
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsFalse_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub IsFalse_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsFalse_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsFalse_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsFalse_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsFalse_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 297
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsFalse_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsFalse_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsFalse_GivenTrue_ShouldThrow
+  id: IsFalse_GivenTrue_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsFalse_GivenTrue_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsFalse_GivenTrue_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 313
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsFalse_GivenTrue_ShouldThrow()
+    content.vb: Public Sub IsFalse_GivenTrue_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsInstanceOfType_GivenCorrectType_ShouldNotThrow
+  id: IsInstanceOfType_GivenCorrectType_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsInstanceOfType_GivenCorrectType_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsInstanceOfType_GivenCorrectType_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 329
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsInstanceOfType_GivenCorrectType_ShouldNotThrow()
+    content.vb: Public Sub IsInstanceOfType_GivenCorrectType_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsInstanceOfType_GivenIncorrectType_ShouldThrow
+  id: IsInstanceOfType_GivenIncorrectType_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsInstanceOfType_GivenIncorrectType_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsInstanceOfType_GivenIncorrectType_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 335
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsInstanceOfType_GivenIncorrectType_ShouldThrow()
+    content.vb: Public Sub IsInstanceOfType_GivenIncorrectType_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsInstanceOfType_GivenMessage_ShouldDisplayMessage
+  id: IsInstanceOfType_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsInstanceOfType_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsInstanceOfType_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 351
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsInstanceOfType_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub IsInstanceOfType_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 367
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsNotEqual_GivenDifferentValues_ShouldNotThrow
+  id: IsNotEqual_GivenDifferentValues_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqual_GivenDifferentValues_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotEqual_GivenDifferentValues_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 383
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqual_GivenDifferentValues_ShouldNotThrow()
+    content.vb: Public Sub IsNotEqual_GivenDifferentValues_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 390
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage
+  id: IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 406
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotEqualTo_Double_GivenMessageParameters_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenValuesThatDifferByDelta_ShouldThrow
+  id: IsNotEqualTo_Double_GivenValuesThatDifferByDelta_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_Double_GivenValuesThatDifferByDelta_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenValuesThatDifferByDelta_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 422
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_Double_GivenValuesThatDifferByDelta_ShouldThrow()
+    content.vb: Public Sub IsNotEqualTo_Double_GivenValuesThatDifferByDelta_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldThrow
+  id: IsNotEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 438
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldThrow()
+    content.vb: Public Sub IsNotEqualTo_Double_GivenValuesThatDifferByLessThanDelta_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow
+  id: IsNotEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 454
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow()
+    content.vb: Public Sub IsNotEqualTo_Double_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_GivenDifferentTypes_ShouldNotThrow
+  id: IsNotEqualTo_GivenDifferentTypes_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_GivenDifferentTypes_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_GivenDifferentTypes_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 460
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_GivenDifferentTypes_ShouldNotThrow()
+    content.vb: Public Sub IsNotEqualTo_GivenDifferentTypes_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_GivenDifferentTypesAndMessage_ShouldNotThrow
+  id: IsNotEqualTo_GivenDifferentTypesAndMessage_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_GivenDifferentTypesAndMessage_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_GivenDifferentTypesAndMessage_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 468
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_GivenDifferentTypesAndMessage_ShouldNotThrow()
+    content.vb: Public Sub IsNotEqualTo_GivenDifferentTypesAndMessage_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_GivenDifferentTypesMessageParameters_ShouldNotThrow
+  id: IsNotEqualTo_GivenDifferentTypesMessageParameters_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_GivenDifferentTypesMessageParameters_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_GivenDifferentTypesMessageParameters_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 476
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_GivenDifferentTypesMessageParameters_ShouldNotThrow()
+    content.vb: Public Sub IsNotEqualTo_GivenDifferentTypesMessageParameters_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_GivenMessage_ShouldDisplayMessage
+  id: IsNotEqualTo_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 484
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotEqualTo_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsNotEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 501
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotEqualTo_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_GivenSameValues_ShouldThrow
+  id: IsNotEqualTo_GivenSameValues_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_GivenSameValues_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_GivenSameValues_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 518
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_GivenSameValues_ShouldThrow()
+    content.vb: Public Sub IsNotEqualTo_GivenSameValues_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 535
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage
+  id: IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 551
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotEqualTo_Single_GivenMessageParameters_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenValuesThatDifferByDelta_ShouldThrow
+  id: IsNotEqualTo_Single_GivenValuesThatDifferByDelta_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_Single_GivenValuesThatDifferByDelta_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenValuesThatDifferByDelta_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 567
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_Single_GivenValuesThatDifferByDelta_ShouldThrow()
+    content.vb: Public Sub IsNotEqualTo_Single_GivenValuesThatDifferByDelta_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldThrow
+  id: IsNotEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 583
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldThrow()
+    content.vb: Public Sub IsNotEqualTo_Single_GivenValuesThatDifferByLessThanDelta_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow
+  id: IsNotEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 599
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow()
+    content.vb: Public Sub IsNotEqualTo_Single_GivenValuesThatDifferByMoreThanDelta_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsNotInstanceOfType_GivenCorrectType_ShouldThrow
+  id: IsNotInstanceOfType_GivenCorrectType_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotInstanceOfType_GivenCorrectType_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotInstanceOfType_GivenCorrectType_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 605
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotInstanceOfType_GivenCorrectType_ShouldThrow()
+    content.vb: Public Sub IsNotInstanceOfType_GivenCorrectType_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsNotInstanceOfType_GivenIncorrectType_ShouldNotThrow
+  id: IsNotInstanceOfType_GivenIncorrectType_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotInstanceOfType_GivenIncorrectType_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotInstanceOfType_GivenIncorrectType_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 621
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotInstanceOfType_GivenIncorrectType_ShouldNotThrow()
+    content.vb: Public Sub IsNotInstanceOfType_GivenIncorrectType_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsNotInstanceOfType_GivenMessage_ShouldDisplayMessage
+  id: IsNotInstanceOfType_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotInstanceOfType_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsNotInstanceOfType_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 627
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotInstanceOfType_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotInstanceOfType_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsNotInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsNotInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsNotInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 643
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotInstanceOfType_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsNotNull_GivenMessage_ShouldDisplayMessage
+  id: IsNotNull_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotNull_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsNotNull_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 659
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotNull_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotNull_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsNotNull_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsNotNull_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotNull_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsNotNull_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 675
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotNull_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotNull_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsNotNull_GivenNull_ShouldThrow
+  id: IsNotNull_GivenNull_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotNull_GivenNull_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotNull_GivenNull_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 691
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotNull_GivenNull_ShouldThrow()
+    content.vb: Public Sub IsNotNull_GivenNull_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsNotNull_GivenReference_ShouldNotThrow
+  id: IsNotNull_GivenReference_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotNull_GivenReference_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotNull_GivenReference_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 707
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotNull_GivenReference_ShouldNotThrow()
+    content.vb: Public Sub IsNotNull_GivenReference_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsNotSameAs_GivenDifferentInstances_ShouldNotThrow
+  id: IsNotSameAs_GivenDifferentInstances_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSameAs_GivenDifferentInstances_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotSameAs_GivenDifferentInstances_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 713
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSameAs_GivenDifferentInstances_ShouldNotThrow()
+    content.vb: Public Sub IsNotSameAs_GivenDifferentInstances_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsNotSameAs_GivenMessage_ShouldDisplayMessage
+  id: IsNotSameAs_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSameAs_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsNotSameAs_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 719
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSameAs_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotSameAs_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsNotSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsNotSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsNotSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 736
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsNotSameAs_GivenSameInstances_ShouldThrow
+  id: IsNotSameAs_GivenSameInstances_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSameAs_GivenSameInstances_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsNotSameAs_GivenSameInstances_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 753
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSameAs_GivenSameInstances_ShouldThrow()
+    content.vb: Public Sub IsNotSameAs_GivenSameInstances_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsNull_GivenMessage_ShouldDisplayMessage
+  id: IsNull_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNull_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsNull_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 770
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNull_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub IsNull_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsNull_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsNull_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNull_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsNull_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 786
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNull_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNull_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsNull_GivenNull_ShouldNotThrow
+  id: IsNull_GivenNull_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNull_GivenNull_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsNull_GivenNull_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 802
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNull_GivenNull_ShouldNotThrow()
+    content.vb: Public Sub IsNull_GivenNull_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsNull_GivenReference_ShouldThrow
+  id: IsNull_GivenReference_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNull_GivenReference_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsNull_GivenReference_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 808
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNull_GivenReference_ShouldThrow()
+    content.vb: Public Sub IsNull_GivenReference_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsSameAs_GivenDifferentInstances_ShouldThrow
+  id: IsSameAs_GivenDifferentInstances_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSameAs_GivenDifferentInstances_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsSameAs_GivenDifferentInstances_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 824
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSameAs_GivenDifferentInstances_ShouldThrow()
+    content.vb: Public Sub IsSameAs_GivenDifferentInstances_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsSameAs_GivenMessage_ShouldDisplayMessage
+  id: IsSameAs_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSameAs_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsSameAs_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 840
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSameAs_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub IsSameAs_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 856
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsSameAs_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsSameAs_GivenSameInstances_ShouldNotThrow
+  id: IsSameAs_GivenSameInstances_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSameAs_GivenSameInstances_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsSameAs_GivenSameInstances_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 872
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSameAs_GivenSameInstances_ShouldNotThrow()
+    content.vb: Public Sub IsSameAs_GivenSameInstances_ShouldNotThrow
+- uid: Testify.StandardAssertionsTests.IsTrue_GivenFalse_ShouldThrow
+  id: IsTrue_GivenFalse_ShouldThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsTrue_GivenFalse_ShouldThrow()
+  fullName: Testify.StandardAssertionsTests.IsTrue_GivenFalse_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 879
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsTrue_GivenFalse_ShouldThrow()
+    content.vb: Public Sub IsTrue_GivenFalse_ShouldThrow
+- uid: Testify.StandardAssertionsTests.IsTrue_GivenMessage_ShouldDisplayMessage
+  id: IsTrue_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsTrue_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StandardAssertionsTests.IsTrue_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 895
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsTrue_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub IsTrue_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StandardAssertionsTests.IsTrue_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: IsTrue_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsTrue_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StandardAssertionsTests.IsTrue_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 911
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsTrue_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsTrue_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StandardAssertionsTests.IsTrue_GivenTrue_ShouldNotThrow
+  id: IsTrue_GivenTrue_ShouldNotThrow
+  parent: Testify.StandardAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsTrue_GivenTrue_ShouldNotThrow()
+  fullName: Testify.StandardAssertionsTests.IsTrue_GivenTrue_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StandardAssertionsTests.cs
+    startLine: 927
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsTrue_GivenTrue_ShouldNotThrow()
+    content.vb: Public Sub IsTrue_GivenTrue_ShouldNotThrow
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System

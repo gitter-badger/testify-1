@@ -1,0 +1,742 @@
+items:
+- uid: Testify.Assertions
+  id: Assertions
+  parent: Testify
+  children:
+  - Testify.Assertions.Assert(System.Action)
+  - Testify.Assertions.Assert``1(``0)
+  - Testify.Assertions.AssertAll(System.String,System.Action[])
+  - Testify.Assertions.Combine``1(System.String,System.Action{``0}[])
+  - Testify.Assertions.Fail(System.String)
+  - Testify.Assertions.Fail(System.String,System.Object[])
+  - Testify.Assertions.ReplaceNullChars(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Assertions
+  fullName: Testify.Assertions
+  type: Class
+  source:
+    remote:
+      path: src/Testify/Assertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Assertions.cs
+    startLine: 12
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Provides methods for starting fluent assertions.
+  example: []
+  syntax:
+    content: public class Assertions
+    content.vb: Public Class Assertions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Testify.Assertions.Assert``1(``0)
+  id: Assert``1(``0)
+  parent: Testify.Assertions
+  langs:
+  - csharp
+  - vb
+  name: Assert<T>(T)
+  name.vb: Assert(Of T)(T)
+  fullName: Testify.Assertions.Assert<T>(T)
+  fullName.vb: Testify.Assertions.Assert(Of T)(T)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Assertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Assertions.cs
+    startLine: 21
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Begins a fluent assertion by providing the actual value.
+  example: []
+  syntax:
+    content: public static ActualValue<T> Assert<T>(T actualValue)
+    content.vb: Public Shared Function Assert(Of T)(actualValue As T) As ActualValue(Of T)
+    parameters:
+    - id: actualValue
+      type: '{T}'
+      description: The actual value.
+    typeParameters:
+    - id: T
+      description: The type of the actual value.
+    return:
+      type: Testify.ActualValue{{T}}
+      description: >-
+        An <xref href="Testify.ActualValue`1" data-throw-if-not-resolved="false"></xref> instance that can be used to declare
+
+        fluent assertions.
+- uid: Testify.Assertions.Assert(System.Action)
+  id: Assert(System.Action)
+  parent: Testify.Assertions
+  langs:
+  - csharp
+  - vb
+  name: Assert(Action)
+  fullName: Testify.Assertions.Assert(System.Action)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Assertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Assertions.cs
+    startLine: 29
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Asserts the specified action.
+  example: []
+  syntax:
+    content: public static ActualValue<Action> Assert(Action action)
+    content.vb: Public Shared Function Assert(action As Action) As ActualValue(Of Action)
+    parameters:
+    - id: action
+      type: System.Action
+      description: The action.
+    return:
+      type: Testify.ActualValue{System.Action}
+      description: >-
+        An <xref href="Testify.ActualValue`1" data-throw-if-not-resolved="false"></xref> instance that can be used to declare
+
+        fluent assertions.
+- uid: Testify.Assertions.AssertAll(System.String,System.Action[])
+  id: AssertAll(System.String,System.Action[])
+  parent: Testify.Assertions
+  langs:
+  - csharp
+  - vb
+  name: AssertAll(String, Action[])
+  name.vb: AssertAll(String, Action())
+  fullName: Testify.Assertions.AssertAll(System.String, System.Action[])
+  fullName.vb: Testify.Assertions.AssertAll(System.String, System.Action())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Assertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Assertions.cs
+    startLine: 36
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Declares a compound assertion.
+  example: []
+  syntax:
+    content: public static void AssertAll(string message, params Action[] assertions)
+    content.vb: Public Shared Sub AssertAll(message As String, ParamArray assertions As Action())
+    parameters:
+    - id: message
+      type: System.String
+      description: The message.
+    - id: assertions
+      type: System.Action[]
+      description: The assertions.
+- uid: Testify.Assertions.Combine``1(System.String,System.Action{``0}[])
+  id: Combine``1(System.String,System.Action{``0}[])
+  parent: Testify.Assertions
+  langs:
+  - csharp
+  - vb
+  name: Combine<T>(String, Action<T>[])
+  name.vb: Combine(Of T)(String, Action(Of T)())
+  fullName: Testify.Assertions.Combine<T>(System.String, System.Action<T>[])
+  fullName.vb: Testify.Assertions.Combine(Of T)(System.String, System.Action(Of T)())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Assertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Assertions.cs
+    startLine: 64
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Combines the specified assertions.
+  example: []
+  syntax:
+    content: public static Action<T> Combine<T>(string message, params Action<T>[] assertions)
+    content.vb: Public Shared Function Combine(Of T)(message As String, ParamArray assertions As Action(Of T)()) As Action(Of T)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message.
+    - id: assertions
+      type: System.Action{{T}}[]
+      description: The assertions.
+    typeParameters:
+    - id: T
+      description: The type to assert on.
+    return:
+      type: System.Action{{T}}
+      description: An <xref href="System.Action`1" data-throw-if-not-resolved="false"></xref> that combines the assertions.
+- uid: Testify.Assertions.Fail(System.String)
+  id: Fail(System.String)
+  parent: Testify.Assertions
+  langs:
+  - csharp
+  - vb
+  name: Fail(String)
+  fullName: Testify.Assertions.Fail(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Assertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Assertions.cs
+    startLine: 72
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Fails with an <xref href="Testify.AssertionException" data-throw-if-not-resolved="false"></xref> without checking any conditions. Displays
+
+    a message.
+  example: []
+  syntax:
+    content: public static void Fail(string message)
+    content.vb: Public Shared Sub Fail(message As String)
+    parameters:
+    - id: message
+      type: System.String
+      description: A message to display. This message can be seen in the unit test results.
+- uid: Testify.Assertions.Fail(System.String,System.Object[])
+  id: Fail(System.String,System.Object[])
+  parent: Testify.Assertions
+  langs:
+  - csharp
+  - vb
+  name: Fail(String, Object[])
+  name.vb: Fail(String, Object())
+  fullName: Testify.Assertions.Fail(System.String, System.Object[])
+  fullName.vb: Testify.Assertions.Fail(System.String, System.Object())
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Assertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Assertions.cs
+    startLine: 83
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Fails with an <xref href="Testify.AssertionException" data-throw-if-not-resolved="false"></xref> without checking any conditions. Displays
+
+    a message, and applies the specified formatting to it.
+  example: []
+  syntax:
+    content: public static void Fail(string message, params object[] parameters)
+    content.vb: Public Shared Sub Fail(message As String, ParamArray parameters As Object())
+    parameters:
+    - id: message
+      type: System.String
+      description: A message to display. This message can be seen in the unit test results.
+    - id: parameters
+      type: System.Object[]
+      description: An array of parameters to use when formatting *message*.
+- uid: Testify.Assertions.ReplaceNullChars(System.String)
+  id: ReplaceNullChars(System.String)
+  parent: Testify.Assertions
+  langs:
+  - csharp
+  - vb
+  name: ReplaceNullChars(String)
+  fullName: Testify.Assertions.ReplaceNullChars(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/Assertions.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/Assertions.cs
+    startLine: 94
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: In a string, replaces null characters ("\0") with "\\0".
+  example: []
+  syntax:
+    content: public static string ReplaceNullChars(string input)
+    content.vb: Public Shared Function ReplaceNullChars(input As String) As String
+    parameters:
+    - id: input
+      type: System.String
+      description: The input.
+    return:
+      type: System.String
+      description: The result.
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: Testify.ActualValue`1
+  parent: Testify
+  isExternal: false
+  name: ActualValue<T>
+  fullName: Testify.ActualValue<T>
+  fullname.vb: Testify.ActualValue(Of T)
+  name.vb: ActualValue(Of T)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: '{T}'
+  isExternal: false
+  name: T
+  fullName: T
+- uid: Testify.ActualValue{{T}}
+  parent: Testify
+  definition: Testify.ActualValue`1
+  name: ActualValue<T>
+  fullName: Testify.ActualValue<T>
+  fullname.vb: Testify.ActualValue(Of T)
+  name.vb: ActualValue(Of T)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  fullName: System.Action
+- uid: Testify.ActualValue{System.Action}
+  parent: Testify
+  definition: Testify.ActualValue`1
+  name: ActualValue<Action>
+  fullName: Testify.ActualValue<System.Action>
+  fullname.vb: Testify.ActualValue(Of System.Action)
+  name.vb: ActualValue(Of Action)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - uid: System.Action
+    name: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: System.Action
+    name: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.String
+  parent: System
+  isExternal: true
+  name: String
+  fullName: System.String
+- uid: System.Action[]
+  isExternal: true
+  name: Action[]
+  fullName: System.Action[]
+  fullname.vb: System.Action()
+  name.vb: Action()
+  spec.csharp:
+  - uid: System.Action
+    name: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Action
+    name: Action
+    fullName: System.Action
+    isExternal: true
+  - name: ()
+    fullName: ()
+- uid: System.Action`1
+  parent: System
+  isExternal: true
+  name: Action<T>
+  fullName: System.Action<T>
+  fullname.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: System.Action{{T}}[]
+  isExternal: true
+  name: Action<T>[]
+  fullName: System.Action<T>[]
+  fullname.vb: System.Action(Of T)()
+  name.vb: Action(Of T)()
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+  - name: ()
+    fullName: ()
+- uid: System.Action{{T}}
+  parent: System
+  definition: System.Action`1
+  name: Action<T>
+  fullName: System.Action<T>
+  fullname.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: Testify.AssertionException
+  isExternal: false
+  name: AssertionException
+  fullName: Testify.AssertionException
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  fullName: System.Object[]
+  fullname.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    fullName: ()

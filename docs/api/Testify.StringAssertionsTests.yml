@@ -1,0 +1,717 @@
+items:
+- uid: Testify.StringAssertionsTests
+  id: StringAssertionsTests
+  parent: Testify
+  children:
+  - Testify.StringAssertionsTests.Contains_GivenMessage_ShouldDisplayMessage
+  - Testify.StringAssertionsTests.Contains_GivenMessageParameters_ShouldDisplayMessage
+  - Testify.StringAssertionsTests.Contains_NonSubstring_ShouldThrow
+  - Testify.StringAssertionsTests.Contains_Substring_ShouldNotThrow
+  - Testify.StringAssertionsTests.DoesNotMatch_GivenMessage_ShouldDisplayMessage
+  - Testify.StringAssertionsTests.DoesNotMatch_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StringAssertionsTests.DoesNotMatch_Match_ShouldThrow
+  - Testify.StringAssertionsTests.DoesNotMatch_Mismatch_ShouldNotThrow
+  - Testify.StringAssertionsTests.EndsWith_GivenMessage_ShouldDisplayMessage
+  - Testify.StringAssertionsTests.EndsWith_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StringAssertionsTests.EndsWith_NonSuffix_ShouldThrow
+  - Testify.StringAssertionsTests.EndsWith_Suffix_ShouldNotThrow
+  - Testify.StringAssertionsTests.Matches_GivenMessage_ShouldDisplayMessage
+  - Testify.StringAssertionsTests.Matches_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StringAssertionsTests.Matches_Match_ShouldNotThrow
+  - Testify.StringAssertionsTests.Matches_Mismatch_ShouldThrow
+  - Testify.StringAssertionsTests.StartsWith_GivenMessage_ShouldDisplayMessage
+  - Testify.StringAssertionsTests.StartsWith_GivenMessageParameters_ShouldDisplayFormattedMessage
+  - Testify.StringAssertionsTests.StartsWith_NonPrefix_ShouldThrow
+  - Testify.StringAssertionsTests.StartsWith_Prefix_ShouldNotThrow
+  langs:
+  - csharp
+  - vb
+  name: StringAssertionsTests
+  fullName: Testify.StringAssertionsTests
+  type: Class
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 6
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public class StringAssertionsTests
+    content.vb: Public Class StringAssertionsTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Testify.StringAssertionsTests.Contains_GivenMessage_ShouldDisplayMessage
+  id: Contains_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StringAssertionsTests.Contains_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 8
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub Contains_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StringAssertionsTests.Contains_GivenMessageParameters_ShouldDisplayMessage
+  id: Contains_GivenMessageParameters_ShouldDisplayMessage
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_GivenMessageParameters_ShouldDisplayMessage()
+  fullName: Testify.StringAssertionsTests.Contains_GivenMessageParameters_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 24
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_GivenMessageParameters_ShouldDisplayMessage()
+    content.vb: Public Sub Contains_GivenMessageParameters_ShouldDisplayMessage
+- uid: Testify.StringAssertionsTests.Contains_NonSubstring_ShouldThrow
+  id: Contains_NonSubstring_ShouldThrow
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_NonSubstring_ShouldThrow()
+  fullName: Testify.StringAssertionsTests.Contains_NonSubstring_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 40
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_NonSubstring_ShouldThrow()
+    content.vb: Public Sub Contains_NonSubstring_ShouldThrow
+- uid: Testify.StringAssertionsTests.Contains_Substring_ShouldNotThrow
+  id: Contains_Substring_ShouldNotThrow
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_Substring_ShouldNotThrow()
+  fullName: Testify.StringAssertionsTests.Contains_Substring_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 56
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_Substring_ShouldNotThrow()
+    content.vb: Public Sub Contains_Substring_ShouldNotThrow
+- uid: Testify.StringAssertionsTests.DoesNotMatch_GivenMessage_ShouldDisplayMessage
+  id: DoesNotMatch_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotMatch_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StringAssertionsTests.DoesNotMatch_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 62
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotMatch_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub DoesNotMatch_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StringAssertionsTests.DoesNotMatch_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: DoesNotMatch_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotMatch_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StringAssertionsTests.DoesNotMatch_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 78
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotMatch_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub DoesNotMatch_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StringAssertionsTests.DoesNotMatch_Match_ShouldThrow
+  id: DoesNotMatch_Match_ShouldThrow
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotMatch_Match_ShouldThrow()
+  fullName: Testify.StringAssertionsTests.DoesNotMatch_Match_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 94
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotMatch_Match_ShouldThrow()
+    content.vb: Public Sub DoesNotMatch_Match_ShouldThrow
+- uid: Testify.StringAssertionsTests.DoesNotMatch_Mismatch_ShouldNotThrow
+  id: DoesNotMatch_Mismatch_ShouldNotThrow
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotMatch_Mismatch_ShouldNotThrow()
+  fullName: Testify.StringAssertionsTests.DoesNotMatch_Mismatch_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 110
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotMatch_Mismatch_ShouldNotThrow()
+    content.vb: Public Sub DoesNotMatch_Mismatch_ShouldNotThrow
+- uid: Testify.StringAssertionsTests.EndsWith_GivenMessage_ShouldDisplayMessage
+  id: EndsWith_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: EndsWith_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StringAssertionsTests.EndsWith_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 116
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void EndsWith_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub
+- uid: Testify.StringAssertionsTests.EndsWith_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: EndsWith_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: EndsWith_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StringAssertionsTests.EndsWith_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 132
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void EndsWith_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub
+- uid: Testify.StringAssertionsTests.EndsWith_NonSuffix_ShouldThrow
+  id: EndsWith_NonSuffix_ShouldThrow
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: EndsWith_NonSuffix_ShouldThrow()
+  fullName: Testify.StringAssertionsTests.EndsWith_NonSuffix_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 148
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void EndsWith_NonSuffix_ShouldThrow()
+    content.vb: Public Sub
+- uid: Testify.StringAssertionsTests.EndsWith_Suffix_ShouldNotThrow
+  id: EndsWith_Suffix_ShouldNotThrow
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: EndsWith_Suffix_ShouldNotThrow()
+  fullName: Testify.StringAssertionsTests.EndsWith_Suffix_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 164
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void EndsWith_Suffix_ShouldNotThrow()
+    content.vb: Public Sub
+- uid: Testify.StringAssertionsTests.Matches_GivenMessage_ShouldDisplayMessage
+  id: Matches_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Matches_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StringAssertionsTests.Matches_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 170
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Matches_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub Matches_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StringAssertionsTests.Matches_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: Matches_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Matches_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StringAssertionsTests.Matches_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 186
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Matches_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub Matches_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StringAssertionsTests.Matches_Match_ShouldNotThrow
+  id: Matches_Match_ShouldNotThrow
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Matches_Match_ShouldNotThrow()
+  fullName: Testify.StringAssertionsTests.Matches_Match_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 202
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Matches_Match_ShouldNotThrow()
+    content.vb: Public Sub Matches_Match_ShouldNotThrow
+- uid: Testify.StringAssertionsTests.Matches_Mismatch_ShouldThrow
+  id: Matches_Mismatch_ShouldThrow
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Matches_Mismatch_ShouldThrow()
+  fullName: Testify.StringAssertionsTests.Matches_Mismatch_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 208
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Matches_Mismatch_ShouldThrow()
+    content.vb: Public Sub Matches_Mismatch_ShouldThrow
+- uid: Testify.StringAssertionsTests.StartsWith_GivenMessage_ShouldDisplayMessage
+  id: StartsWith_GivenMessage_ShouldDisplayMessage
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: StartsWith_GivenMessage_ShouldDisplayMessage()
+  fullName: Testify.StringAssertionsTests.StartsWith_GivenMessage_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 224
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void StartsWith_GivenMessage_ShouldDisplayMessage()
+    content.vb: Public Sub StartsWith_GivenMessage_ShouldDisplayMessage
+- uid: Testify.StringAssertionsTests.StartsWith_GivenMessageParameters_ShouldDisplayFormattedMessage
+  id: StartsWith_GivenMessageParameters_ShouldDisplayFormattedMessage
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: StartsWith_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  fullName: Testify.StringAssertionsTests.StartsWith_GivenMessageParameters_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 240
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void StartsWith_GivenMessageParameters_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub StartsWith_GivenMessageParameters_ShouldDisplayFormattedMessage
+- uid: Testify.StringAssertionsTests.StartsWith_NonPrefix_ShouldThrow
+  id: StartsWith_NonPrefix_ShouldThrow
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: StartsWith_NonPrefix_ShouldThrow()
+  fullName: Testify.StringAssertionsTests.StartsWith_NonPrefix_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 256
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void StartsWith_NonPrefix_ShouldThrow()
+    content.vb: Public Sub StartsWith_NonPrefix_ShouldThrow
+- uid: Testify.StringAssertionsTests.StartsWith_Prefix_ShouldNotThrow
+  id: StartsWith_Prefix_ShouldNotThrow
+  parent: Testify.StringAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: StartsWith_Prefix_ShouldNotThrow()
+  fullName: Testify.StringAssertionsTests.StartsWith_Prefix_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/StringAssertionsTests.cs
+    startLine: 272
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void StartsWith_Prefix_ShouldNotThrow()
+    content.vb: Public Sub StartsWith_Prefix_ShouldNotThrow
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System

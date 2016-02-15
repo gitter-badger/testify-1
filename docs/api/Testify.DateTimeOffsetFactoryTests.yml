@@ -1,0 +1,349 @@
+items:
+- uid: Testify.DateTimeOffsetFactoryTests
+  id: DateTimeOffsetFactoryTests
+  parent: Testify
+  children:
+  - Testify.DateTimeOffsetFactoryTests.CreateDateTimeOffset
+  - Testify.DateTimeOffsetFactoryTests.CreateDateTimeOffset_Distribution
+  - Testify.DateTimeOffsetFactoryTests.CreateDateTimeOffset_MinMax
+  - Testify.DateTimeOffsetFactoryTests.CreateDateTimeOffset_MinMaxDistribution
+  langs:
+  - csharp
+  - vb
+  name: DateTimeOffsetFactoryTests
+  fullName: Testify.DateTimeOffsetFactoryTests
+  type: Class
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/DateTimeOffsetFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/DateTimeOffsetFactoryTests.cs
+    startLine: 5
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public class DateTimeOffsetFactoryTests
+    content.vb: Public Class DateTimeOffsetFactoryTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Testify.DateTimeOffsetFactoryTests.CreateDateTimeOffset
+  id: CreateDateTimeOffset
+  parent: Testify.DateTimeOffsetFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateDateTimeOffset()
+  fullName: Testify.DateTimeOffsetFactoryTests.CreateDateTimeOffset()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/DateTimeOffsetFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/DateTimeOffsetFactoryTests.cs
+    startLine: 7
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateDateTimeOffset()
+    content.vb: Public Sub CreateDateTimeOffset
+- uid: Testify.DateTimeOffsetFactoryTests.CreateDateTimeOffset_Distribution
+  id: CreateDateTimeOffset_Distribution
+  parent: Testify.DateTimeOffsetFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateDateTimeOffset_Distribution()
+  fullName: Testify.DateTimeOffsetFactoryTests.CreateDateTimeOffset_Distribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/DateTimeOffsetFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/DateTimeOffsetFactoryTests.cs
+    startLine: 21
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateDateTimeOffset_Distribution()
+    content.vb: Public Sub CreateDateTimeOffset_Distribution
+- uid: Testify.DateTimeOffsetFactoryTests.CreateDateTimeOffset_MinMax
+  id: CreateDateTimeOffset_MinMax
+  parent: Testify.DateTimeOffsetFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateDateTimeOffset_MinMax()
+  fullName: Testify.DateTimeOffsetFactoryTests.CreateDateTimeOffset_MinMax()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/DateTimeOffsetFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/DateTimeOffsetFactoryTests.cs
+    startLine: 35
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateDateTimeOffset_MinMax()
+    content.vb: Public Sub CreateDateTimeOffset_MinMax
+- uid: Testify.DateTimeOffsetFactoryTests.CreateDateTimeOffset_MinMaxDistribution
+  id: CreateDateTimeOffset_MinMaxDistribution
+  parent: Testify.DateTimeOffsetFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateDateTimeOffset_MinMaxDistribution()
+  fullName: Testify.DateTimeOffsetFactoryTests.CreateDateTimeOffset_MinMaxDistribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/DateTimeOffsetFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/DateTimeOffsetFactoryTests.cs
+    startLine: 49
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateDateTimeOffset_MinMaxDistribution()
+    content.vb: Public Sub CreateDateTimeOffset_MinMaxDistribution
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System

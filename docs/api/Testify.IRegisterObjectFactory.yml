@@ -1,0 +1,159 @@
+items:
+- uid: Testify.IRegisterObjectFactory
+  id: IRegisterObjectFactory
+  parent: Testify
+  children:
+  - Testify.IRegisterObjectFactory.Register(System.Type,System.Func{Testify.IObjectFactory,System.Object})
+  langs:
+  - csharp
+  - vb
+  name: IRegisterObjectFactory
+  fullName: Testify.IRegisterObjectFactory
+  type: Interface
+  source:
+    remote:
+      path: src/Testify/IRegisterObjectFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/IRegisterObjectFactory.cs
+    startLine: 7
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Defines the interface used to register factory methods on an <xref href="Testify.ObjectFactory" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public interface IRegisterObjectFactory
+    content.vb: Public Interface IRegisterObjectFactory
+- uid: Testify.IRegisterObjectFactory.Register(System.Type,System.Func{Testify.IObjectFactory,System.Object})
+  id: Register(System.Type,System.Func{Testify.IObjectFactory,System.Object})
+  parent: Testify.IRegisterObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: Register(Type, Func<IObjectFactory, Object>)
+  name.vb: Register(Type, Func(Of IObjectFactory, Object))
+  fullName: Testify.IRegisterObjectFactory.Register(System.Type, System.Func<Testify.IObjectFactory, System.Object>)
+  fullName.vb: Testify.IRegisterObjectFactory.Register(System.Type, System.Func(Of Testify.IObjectFactory, System.Object))
+  type: Method
+  source:
+    remote:
+      path: src/Testify/IRegisterObjectFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/IRegisterObjectFactory.cs
+    startLine: 14
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Register a factory method for the specified type.
+  example: []
+  syntax:
+    content: void Register(Type type, Func<IObjectFactory, object> factory)
+    content.vb: Sub Register(type As Type, factory As Func(Of IObjectFactory, Object))
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type of object the factory method creates.
+    - id: factory
+      type: System.Func{Testify.IObjectFactory,System.Object}
+      description: The factory method.
+references:
+- uid: Testify.ObjectFactory
+  parent: Testify
+  isExternal: false
+  name: ObjectFactory
+  fullName: Testify.ObjectFactory
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  fullName: System.Type
+- uid: System.Func{Testify.IObjectFactory,System.Object}
+  parent: System
+  definition: System.Func`2
+  name: Func<IObjectFactory, Object>
+  fullName: System.Func<Testify.IObjectFactory, System.Object>
+  fullname.vb: System.Func(Of Testify.IObjectFactory, System.Object)
+  name.vb: Func(Of IObjectFactory, Object)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    fullName: <
+  - uid: Testify.IObjectFactory
+    name: IObjectFactory
+    fullName: Testify.IObjectFactory
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - uid: Testify.IObjectFactory
+    name: IObjectFactory
+    fullName: Testify.IObjectFactory
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: System.Func`2
+  parent: System
+  isExternal: true
+  name: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  fullname.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: ', '
+    fullName: ', '
+  - name: TResult
+    fullName: TResult
+  - name: )
+    fullName: )

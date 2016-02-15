@@ -1,0 +1,441 @@
+items:
+- uid: Testify.EnumFactory
+  id: EnumFactory
+  parent: Testify
+  children:
+  - Testify.EnumFactory.CreateEnumValue(Testify.IObjectFactory,System.Type)
+  - Testify.EnumFactory.CreateEnumValue(Testify.IObjectFactory,System.Type,Testify.Distribution)
+  - Testify.EnumFactory.CreateEnumValue``1(Testify.IObjectFactory)
+  - Testify.EnumFactory.CreateEnumValue``1(Testify.IObjectFactory,Testify.Distribution)
+  langs:
+  - csharp
+  - vb
+  name: EnumFactory
+  fullName: Testify.EnumFactory
+  type: Class
+  source:
+    remote:
+      path: src/Testify/EnumFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/EnumFactory.cs
+    startLine: 8
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Defines factory methods for creating <see langword="Enum" /> values.
+  example: []
+  syntax:
+    content: public class EnumFactory
+    content.vb: Public Class EnumFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Testify.EnumFactory.CreateEnumValue(Testify.IObjectFactory,System.Type)
+  id: CreateEnumValue(Testify.IObjectFactory,System.Type)
+  parent: Testify.EnumFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateEnumValue(IObjectFactory, Type)
+  fullName: Testify.EnumFactory.CreateEnumValue(Testify.IObjectFactory, System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/EnumFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/EnumFactory.cs
+    startLine: 17
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Creates a random value of the specified <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> type using a uniform distribution
+
+    algorithm.
+  example: []
+  syntax:
+    content: public static object CreateEnumValue(IObjectFactory factory, Type enumType)
+    content.vb: Public Shared Function CreateEnumValue(factory As IObjectFactory, enumType As Type) As Object
+    parameters:
+    - id: factory
+      type: Testify.IObjectFactory
+      description: The factory instance.
+    - id: enumType
+      type: System.Type
+      description: The <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> type.
+    return:
+      type: System.Object
+      description: A random value of the specified <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> type.
+- uid: Testify.EnumFactory.CreateEnumValue(Testify.IObjectFactory,System.Type,Testify.Distribution)
+  id: CreateEnumValue(Testify.IObjectFactory,System.Type,Testify.Distribution)
+  parent: Testify.EnumFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateEnumValue(IObjectFactory, Type, Distribution)
+  fullName: Testify.EnumFactory.CreateEnumValue(Testify.IObjectFactory, System.Type, Testify.Distribution)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/EnumFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/EnumFactory.cs
+    startLine: 34
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Creates a random value of the specified <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> type using the specified distribution
+
+    algorithm.
+  example: []
+  syntax:
+    content: public static object CreateEnumValue(IObjectFactory factory, Type enumType, Distribution distribution)
+    content.vb: Public Shared Function CreateEnumValue(factory As IObjectFactory, enumType As Type, distribution As Distribution) As Object
+    parameters:
+    - id: factory
+      type: Testify.IObjectFactory
+      description: The factory instance.
+    - id: enumType
+      type: System.Type
+      description: The <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> type.
+    - id: distribution
+      type: Testify.Distribution
+      description: The distribution algorithm to use.
+    return:
+      type: System.Object
+      description: A random value of the specified <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> type.
+- uid: Testify.EnumFactory.CreateEnumValue``1(Testify.IObjectFactory)
+  id: CreateEnumValue``1(Testify.IObjectFactory)
+  parent: Testify.EnumFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateEnumValue<T>(IObjectFactory)
+  name.vb: CreateEnumValue(Of T)(IObjectFactory)
+  fullName: Testify.EnumFactory.CreateEnumValue<T>(Testify.IObjectFactory)
+  fullName.vb: Testify.EnumFactory.CreateEnumValue(Of T)(Testify.IObjectFactory)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/EnumFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/EnumFactory.cs
+    startLine: 53
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Creates a random value of the specified <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> type using a uniform distribution
+
+    algorithm.
+  example: []
+  syntax:
+    content: public static T CreateEnumValue<T>(IObjectFactory factory)
+    content.vb: Public Shared Function CreateEnumValue(Of T)(factory As IObjectFactory) As T
+    parameters:
+    - id: factory
+      type: Testify.IObjectFactory
+      description: The factory instance.
+    typeParameters:
+    - id: T
+      description: The <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> type.
+    return:
+      type: '{T}'
+      description: A random value of the specified <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> type.
+- uid: Testify.EnumFactory.CreateEnumValue``1(Testify.IObjectFactory,Testify.Distribution)
+  id: CreateEnumValue``1(Testify.IObjectFactory,Testify.Distribution)
+  parent: Testify.EnumFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateEnumValue<T>(IObjectFactory, Distribution)
+  name.vb: CreateEnumValue(Of T)(IObjectFactory, Distribution)
+  fullName: Testify.EnumFactory.CreateEnumValue<T>(Testify.IObjectFactory, Testify.Distribution)
+  fullName.vb: Testify.EnumFactory.CreateEnumValue(Of T)(Testify.IObjectFactory, Testify.Distribution)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/EnumFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/EnumFactory.cs
+    startLine: 74
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Creates a random value of the specified <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> type using the specified distribution
+
+    algorithm.
+  example: []
+  syntax:
+    content: public static T CreateEnumValue<T>(IObjectFactory factory, Distribution distribution)
+    content.vb: Public Shared Function CreateEnumValue(Of T)(factory As IObjectFactory, distribution As Distribution) As T
+    parameters:
+    - id: factory
+      type: Testify.IObjectFactory
+      description: The factory instance.
+    - id: distribution
+      type: Testify.Distribution
+      description: The distribution algorithm to use.
+    typeParameters:
+    - id: T
+      description: The <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> type
+    return:
+      type: '{T}'
+      description: A random value of the specified <xref href="System.Enum" data-throw-if-not-resolved="false"></xref> type.
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: System.Enum
+- uid: Testify.IObjectFactory
+  parent: Testify
+  isExternal: false
+  name: IObjectFactory
+  fullName: Testify.IObjectFactory
+- uid: System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  fullName: System.Type
+- uid: Testify.Distribution
+  parent: Testify
+  isExternal: false
+  name: Distribution
+  fullName: Testify.Distribution
+- uid: '{T}'
+  isExternal: false
+  name: T
+  fullName: T

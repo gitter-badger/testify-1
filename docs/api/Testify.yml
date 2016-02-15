@@ -1,0 +1,362 @@
+items:
+- uid: Testify
+  id: Testify
+  children:
+  - Testify.ActualValue`1
+  - Testify.AssertionException
+  - Testify.AssertionExceptionTests
+  - Testify.Assertions
+  - Testify.AssertionsTests
+  - Testify.BoolFactory
+  - Testify.BoolFactoryTests
+  - Testify.ByteFactory
+  - Testify.ByteFactoryTests
+  - Testify.CharFactory
+  - Testify.CharFactoryTests
+  - Testify.Classification`1
+  - Testify.Classifier`1
+  - Testify.CollectionAssertions
+  - Testify.CollectionAssertionsTests
+  - Testify.DateTimeFactory
+  - Testify.DateTimeFactoryTests
+  - Testify.DateTimeOffsetFactory
+  - Testify.DateTimeOffsetFactoryTests
+  - Testify.Distribution
+  - Testify.DistributionTests
+  - Testify.DoubleFactory
+  - Testify.DoubleFactoryTests
+  - Testify.EnumerableFactory
+  - Testify.EnumerableFactoryTests
+  - Testify.EnumFactory
+  - Testify.EnumFactoryTests
+  - Testify.ExceptionAssertions
+  - Testify.ExceptionAssertionsTests
+  - Testify.Int16Factory
+  - Testify.Int16FactoryTests
+  - Testify.Int32Factory
+  - Testify.Int32FactoryTests
+  - Testify.Int64Factory
+  - Testify.Int64FactoryTests
+  - Testify.IObjectFactory
+  - Testify.IObjectFactoryContext
+  - Testify.IObjectFactoryCustomization
+  - Testify.IRegisterObjectFactory
+  - Testify.ObjectFactory
+  - Testify.ObjectFactoryExtensions
+  - Testify.ObjectFactoryTests
+  - Testify.SingleFactory
+  - Testify.SingleFactoryTests
+  - Testify.StandardAssertions
+  - Testify.StandardAssertionsTests
+  - Testify.StringAssertions
+  - Testify.StringAssertionsTests
+  - Testify.StringFactory
+  - Testify.StringFactoryTests
+  - Testify.TimeSpanFactory
+  - Testify.TimeSpanFactoryTests
+  - Testify.TimeZoneInfoFactory
+  langs:
+  - csharp
+  - vb
+  name: Testify
+  fullName: Testify
+  type: Namespace
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/TimeSpanFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/TimeSpanFactoryTests.cs
+    startLine: 4
+  assemblies:
+  - Testify.Tests
+references:
+- uid: Testify.AssertionExceptionTests
+  isExternal: false
+  name: AssertionExceptionTests
+  fullName: Testify.AssertionExceptionTests
+- uid: Testify.AssertionsTests
+  isExternal: false
+  name: AssertionsTests
+  fullName: Testify.AssertionsTests
+- uid: Testify.BoolFactoryTests
+  isExternal: false
+  name: BoolFactoryTests
+  fullName: Testify.BoolFactoryTests
+- uid: Testify.ByteFactoryTests
+  isExternal: false
+  name: ByteFactoryTests
+  fullName: Testify.ByteFactoryTests
+- uid: Testify.CharFactoryTests
+  isExternal: false
+  name: CharFactoryTests
+  fullName: Testify.CharFactoryTests
+- uid: Testify.CollectionAssertionsTests
+  isExternal: false
+  name: CollectionAssertionsTests
+  fullName: Testify.CollectionAssertionsTests
+- uid: Testify.DateTimeFactoryTests
+  isExternal: false
+  name: DateTimeFactoryTests
+  fullName: Testify.DateTimeFactoryTests
+- uid: Testify.DateTimeOffsetFactoryTests
+  isExternal: false
+  name: DateTimeOffsetFactoryTests
+  fullName: Testify.DateTimeOffsetFactoryTests
+- uid: Testify.DistributionTests
+  isExternal: false
+  name: DistributionTests
+  fullName: Testify.DistributionTests
+- uid: Testify.DoubleFactoryTests
+  isExternal: false
+  name: DoubleFactoryTests
+  fullName: Testify.DoubleFactoryTests
+- uid: Testify.EnumerableFactoryTests
+  isExternal: false
+  name: EnumerableFactoryTests
+  fullName: Testify.EnumerableFactoryTests
+- uid: Testify.EnumFactoryTests
+  isExternal: false
+  name: EnumFactoryTests
+  fullName: Testify.EnumFactoryTests
+- uid: Testify.ExceptionAssertionsTests
+  isExternal: false
+  name: ExceptionAssertionsTests
+  fullName: Testify.ExceptionAssertionsTests
+- uid: Testify.Int16FactoryTests
+  isExternal: false
+  name: Int16FactoryTests
+  fullName: Testify.Int16FactoryTests
+- uid: Testify.Int32FactoryTests
+  isExternal: false
+  name: Int32FactoryTests
+  fullName: Testify.Int32FactoryTests
+- uid: Testify.Int64FactoryTests
+  isExternal: false
+  name: Int64FactoryTests
+  fullName: Testify.Int64FactoryTests
+- uid: Testify.ObjectFactoryTests
+  isExternal: false
+  name: ObjectFactoryTests
+  fullName: Testify.ObjectFactoryTests
+- uid: Testify.SingleFactoryTests
+  isExternal: false
+  name: SingleFactoryTests
+  fullName: Testify.SingleFactoryTests
+- uid: Testify.StandardAssertionsTests
+  isExternal: false
+  name: StandardAssertionsTests
+  fullName: Testify.StandardAssertionsTests
+- uid: Testify.StringAssertionsTests
+  isExternal: false
+  name: StringAssertionsTests
+  fullName: Testify.StringAssertionsTests
+- uid: Testify.StringFactoryTests
+  isExternal: false
+  name: StringFactoryTests
+  fullName: Testify.StringFactoryTests
+- uid: Testify.TimeSpanFactoryTests
+  isExternal: false
+  name: TimeSpanFactoryTests
+  fullName: Testify.TimeSpanFactoryTests
+- uid: Testify.ActualValue`1
+  parent: Testify
+  isExternal: false
+  name: ActualValue<T>
+  fullName: Testify.ActualValue<T>
+  fullname.vb: Testify.ActualValue(Of T)
+  name.vb: ActualValue(Of T)
+  spec.csharp:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.ActualValue`1
+    name: ActualValue
+    fullName: Testify.ActualValue
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: Testify.AssertionException
+  isExternal: false
+  name: AssertionException
+  fullName: Testify.AssertionException
+- uid: Testify.Assertions
+  isExternal: false
+  name: Assertions
+  fullName: Testify.Assertions
+- uid: Testify.BoolFactory
+  isExternal: false
+  name: BoolFactory
+  fullName: Testify.BoolFactory
+- uid: Testify.ByteFactory
+  isExternal: false
+  name: ByteFactory
+  fullName: Testify.ByteFactory
+- uid: Testify.CharFactory
+  isExternal: false
+  name: CharFactory
+  fullName: Testify.CharFactory
+- uid: Testify.Classification`1
+  isExternal: false
+  name: Classification<T>
+  fullName: Testify.Classification<T>
+  fullname.vb: Testify.Classification(Of T)
+  name.vb: Classification(Of T)
+  spec.csharp:
+  - uid: Testify.Classification`1
+    name: Classification
+    fullName: Testify.Classification
+  - name: <
+    fullName: <
+  - name: T
+    fullName: T
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.Classification`1
+    name: Classification
+    fullName: Testify.Classification
+  - name: '(Of '
+    fullName: '(Of '
+  - name: T
+    fullName: T
+  - name: )
+    fullName: )
+- uid: Testify.Classifier`1
+  isExternal: false
+  name: Classifier<TValue>
+  fullName: Testify.Classifier<TValue>
+  fullname.vb: Testify.Classifier(Of TValue)
+  name.vb: Classifier(Of TValue)
+  spec.csharp:
+  - uid: Testify.Classifier`1
+    name: Classifier
+    fullName: Testify.Classifier
+  - name: <
+    fullName: <
+  - name: TValue
+    fullName: TValue
+  - name: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Testify.Classifier`1
+    name: Classifier
+    fullName: Testify.Classifier
+  - name: '(Of '
+    fullName: '(Of '
+  - name: TValue
+    fullName: TValue
+  - name: )
+    fullName: )
+- uid: Testify.CollectionAssertions
+  isExternal: false
+  name: CollectionAssertions
+  fullName: Testify.CollectionAssertions
+- uid: Testify.DateTimeFactory
+  isExternal: false
+  name: DateTimeFactory
+  fullName: Testify.DateTimeFactory
+- uid: Testify.DateTimeOffsetFactory
+  isExternal: false
+  name: DateTimeOffsetFactory
+  fullName: Testify.DateTimeOffsetFactory
+- uid: Testify.Distribution
+  parent: Testify
+  isExternal: false
+  name: Distribution
+  fullName: Testify.Distribution
+- uid: Testify.DoubleFactory
+  isExternal: false
+  name: DoubleFactory
+  fullName: Testify.DoubleFactory
+- uid: Testify.EnumerableFactory
+  isExternal: false
+  name: EnumerableFactory
+  fullName: Testify.EnumerableFactory
+- uid: Testify.EnumFactory
+  isExternal: false
+  name: EnumFactory
+  fullName: Testify.EnumFactory
+- uid: Testify.ExceptionAssertions
+  isExternal: false
+  name: ExceptionAssertions
+  fullName: Testify.ExceptionAssertions
+- uid: Testify.Int16Factory
+  isExternal: false
+  name: Int16Factory
+  fullName: Testify.Int16Factory
+- uid: Testify.Int32Factory
+  isExternal: false
+  name: Int32Factory
+  fullName: Testify.Int32Factory
+- uid: Testify.Int64Factory
+  isExternal: false
+  name: Int64Factory
+  fullName: Testify.Int64Factory
+- uid: Testify.IObjectFactory
+  parent: Testify
+  isExternal: false
+  name: IObjectFactory
+  fullName: Testify.IObjectFactory
+- uid: Testify.IObjectFactoryContext
+  parent: Testify
+  isExternal: false
+  name: IObjectFactoryContext
+  fullName: Testify.IObjectFactoryContext
+- uid: Testify.IObjectFactoryCustomization
+  parent: Testify
+  isExternal: false
+  name: IObjectFactoryCustomization
+  fullName: Testify.IObjectFactoryCustomization
+- uid: Testify.IRegisterObjectFactory
+  parent: Testify
+  isExternal: false
+  name: IRegisterObjectFactory
+  fullName: Testify.IRegisterObjectFactory
+- uid: Testify.ObjectFactory
+  parent: Testify
+  isExternal: false
+  name: ObjectFactory
+  fullName: Testify.ObjectFactory
+- uid: Testify.ObjectFactoryExtensions
+  isExternal: false
+  name: ObjectFactoryExtensions
+  fullName: Testify.ObjectFactoryExtensions
+- uid: Testify.SingleFactory
+  isExternal: false
+  name: SingleFactory
+  fullName: Testify.SingleFactory
+- uid: Testify.StandardAssertions
+  isExternal: false
+  name: StandardAssertions
+  fullName: Testify.StandardAssertions
+- uid: Testify.StringAssertions
+  isExternal: false
+  name: StringAssertions
+  fullName: Testify.StringAssertions
+- uid: Testify.StringFactory
+  isExternal: false
+  name: StringFactory
+  fullName: Testify.StringFactory
+- uid: Testify.TimeSpanFactory
+  isExternal: false
+  name: TimeSpanFactory
+  fullName: Testify.TimeSpanFactory
+- uid: Testify.TimeZoneInfoFactory
+  isExternal: false
+  name: TimeZoneInfoFactory
+  fullName: Testify.TimeZoneInfoFactory
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify

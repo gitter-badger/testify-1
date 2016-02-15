@@ -1,0 +1,200 @@
+items:
+- uid: Testify.IObjectFactoryContext
+  id: IObjectFactoryContext
+  parent: Testify
+  children:
+  - Testify.IObjectFactoryContext.CallNextCustomization(System.Object@)
+  - Testify.IObjectFactoryContext.ResultType
+  langs:
+  - csharp
+  - vb
+  name: IObjectFactoryContext
+  fullName: Testify.IObjectFactoryContext
+  type: Interface
+  source:
+    remote:
+      path: src/Testify/IObjectFactoryContext.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/IObjectFactoryContext.cs
+    startLine: 7
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Defines a context used during object creation.
+  example: []
+  syntax:
+    content: 'public interface IObjectFactoryContext : IObjectFactory'
+    content.vb: Public Interface IObjectFactoryContext Inherits IObjectFactory
+  inheritedMembers:
+  - Testify.IObjectFactory.Create(System.Type)
+  - Testify.IObjectFactory.CreateDouble(System.Double,System.Double,Testify.Distribution)
+- uid: Testify.IObjectFactoryContext.ResultType
+  id: ResultType
+  parent: Testify.IObjectFactoryContext
+  langs:
+  - csharp
+  - vb
+  name: ResultType
+  fullName: Testify.IObjectFactoryContext.ResultType
+  type: Property
+  source:
+    remote:
+      path: src/Testify/IObjectFactoryContext.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/IObjectFactoryContext.cs
+    startLine: 12
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Gets the type being created.
+  example: []
+  syntax:
+    content: Type ResultType { get; }
+    content.vb: ReadOnly Property ResultType As Type
+    parameters: []
+    return:
+      type: System.Type
+- uid: Testify.IObjectFactoryContext.CallNextCustomization(System.Object@)
+  id: CallNextCustomization(System.Object@)
+  parent: Testify.IObjectFactoryContext
+  langs:
+  - csharp
+  - vb
+  name: CallNextCustomization(out Object)
+  name.vb: CallNextCustomization(ByRef Object)
+  fullName: Testify.IObjectFactoryContext.CallNextCustomization(out System.Object)
+  fullName.vb: Testify.IObjectFactoryContext.CallNextCustomization(ByRef System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/IObjectFactoryContext.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/IObjectFactoryContext.cs
+    startLine: 19
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Calls the next customization in the chain.
+  example: []
+  syntax:
+    content: bool CallNextCustomization(out object result)
+    content.vb: Function CallNextCustomization(ByRef result As Object) As Boolean
+    parameters:
+    - id: result
+      type: System.Object
+      description: The result.
+    return:
+      type: System.Boolean
+      description: <see langword="true" /> if an object was created, otherwise <see langword="false" />.
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: Testify.IObjectFactory.Create(System.Type)
+  parent: Testify.IObjectFactory
+  isExternal: true
+  name: Create(Type)
+  fullName: Testify.IObjectFactory.Create(System.Type)
+  spec.csharp:
+  - uid: Testify.IObjectFactory.Create(System.Type)
+    name: Create
+    fullName: Testify.IObjectFactory.Create
+  - name: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: Testify.IObjectFactory.Create(System.Type)
+    name: Create
+    fullName: Testify.IObjectFactory.Create
+  - name: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: Testify.IObjectFactory.CreateDouble(System.Double,System.Double,Testify.Distribution)
+  parent: Testify.IObjectFactory
+  isExternal: true
+  name: CreateDouble(Double, Double, Distribution)
+  fullName: Testify.IObjectFactory.CreateDouble(System.Double, System.Double, Testify.Distribution)
+  spec.csharp:
+  - uid: Testify.IObjectFactory.CreateDouble(System.Double,System.Double,Testify.Distribution)
+    name: CreateDouble
+    fullName: Testify.IObjectFactory.CreateDouble
+  - name: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: Testify.Distribution
+    name: Distribution
+    fullName: Testify.Distribution
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: Testify.IObjectFactory.CreateDouble(System.Double,System.Double,Testify.Distribution)
+    name: CreateDouble
+    fullName: Testify.IObjectFactory.CreateDouble
+  - name: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: Testify.Distribution
+    name: Distribution
+    fullName: Testify.Distribution
+  - name: )
+    fullName: )
+- uid: Testify.IObjectFactory
+  parent: Testify
+  isExternal: false
+  name: IObjectFactory
+  fullName: Testify.IObjectFactory
+- uid: System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  fullName: System.Type
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  fullName: System.Boolean

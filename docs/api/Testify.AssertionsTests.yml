@@ -1,0 +1,395 @@
+items:
+- uid: Testify.AssertionsTests
+  id: AssertionsTests
+  parent: Testify
+  children:
+  - Testify.AssertionsTests.Assert_ReturnsActualValue
+  - Testify.AssertionsTests.CompoundAssertion_Errors_ShouldReportErrors
+  - Testify.AssertionsTests.CompoundAssertion_NoErrors_ShouldNotThrow
+  - Testify.AssertionsTests.Fail_ShouldThrowException
+  - Testify.AssertionsTests.Fail_WithParameters_ShouldFormatMessage
+  - Testify.AssertionsTests.ReplaceNullChars_StringWithNulls_ShouldReplaceNulls
+  langs:
+  - csharp
+  - vb
+  name: AssertionsTests
+  fullName: Testify.AssertionsTests
+  type: Class
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionsTests.cs
+    startLine: 5
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public class AssertionsTests
+    content.vb: Public Class AssertionsTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Testify.AssertionsTests.Assert_ReturnsActualValue
+  id: Assert_ReturnsActualValue
+  parent: Testify.AssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Assert_ReturnsActualValue()
+  fullName: Testify.AssertionsTests.Assert_ReturnsActualValue()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionsTests.cs
+    startLine: 7
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Assert_ReturnsActualValue()
+    content.vb: Public Sub Assert_ReturnsActualValue
+- uid: Testify.AssertionsTests.CompoundAssertion_Errors_ShouldReportErrors
+  id: CompoundAssertion_Errors_ShouldReportErrors
+  parent: Testify.AssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: CompoundAssertion_Errors_ShouldReportErrors()
+  fullName: Testify.AssertionsTests.CompoundAssertion_Errors_ShouldReportErrors()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionsTests.cs
+    startLine: 20
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CompoundAssertion_Errors_ShouldReportErrors()
+    content.vb: Public Sub CompoundAssertion_Errors_ShouldReportErrors
+- uid: Testify.AssertionsTests.CompoundAssertion_NoErrors_ShouldNotThrow
+  id: CompoundAssertion_NoErrors_ShouldNotThrow
+  parent: Testify.AssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: CompoundAssertion_NoErrors_ShouldNotThrow()
+  fullName: Testify.AssertionsTests.CompoundAssertion_NoErrors_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionsTests.cs
+    startLine: 43
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CompoundAssertion_NoErrors_ShouldNotThrow()
+    content.vb: Public Sub CompoundAssertion_NoErrors_ShouldNotThrow
+- uid: Testify.AssertionsTests.Fail_ShouldThrowException
+  id: Fail_ShouldThrowException
+  parent: Testify.AssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Fail_ShouldThrowException()
+  fullName: Testify.AssertionsTests.Fail_ShouldThrowException()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionsTests.cs
+    startLine: 59
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Fail_ShouldThrowException()
+    content.vb: Public Sub Fail_ShouldThrowException
+- uid: Testify.AssertionsTests.Fail_WithParameters_ShouldFormatMessage
+  id: Fail_WithParameters_ShouldFormatMessage
+  parent: Testify.AssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Fail_WithParameters_ShouldFormatMessage()
+  fullName: Testify.AssertionsTests.Fail_WithParameters_ShouldFormatMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionsTests.cs
+    startLine: 79
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Fail_WithParameters_ShouldFormatMessage()
+    content.vb: Public Sub Fail_WithParameters_ShouldFormatMessage
+- uid: Testify.AssertionsTests.ReplaceNullChars_StringWithNulls_ShouldReplaceNulls
+  id: ReplaceNullChars_StringWithNulls_ShouldReplaceNulls
+  parent: Testify.AssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: ReplaceNullChars_StringWithNulls_ShouldReplaceNulls()
+  fullName: Testify.AssertionsTests.ReplaceNullChars_StringWithNulls_ShouldReplaceNulls()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/AssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/AssertionsTests.cs
+    startLine: 99
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void ReplaceNullChars_StringWithNulls_ShouldReplaceNulls()
+    content.vb: Public Sub ReplaceNullChars_StringWithNulls_ShouldReplaceNulls
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System

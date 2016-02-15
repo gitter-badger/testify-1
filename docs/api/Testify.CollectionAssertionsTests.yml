@@ -1,0 +1,3408 @@
+items:
+- uid: Testify.CollectionAssertionsTests
+  id: CollectionAssertionsTests
+  parent: Testify
+  children:
+  - Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_AllType_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_MessageAllType_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_MessageNotAllType_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_MessageParametersAllType_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_MessageParametersNotAllType_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_NotAllType_ShouldThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreNotNull_MessageNoNull_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreNotNull_MessageNull_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.AllItemsAreNotNull_MessageParametersNoNull_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreNotNull_MessageParametersNull_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.AllItemsAreNotNull_NoNull_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreNotNull_Null_ShouldThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerDuplicateItems_ShouldThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerDuplicateNull_ShouldThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerMessageDuplicateItems_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerMessageDuplicateNull_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerMessageParametersDuplicateItems_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerMessageParametersDuplicateNull_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_DuplicateItems_ShouldThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_DuplicateNull_ShouldThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageDuplicateItems_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageDuplicateNull_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageParametersDuplicateItems_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageParametersDuplicateNull_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageParametersUniqueItems_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageUniqueItems_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.AllItemsAreUnique_UniqueItems_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.Contains_ComparerItemFound_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.Contains_ComparerItemNotFound_ShouldThrow
+  - Testify.CollectionAssertionsTests.Contains_ContainedElement_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.Contains_ItemNotFound_ShouldThrow
+  - Testify.CollectionAssertionsTests.Contains_MessageComparerItemFound_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.Contains_MessageComparerItemNotFound_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.Contains_MessageContainedElement_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.Contains_MessageItemNotFound_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.Contains_MessageParametersComparerItemFound_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.Contains_MessageParametersComparerItemNotFound_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.Contains_MessageParametersContainedElement_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.Contains_MessageParametersItemNotFound_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.DoesNotContain_ComparerItemFound_ShouldThrow
+  - Testify.CollectionAssertionsTests.DoesNotContain_ComparerMessageItemFound_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.DoesNotContain_ComparerMessageParametersItemFound_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.DoesNotContain_ItemFound_ShouldThrow
+  - Testify.CollectionAssertionsTests.DoesNotContain_ItemNotFound_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.DoesNotContain_MessageItemFound_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.DoesNotContain_MessageItemNotFound_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.DoesNotContain_MessageParametersItemFound_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.DoesNotContain_MessageParametersItemNotFound_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerDifferentCount_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerEquivalent_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageDifferentCount_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageEquivalent_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageParametersEquivalent_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageParamtersSameReference_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageSameReference_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMismatchedItems_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerSameReference_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_DifferentCount_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_Equivalent_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_MessageComparerMismatchedItems_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_MessageComparerParametersDifferentCount_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_MessageDifferentCount_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_MessageEquivalent_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_MessageMismatchedItems_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParametersComparerMismatchedItems_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParametersDifferentCount_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParametersEquivalent_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParametersMismatchedItems_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParamtersSameReference_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_MessageSameReference_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_MismatchedItems_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsEquivalentTo_SameReference_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_ComparerEquivalent_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_ComparerMismatchedItems_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_ComparerSameReference_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_Equivalent_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageComparerEquivalent_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageComparerMismatchedItems_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageComparerSameReference_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageEquivalent_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageMismatchedItems_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersComparerEquivalent_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersComparerMismatchedItems_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersEquivalent_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersMismatchedItems_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersSameReference_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageSameReference_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_MismatchedItems_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotEquivalentTo_SameReference_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_ComparerEqual_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_ComparerNotEqual_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_ComparerSameReference_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_Equal_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageComparerEqual_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageComparerNotEqual_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageComparerSameReference_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageEqual_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageNotEqual_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersComparerEqual_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersComparerNotEqual_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersEqual_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersNotEqual_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersSameReference_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageSameReference_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_NotEqual_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_SameReference_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsNotSubsetOf_ComparerNotSubset_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotSubsetOf_ComparerSubset_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageComparerNotSubset_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageComparerSubset_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageNotSubset_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageParametersComparerNotSubset_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageParametersComparerSubset_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageParametersNotSubset_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageParametersSubset_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageSubset_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsNotSubsetOf_NotSubset_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsNotSubsetOf_Subset_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_ComparerDifferentLengths_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_ComparerEqual_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_ComparerNotEqual_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_DifferentLengths_ShouldThrow
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_Equal_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageComparerDifferentLengths_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageComparerEqual_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageComparerNotEqual_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageDifferentLengths_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageEqual_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageNotEqual_ShouldDisplayMessage
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersComparerDifferentLengths_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersComparerEqual_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersComparerNotEqual_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersEqual_ShouldNotThrow
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersNotEqual_ShouldDisplayFormattedMessage
+  - Testify.CollectionAssertionsTests.IsSequenceEqualTo_NotEqual_ShouldThrow
+  langs:
+  - csharp
+  - vb
+  name: CollectionAssertionsTests
+  fullName: Testify.CollectionAssertionsTests
+  type: Class
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 6
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public class CollectionAssertionsTests
+    content.vb: Public Class CollectionAssertionsTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_AllType_ShouldNotThrow
+  id: AllItemsAreInstancesOfType_AllType_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreInstancesOfType_AllType_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_AllType_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 8
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreInstancesOfType_AllType_ShouldNotThrow()
+    content.vb: Public Sub AllItemsAreInstancesOfType_AllType_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_MessageAllType_ShouldNotThrow
+  id: AllItemsAreInstancesOfType_MessageAllType_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreInstancesOfType_MessageAllType_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_MessageAllType_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 14
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreInstancesOfType_MessageAllType_ShouldNotThrow()
+    content.vb: Public Sub AllItemsAreInstancesOfType_MessageAllType_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_MessageParametersAllType_ShouldNotThrow
+  id: AllItemsAreInstancesOfType_MessageParametersAllType_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreInstancesOfType_MessageParametersAllType_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_MessageParametersAllType_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 20
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreInstancesOfType_MessageParametersAllType_ShouldNotThrow()
+    content.vb: Public Sub AllItemsAreInstancesOfType_MessageParametersAllType_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_NotAllType_ShouldThrow
+  id: AllItemsAreInstancesOfType_NotAllType_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreInstancesOfType_NotAllType_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_NotAllType_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 26
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreInstancesOfType_NotAllType_ShouldThrow()
+    content.vb: Public Sub AllItemsAreInstancesOfType_NotAllType_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_MessageNotAllType_ShouldDisplayMessage
+  id: AllItemsAreInstancesOfType_MessageNotAllType_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreInstancesOfType_MessageNotAllType_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_MessageNotAllType_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 42
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreInstancesOfType_MessageNotAllType_ShouldDisplayMessage()
+    content.vb: Public Sub AllItemsAreInstancesOfType_MessageNotAllType_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_MessageParametersNotAllType_ShouldDisplayFormattedMessage
+  id: AllItemsAreInstancesOfType_MessageParametersNotAllType_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreInstancesOfType_MessageParametersNotAllType_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreInstancesOfType_MessageParametersNotAllType_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 58
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreInstancesOfType_MessageParametersNotAllType_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub AllItemsAreInstancesOfType_MessageParametersNotAllType_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.AllItemsAreNotNull_NoNull_ShouldNotThrow
+  id: AllItemsAreNotNull_NoNull_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreNotNull_NoNull_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreNotNull_NoNull_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 74
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreNotNull_NoNull_ShouldNotThrow()
+    content.vb: Public Sub AllItemsAreNotNull_NoNull_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreNotNull_MessageNoNull_ShouldNotThrow
+  id: AllItemsAreNotNull_MessageNoNull_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreNotNull_MessageNoNull_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreNotNull_MessageNoNull_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 80
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreNotNull_MessageNoNull_ShouldNotThrow()
+    content.vb: Public Sub AllItemsAreNotNull_MessageNoNull_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreNotNull_MessageParametersNoNull_ShouldNotThrow
+  id: AllItemsAreNotNull_MessageParametersNoNull_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreNotNull_MessageParametersNoNull_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreNotNull_MessageParametersNoNull_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 86
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreNotNull_MessageParametersNoNull_ShouldNotThrow()
+    content.vb: Public Sub AllItemsAreNotNull_MessageParametersNoNull_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreNotNull_Null_ShouldThrow
+  id: AllItemsAreNotNull_Null_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreNotNull_Null_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreNotNull_Null_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 92
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreNotNull_Null_ShouldThrow()
+    content.vb: Public Sub AllItemsAreNotNull_Null_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreNotNull_MessageNull_ShouldDisplayMessage
+  id: AllItemsAreNotNull_MessageNull_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreNotNull_MessageNull_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreNotNull_MessageNull_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 108
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreNotNull_MessageNull_ShouldDisplayMessage()
+    content.vb: Public Sub AllItemsAreNotNull_MessageNull_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.AllItemsAreNotNull_MessageParametersNull_ShouldDisplayFormattedMessage
+  id: AllItemsAreNotNull_MessageParametersNull_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreNotNull_MessageParametersNull_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreNotNull_MessageParametersNull_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 124
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreNotNull_MessageParametersNull_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub AllItemsAreNotNull_MessageParametersNull_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_UniqueItems_ShouldNotThrow
+  id: AllItemsAreUnique_UniqueItems_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_UniqueItems_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_UniqueItems_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 140
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_UniqueItems_ShouldNotThrow()
+    content.vb: Public Sub AllItemsAreUnique_UniqueItems_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageUniqueItems_ShouldNotThrow
+  id: AllItemsAreUnique_MessageUniqueItems_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_MessageUniqueItems_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageUniqueItems_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 146
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_MessageUniqueItems_ShouldNotThrow()
+    content.vb: Public Sub AllItemsAreUnique_MessageUniqueItems_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageParametersUniqueItems_ShouldNotThrow
+  id: AllItemsAreUnique_MessageParametersUniqueItems_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_MessageParametersUniqueItems_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageParametersUniqueItems_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 152
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_MessageParametersUniqueItems_ShouldNotThrow()
+    content.vb: Public Sub AllItemsAreUnique_MessageParametersUniqueItems_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_DuplicateNull_ShouldThrow
+  id: AllItemsAreUnique_DuplicateNull_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_DuplicateNull_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_DuplicateNull_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 158
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_DuplicateNull_ShouldThrow()
+    content.vb: Public Sub AllItemsAreUnique_DuplicateNull_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageDuplicateNull_ShouldDisplayMessage
+  id: AllItemsAreUnique_MessageDuplicateNull_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_MessageDuplicateNull_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageDuplicateNull_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 174
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_MessageDuplicateNull_ShouldDisplayMessage()
+    content.vb: Public Sub AllItemsAreUnique_MessageDuplicateNull_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageParametersDuplicateNull_ShouldDisplayFormattedMessage
+  id: AllItemsAreUnique_MessageParametersDuplicateNull_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_MessageParametersDuplicateNull_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageParametersDuplicateNull_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 190
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_MessageParametersDuplicateNull_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub AllItemsAreUnique_MessageParametersDuplicateNull_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerDuplicateNull_ShouldThrow
+  id: AllItemsAreUnique_ComparerDuplicateNull_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_ComparerDuplicateNull_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerDuplicateNull_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 206
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_ComparerDuplicateNull_ShouldThrow()
+    content.vb: Public Sub AllItemsAreUnique_ComparerDuplicateNull_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerMessageDuplicateNull_ShouldDisplayMessage
+  id: AllItemsAreUnique_ComparerMessageDuplicateNull_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_ComparerMessageDuplicateNull_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerMessageDuplicateNull_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 222
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_ComparerMessageDuplicateNull_ShouldDisplayMessage()
+    content.vb: Public Sub AllItemsAreUnique_ComparerMessageDuplicateNull_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerMessageParametersDuplicateNull_ShouldDisplayFormattedMessage
+  id: AllItemsAreUnique_ComparerMessageParametersDuplicateNull_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_ComparerMessageParametersDuplicateNull_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerMessageParametersDuplicateNull_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 238
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_ComparerMessageParametersDuplicateNull_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub AllItemsAreUnique_ComparerMessageParametersDuplicateNull_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_DuplicateItems_ShouldThrow
+  id: AllItemsAreUnique_DuplicateItems_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_DuplicateItems_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_DuplicateItems_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 254
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_DuplicateItems_ShouldThrow()
+    content.vb: Public Sub AllItemsAreUnique_DuplicateItems_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageDuplicateItems_ShouldDisplayMessage
+  id: AllItemsAreUnique_MessageDuplicateItems_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_MessageDuplicateItems_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageDuplicateItems_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 270
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_MessageDuplicateItems_ShouldDisplayMessage()
+    content.vb: Public Sub AllItemsAreUnique_MessageDuplicateItems_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageParametersDuplicateItems_ShouldDisplayFormattedMessage
+  id: AllItemsAreUnique_MessageParametersDuplicateItems_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_MessageParametersDuplicateItems_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_MessageParametersDuplicateItems_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 286
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_MessageParametersDuplicateItems_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub AllItemsAreUnique_MessageParametersDuplicateItems_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerDuplicateItems_ShouldThrow
+  id: AllItemsAreUnique_ComparerDuplicateItems_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_ComparerDuplicateItems_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerDuplicateItems_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 302
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_ComparerDuplicateItems_ShouldThrow()
+    content.vb: Public Sub AllItemsAreUnique_ComparerDuplicateItems_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerMessageDuplicateItems_ShouldDisplayMessage
+  id: AllItemsAreUnique_ComparerMessageDuplicateItems_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_ComparerMessageDuplicateItems_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerMessageDuplicateItems_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 318
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_ComparerMessageDuplicateItems_ShouldDisplayMessage()
+    content.vb: Public Sub AllItemsAreUnique_ComparerMessageDuplicateItems_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerMessageParametersDuplicateItems_ShouldDisplayFormattedMessage
+  id: AllItemsAreUnique_ComparerMessageParametersDuplicateItems_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: AllItemsAreUnique_ComparerMessageParametersDuplicateItems_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.AllItemsAreUnique_ComparerMessageParametersDuplicateItems_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 334
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void AllItemsAreUnique_ComparerMessageParametersDuplicateItems_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub AllItemsAreUnique_ComparerMessageParametersDuplicateItems_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.Contains_ContainedElement_ShouldNotThrow
+  id: Contains_ContainedElement_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_ContainedElement_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.Contains_ContainedElement_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 350
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_ContainedElement_ShouldNotThrow()
+    content.vb: Public Sub Contains_ContainedElement_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.Contains_MessageContainedElement_ShouldNotThrow
+  id: Contains_MessageContainedElement_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_MessageContainedElement_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.Contains_MessageContainedElement_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 356
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_MessageContainedElement_ShouldNotThrow()
+    content.vb: Public Sub Contains_MessageContainedElement_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.Contains_MessageParametersContainedElement_ShouldNotThrow
+  id: Contains_MessageParametersContainedElement_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_MessageParametersContainedElement_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.Contains_MessageParametersContainedElement_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 362
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_MessageParametersContainedElement_ShouldNotThrow()
+    content.vb: Public Sub Contains_MessageParametersContainedElement_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.Contains_ItemNotFound_ShouldThrow
+  id: Contains_ItemNotFound_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_ItemNotFound_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.Contains_ItemNotFound_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 368
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_ItemNotFound_ShouldThrow()
+    content.vb: Public Sub Contains_ItemNotFound_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.Contains_MessageItemNotFound_ShouldDisplayMessage
+  id: Contains_MessageItemNotFound_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_MessageItemNotFound_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.Contains_MessageItemNotFound_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 384
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_MessageItemNotFound_ShouldDisplayMessage()
+    content.vb: Public Sub Contains_MessageItemNotFound_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.Contains_MessageParametersItemNotFound_ShouldDisplayFormattedMessage
+  id: Contains_MessageParametersItemNotFound_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_MessageParametersItemNotFound_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.Contains_MessageParametersItemNotFound_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 400
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_MessageParametersItemNotFound_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub Contains_MessageParametersItemNotFound_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.Contains_ComparerItemFound_ShouldNotThrow
+  id: Contains_ComparerItemFound_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_ComparerItemFound_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.Contains_ComparerItemFound_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 416
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_ComparerItemFound_ShouldNotThrow()
+    content.vb: Public Sub Contains_ComparerItemFound_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.Contains_MessageComparerItemFound_ShouldNotThrow
+  id: Contains_MessageComparerItemFound_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_MessageComparerItemFound_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.Contains_MessageComparerItemFound_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 422
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_MessageComparerItemFound_ShouldNotThrow()
+    content.vb: Public Sub Contains_MessageComparerItemFound_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.Contains_MessageParametersComparerItemFound_ShouldNotThrow
+  id: Contains_MessageParametersComparerItemFound_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_MessageParametersComparerItemFound_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.Contains_MessageParametersComparerItemFound_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 428
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_MessageParametersComparerItemFound_ShouldNotThrow()
+    content.vb: Public Sub Contains_MessageParametersComparerItemFound_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.Contains_ComparerItemNotFound_ShouldThrow
+  id: Contains_ComparerItemNotFound_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_ComparerItemNotFound_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.Contains_ComparerItemNotFound_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 434
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_ComparerItemNotFound_ShouldThrow()
+    content.vb: Public Sub Contains_ComparerItemNotFound_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.Contains_MessageComparerItemNotFound_ShouldDisplayMessage
+  id: Contains_MessageComparerItemNotFound_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_MessageComparerItemNotFound_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.Contains_MessageComparerItemNotFound_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 450
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_MessageComparerItemNotFound_ShouldDisplayMessage()
+    content.vb: Public Sub Contains_MessageComparerItemNotFound_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.Contains_MessageParametersComparerItemNotFound_ShouldDisplayFormattedMessage
+  id: Contains_MessageParametersComparerItemNotFound_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: Contains_MessageParametersComparerItemNotFound_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.Contains_MessageParametersComparerItemNotFound_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 466
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void Contains_MessageParametersComparerItemNotFound_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub Contains_MessageParametersComparerItemNotFound_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.DoesNotContain_ItemNotFound_ShouldNotThrow
+  id: DoesNotContain_ItemNotFound_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain_ItemNotFound_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.DoesNotContain_ItemNotFound_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 482
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotContain_ItemNotFound_ShouldNotThrow()
+    content.vb: Public Sub DoesNotContain_ItemNotFound_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.DoesNotContain_MessageItemNotFound_ShouldNotThrow
+  id: DoesNotContain_MessageItemNotFound_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain_MessageItemNotFound_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.DoesNotContain_MessageItemNotFound_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 488
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotContain_MessageItemNotFound_ShouldNotThrow()
+    content.vb: Public Sub DoesNotContain_MessageItemNotFound_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.DoesNotContain_MessageParametersItemNotFound_ShouldNotThrow
+  id: DoesNotContain_MessageParametersItemNotFound_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain_MessageParametersItemNotFound_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.DoesNotContain_MessageParametersItemNotFound_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 494
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotContain_MessageParametersItemNotFound_ShouldNotThrow()
+    content.vb: Public Sub DoesNotContain_MessageParametersItemNotFound_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.DoesNotContain_ItemFound_ShouldThrow
+  id: DoesNotContain_ItemFound_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain_ItemFound_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.DoesNotContain_ItemFound_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 500
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotContain_ItemFound_ShouldThrow()
+    content.vb: Public Sub DoesNotContain_ItemFound_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.DoesNotContain_MessageItemFound_ShouldDisplayMessage
+  id: DoesNotContain_MessageItemFound_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain_MessageItemFound_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.DoesNotContain_MessageItemFound_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 516
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotContain_MessageItemFound_ShouldDisplayMessage()
+    content.vb: Public Sub DoesNotContain_MessageItemFound_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.DoesNotContain_MessageParametersItemFound_ShouldDisplayFormattedMessage
+  id: DoesNotContain_MessageParametersItemFound_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain_MessageParametersItemFound_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.DoesNotContain_MessageParametersItemFound_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 532
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotContain_MessageParametersItemFound_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub DoesNotContain_MessageParametersItemFound_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.DoesNotContain_ComparerItemFound_ShouldThrow
+  id: DoesNotContain_ComparerItemFound_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain_ComparerItemFound_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.DoesNotContain_ComparerItemFound_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 548
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotContain_ComparerItemFound_ShouldThrow()
+    content.vb: Public Sub DoesNotContain_ComparerItemFound_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.DoesNotContain_ComparerMessageItemFound_ShouldDisplayMessage
+  id: DoesNotContain_ComparerMessageItemFound_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain_ComparerMessageItemFound_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.DoesNotContain_ComparerMessageItemFound_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 564
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotContain_ComparerMessageItemFound_ShouldDisplayMessage()
+    content.vb: Public Sub DoesNotContain_ComparerMessageItemFound_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.DoesNotContain_ComparerMessageParametersItemFound_ShouldDisplayFormattedMessage
+  id: DoesNotContain_ComparerMessageParametersItemFound_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: DoesNotContain_ComparerMessageParametersItemFound_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.DoesNotContain_ComparerMessageParametersItemFound_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 580
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void DoesNotContain_ComparerMessageParametersItemFound_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub DoesNotContain_ComparerMessageParametersItemFound_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_Equivalent_ShouldNotThrow
+  id: IsEquivalentTo_Equivalent_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_Equivalent_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_Equivalent_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 596
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_Equivalent_ShouldNotThrow()
+    content.vb: Public Sub IsEquivalentTo_Equivalent_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageEquivalent_ShouldNotThrow
+  id: IsEquivalentTo_MessageEquivalent_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_MessageEquivalent_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageEquivalent_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 602
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_MessageEquivalent_ShouldNotThrow()
+    content.vb: Public Sub IsEquivalentTo_MessageEquivalent_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParametersEquivalent_ShouldNotThrow
+  id: IsEquivalentTo_MessageParametersEquivalent_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_MessageParametersEquivalent_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParametersEquivalent_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 608
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_MessageParametersEquivalent_ShouldNotThrow()
+    content.vb: Public Sub IsEquivalentTo_MessageParametersEquivalent_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_SameReference_ShouldNotThrow
+  id: IsEquivalentTo_SameReference_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_SameReference_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_SameReference_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 614
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_SameReference_ShouldNotThrow()
+    content.vb: Public Sub IsEquivalentTo_SameReference_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageSameReference_ShouldNotThrow
+  id: IsEquivalentTo_MessageSameReference_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_MessageSameReference_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageSameReference_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 621
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_MessageSameReference_ShouldNotThrow()
+    content.vb: Public Sub IsEquivalentTo_MessageSameReference_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParamtersSameReference_ShouldNotThrow
+  id: IsEquivalentTo_MessageParamtersSameReference_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_MessageParamtersSameReference_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParamtersSameReference_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 628
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_MessageParamtersSameReference_ShouldNotThrow()
+    content.vb: Public Sub IsEquivalentTo_MessageParamtersSameReference_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_DifferentCount_ShouldThrow
+  id: IsEquivalentTo_DifferentCount_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_DifferentCount_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_DifferentCount_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 635
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_DifferentCount_ShouldThrow()
+    content.vb: Public Sub IsEquivalentTo_DifferentCount_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageDifferentCount_ShouldDisplayMessage
+  id: IsEquivalentTo_MessageDifferentCount_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_MessageDifferentCount_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageDifferentCount_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 651
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_MessageDifferentCount_ShouldDisplayMessage()
+    content.vb: Public Sub IsEquivalentTo_MessageDifferentCount_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParametersDifferentCount_ShouldDisplayFormattedMessage
+  id: IsEquivalentTo_MessageParametersDifferentCount_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_MessageParametersDifferentCount_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParametersDifferentCount_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 667
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_MessageParametersDifferentCount_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsEquivalentTo_MessageParametersDifferentCount_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_MismatchedItems_ShouldThrow
+  id: IsEquivalentTo_MismatchedItems_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_MismatchedItems_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_MismatchedItems_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 683
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_MismatchedItems_ShouldThrow()
+    content.vb: Public Sub IsEquivalentTo_MismatchedItems_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageMismatchedItems_ShouldDisplayMessage
+  id: IsEquivalentTo_MessageMismatchedItems_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_MessageMismatchedItems_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageMismatchedItems_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 699
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_MessageMismatchedItems_ShouldDisplayMessage()
+    content.vb: Public Sub IsEquivalentTo_MessageMismatchedItems_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParametersMismatchedItems_ShouldDisplayFormattedMessage
+  id: IsEquivalentTo_MessageParametersMismatchedItems_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_MessageParametersMismatchedItems_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParametersMismatchedItems_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 715
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_MessageParametersMismatchedItems_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsEquivalentTo_MessageParametersMismatchedItems_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerEquivalent_ShouldNotThrow
+  id: IsEquivalentTo_ComparerEquivalent_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_ComparerEquivalent_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerEquivalent_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 731
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_ComparerEquivalent_ShouldNotThrow()
+    content.vb: Public Sub IsEquivalentTo_ComparerEquivalent_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageEquivalent_ShouldNotThrow
+  id: IsEquivalentTo_ComparerMessageEquivalent_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_ComparerMessageEquivalent_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageEquivalent_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 737
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_ComparerMessageEquivalent_ShouldNotThrow()
+    content.vb: Public Sub IsEquivalentTo_ComparerMessageEquivalent_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageParametersEquivalent_ShouldNotThrow
+  id: IsEquivalentTo_ComparerMessageParametersEquivalent_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_ComparerMessageParametersEquivalent_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageParametersEquivalent_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 743
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_ComparerMessageParametersEquivalent_ShouldNotThrow()
+    content.vb: Public Sub IsEquivalentTo_ComparerMessageParametersEquivalent_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerSameReference_ShouldNotThrow
+  id: IsEquivalentTo_ComparerSameReference_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_ComparerSameReference_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerSameReference_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 749
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_ComparerSameReference_ShouldNotThrow()
+    content.vb: Public Sub IsEquivalentTo_ComparerSameReference_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageSameReference_ShouldNotThrow
+  id: IsEquivalentTo_ComparerMessageSameReference_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_ComparerMessageSameReference_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageSameReference_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 756
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_ComparerMessageSameReference_ShouldNotThrow()
+    content.vb: Public Sub IsEquivalentTo_ComparerMessageSameReference_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageParamtersSameReference_ShouldNotThrow
+  id: IsEquivalentTo_ComparerMessageParamtersSameReference_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_ComparerMessageParamtersSameReference_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageParamtersSameReference_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 763
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_ComparerMessageParamtersSameReference_ShouldNotThrow()
+    content.vb: Public Sub IsEquivalentTo_ComparerMessageParamtersSameReference_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerDifferentCount_ShouldThrow
+  id: IsEquivalentTo_ComparerDifferentCount_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_ComparerDifferentCount_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerDifferentCount_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 770
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_ComparerDifferentCount_ShouldThrow()
+    content.vb: Public Sub IsEquivalentTo_ComparerDifferentCount_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageDifferentCount_ShouldDisplayMessage
+  id: IsEquivalentTo_ComparerMessageDifferentCount_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_ComparerMessageDifferentCount_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMessageDifferentCount_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 786
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_ComparerMessageDifferentCount_ShouldDisplayMessage()
+    content.vb: Public Sub IsEquivalentTo_ComparerMessageDifferentCount_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageComparerParametersDifferentCount_ShouldDisplayFormattedMessage
+  id: IsEquivalentTo_MessageComparerParametersDifferentCount_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_MessageComparerParametersDifferentCount_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageComparerParametersDifferentCount_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 802
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_MessageComparerParametersDifferentCount_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsEquivalentTo_MessageComparerParametersDifferentCount_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMismatchedItems_ShouldThrow
+  id: IsEquivalentTo_ComparerMismatchedItems_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_ComparerMismatchedItems_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_ComparerMismatchedItems_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 818
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_ComparerMismatchedItems_ShouldThrow()
+    content.vb: Public Sub IsEquivalentTo_ComparerMismatchedItems_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageComparerMismatchedItems_ShouldDisplayMessage
+  id: IsEquivalentTo_MessageComparerMismatchedItems_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_MessageComparerMismatchedItems_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageComparerMismatchedItems_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 834
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_MessageComparerMismatchedItems_ShouldDisplayMessage()
+    content.vb: Public Sub IsEquivalentTo_MessageComparerMismatchedItems_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParametersComparerMismatchedItems_ShouldDisplayFormattedMessage
+  id: IsEquivalentTo_MessageParametersComparerMismatchedItems_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsEquivalentTo_MessageParametersComparerMismatchedItems_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsEquivalentTo_MessageParametersComparerMismatchedItems_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 850
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsEquivalentTo_MessageParametersComparerMismatchedItems_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsEquivalentTo_MessageParametersComparerMismatchedItems_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MismatchedItems_ShouldNotThrow
+  id: IsNotEquivalentTo_MismatchedItems_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MismatchedItems_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MismatchedItems_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 866
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MismatchedItems_ShouldNotThrow()
+    content.vb: Public Sub IsNotEquivalentTo_MismatchedItems_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageMismatchedItems_ShouldNotThrow
+  id: IsNotEquivalentTo_MessageMismatchedItems_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MessageMismatchedItems_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageMismatchedItems_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 872
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MessageMismatchedItems_ShouldNotThrow()
+    content.vb: Public Sub IsNotEquivalentTo_MessageMismatchedItems_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersMismatchedItems_ShouldNotThrow
+  id: IsNotEquivalentTo_MessageParametersMismatchedItems_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MessageParametersMismatchedItems_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersMismatchedItems_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 878
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MessageParametersMismatchedItems_ShouldNotThrow()
+    content.vb: Public Sub IsNotEquivalentTo_MessageParametersMismatchedItems_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_SameReference_ShouldThrow
+  id: IsNotEquivalentTo_SameReference_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_SameReference_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_SameReference_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 884
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_SameReference_ShouldThrow()
+    content.vb: Public Sub IsNotEquivalentTo_SameReference_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageSameReference_ShouldDisplayMessage
+  id: IsNotEquivalentTo_MessageSameReference_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MessageSameReference_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageSameReference_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 901
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MessageSameReference_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotEquivalentTo_MessageSameReference_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersSameReference_ShouldDisplayFormattedMessage
+  id: IsNotEquivalentTo_MessageParametersSameReference_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MessageParametersSameReference_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersSameReference_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 918
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MessageParametersSameReference_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotEquivalentTo_MessageParametersSameReference_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_Equivalent_ShouldThrow
+  id: IsNotEquivalentTo_Equivalent_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_Equivalent_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_Equivalent_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 935
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_Equivalent_ShouldThrow()
+    content.vb: Public Sub IsNotEquivalentTo_Equivalent_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageEquivalent_ShouldDisplayMessage
+  id: IsNotEquivalentTo_MessageEquivalent_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MessageEquivalent_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageEquivalent_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 951
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MessageEquivalent_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotEquivalentTo_MessageEquivalent_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersEquivalent_ShouldDisplayFormattedMessage
+  id: IsNotEquivalentTo_MessageParametersEquivalent_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MessageParametersEquivalent_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersEquivalent_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 967
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MessageParametersEquivalent_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotEquivalentTo_MessageParametersEquivalent_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_ComparerMismatchedItems_ShouldNotThrow
+  id: IsNotEquivalentTo_ComparerMismatchedItems_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_ComparerMismatchedItems_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_ComparerMismatchedItems_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 983
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_ComparerMismatchedItems_ShouldNotThrow()
+    content.vb: Public Sub IsNotEquivalentTo_ComparerMismatchedItems_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageComparerMismatchedItems_ShouldNotThrow
+  id: IsNotEquivalentTo_MessageComparerMismatchedItems_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MessageComparerMismatchedItems_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageComparerMismatchedItems_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 989
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MessageComparerMismatchedItems_ShouldNotThrow()
+    content.vb: Public Sub IsNotEquivalentTo_MessageComparerMismatchedItems_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersComparerMismatchedItems_ShouldNotThrow
+  id: IsNotEquivalentTo_MessageParametersComparerMismatchedItems_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MessageParametersComparerMismatchedItems_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersComparerMismatchedItems_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 995
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MessageParametersComparerMismatchedItems_ShouldNotThrow()
+    content.vb: Public Sub IsNotEquivalentTo_MessageParametersComparerMismatchedItems_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_ComparerSameReference_ShouldThrow
+  id: IsNotEquivalentTo_ComparerSameReference_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_ComparerSameReference_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_ComparerSameReference_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1001
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_ComparerSameReference_ShouldThrow()
+    content.vb: Public Sub IsNotEquivalentTo_ComparerSameReference_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageComparerSameReference_ShouldDisplayMessage
+  id: IsNotEquivalentTo_MessageComparerSameReference_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MessageComparerSameReference_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageComparerSameReference_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1018
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MessageComparerSameReference_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotEquivalentTo_MessageComparerSameReference_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage
+  id: IsNotEquivalentTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1035
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotEquivalentTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_ComparerEquivalent_ShouldThrow
+  id: IsNotEquivalentTo_ComparerEquivalent_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_ComparerEquivalent_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_ComparerEquivalent_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1052
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_ComparerEquivalent_ShouldThrow()
+    content.vb: Public Sub IsNotEquivalentTo_ComparerEquivalent_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageComparerEquivalent_ShouldDisplayMessage
+  id: IsNotEquivalentTo_MessageComparerEquivalent_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MessageComparerEquivalent_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageComparerEquivalent_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1068
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MessageComparerEquivalent_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotEquivalentTo_MessageComparerEquivalent_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersComparerEquivalent_ShouldDisplayFormattedMessage
+  id: IsNotEquivalentTo_MessageParametersComparerEquivalent_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotEquivalentTo_MessageParametersComparerEquivalent_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotEquivalentTo_MessageParametersComparerEquivalent_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1084
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotEquivalentTo_MessageParametersComparerEquivalent_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotEquivalentTo_MessageParametersComparerEquivalent_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_NotEqual_ShouldNotThrow
+  id: IsNotSequenceEqualTo_NotEqual_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_NotEqual_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_NotEqual_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1100
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_NotEqual_ShouldNotThrow()
+    content.vb: Public Sub IsNotSequenceEqualTo_NotEqual_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageNotEqual_ShouldNotThrow
+  id: IsNotSequenceEqualTo_MessageNotEqual_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_MessageNotEqual_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageNotEqual_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1106
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_MessageNotEqual_ShouldNotThrow()
+    content.vb: Public Sub IsNotSequenceEqualTo_MessageNotEqual_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersNotEqual_ShouldNotThrow
+  id: IsNotSequenceEqualTo_MessageParametersNotEqual_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_MessageParametersNotEqual_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersNotEqual_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1112
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_MessageParametersNotEqual_ShouldNotThrow()
+    content.vb: Public Sub IsNotSequenceEqualTo_MessageParametersNotEqual_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_Equal_ShouldThrow
+  id: IsNotSequenceEqualTo_Equal_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_Equal_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_Equal_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1118
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_Equal_ShouldThrow()
+    content.vb: Public Sub IsNotSequenceEqualTo_Equal_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageEqual_ShouldDisplayMessage
+  id: IsNotSequenceEqualTo_MessageEqual_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_MessageEqual_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageEqual_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1134
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_MessageEqual_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotSequenceEqualTo_MessageEqual_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersEqual_ShouldDisplayFormattedMessage
+  id: IsNotSequenceEqualTo_MessageParametersEqual_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_MessageParametersEqual_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersEqual_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1150
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_MessageParametersEqual_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotSequenceEqualTo_MessageParametersEqual_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_SameReference_ShouldThrow
+  id: IsNotSequenceEqualTo_SameReference_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_SameReference_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_SameReference_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1166
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_SameReference_ShouldThrow()
+    content.vb: Public Sub IsNotSequenceEqualTo_SameReference_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageSameReference_ShouldDisplayMessage
+  id: IsNotSequenceEqualTo_MessageSameReference_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_MessageSameReference_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageSameReference_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1183
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_MessageSameReference_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotSequenceEqualTo_MessageSameReference_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersSameReference_ShouldDisplayFormattedMessage
+  id: IsNotSequenceEqualTo_MessageParametersSameReference_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_MessageParametersSameReference_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersSameReference_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1200
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_MessageParametersSameReference_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotSequenceEqualTo_MessageParametersSameReference_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_ComparerNotEqual_ShouldNotThrow
+  id: IsNotSequenceEqualTo_ComparerNotEqual_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_ComparerNotEqual_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_ComparerNotEqual_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1217
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_ComparerNotEqual_ShouldNotThrow()
+    content.vb: Public Sub IsNotSequenceEqualTo_ComparerNotEqual_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageComparerNotEqual_ShouldNotThrow
+  id: IsNotSequenceEqualTo_MessageComparerNotEqual_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_MessageComparerNotEqual_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageComparerNotEqual_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1223
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_MessageComparerNotEqual_ShouldNotThrow()
+    content.vb: Public Sub IsNotSequenceEqualTo_MessageComparerNotEqual_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersComparerNotEqual_ShouldNotThrow
+  id: IsNotSequenceEqualTo_MessageParametersComparerNotEqual_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_MessageParametersComparerNotEqual_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersComparerNotEqual_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1229
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_MessageParametersComparerNotEqual_ShouldNotThrow()
+    content.vb: Public Sub IsNotSequenceEqualTo_MessageParametersComparerNotEqual_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_ComparerEqual_ShouldThrow
+  id: IsNotSequenceEqualTo_ComparerEqual_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_ComparerEqual_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_ComparerEqual_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1235
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_ComparerEqual_ShouldThrow()
+    content.vb: Public Sub IsNotSequenceEqualTo_ComparerEqual_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageComparerEqual_ShouldDisplayMessage
+  id: IsNotSequenceEqualTo_MessageComparerEqual_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_MessageComparerEqual_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageComparerEqual_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1251
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_MessageComparerEqual_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotSequenceEqualTo_MessageComparerEqual_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersComparerEqual_ShouldDisplayFormattedMessage
+  id: IsNotSequenceEqualTo_MessageParametersComparerEqual_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_MessageParametersComparerEqual_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersComparerEqual_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1267
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_MessageParametersComparerEqual_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotSequenceEqualTo_MessageParametersComparerEqual_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_ComparerSameReference_ShouldThrow
+  id: IsNotSequenceEqualTo_ComparerSameReference_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_ComparerSameReference_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_ComparerSameReference_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1283
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_ComparerSameReference_ShouldThrow()
+    content.vb: Public Sub IsNotSequenceEqualTo_ComparerSameReference_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageComparerSameReference_ShouldDisplayMessage
+  id: IsNotSequenceEqualTo_MessageComparerSameReference_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_MessageComparerSameReference_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageComparerSameReference_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1300
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_MessageComparerSameReference_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotSequenceEqualTo_MessageComparerSameReference_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage
+  id: IsNotSequenceEqualTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSequenceEqualTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotSequenceEqualTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1317
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSequenceEqualTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotSequenceEqualTo_MessageParametersComparerSameReference_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsNotSubsetOf_NotSubset_ShouldNotThrow
+  id: IsNotSubsetOf_NotSubset_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf_NotSubset_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSubsetOf_NotSubset_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1334
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSubsetOf_NotSubset_ShouldNotThrow()
+    content.vb: Public Sub IsNotSubsetOf_NotSubset_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageNotSubset_ShouldNotThrow
+  id: IsNotSubsetOf_MessageNotSubset_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf_MessageNotSubset_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageNotSubset_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1340
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSubsetOf_MessageNotSubset_ShouldNotThrow()
+    content.vb: Public Sub IsNotSubsetOf_MessageNotSubset_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageParametersNotSubset_ShouldNotThrow
+  id: IsNotSubsetOf_MessageParametersNotSubset_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf_MessageParametersNotSubset_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageParametersNotSubset_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1346
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSubsetOf_MessageParametersNotSubset_ShouldNotThrow()
+    content.vb: Public Sub IsNotSubsetOf_MessageParametersNotSubset_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSubsetOf_Subset_ShouldThrow
+  id: IsNotSubsetOf_Subset_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf_Subset_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSubsetOf_Subset_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1352
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSubsetOf_Subset_ShouldThrow()
+    content.vb: Public Sub IsNotSubsetOf_Subset_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageSubset_ShouldDisplayMessage
+  id: IsNotSubsetOf_MessageSubset_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf_MessageSubset_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageSubset_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1368
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSubsetOf_MessageSubset_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotSubsetOf_MessageSubset_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageParametersSubset_ShouldDisplayFormattedMessage
+  id: IsNotSubsetOf_MessageParametersSubset_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf_MessageParametersSubset_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageParametersSubset_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1384
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSubsetOf_MessageParametersSubset_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotSubsetOf_MessageParametersSubset_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsNotSubsetOf_ComparerNotSubset_ShouldNotThrow
+  id: IsNotSubsetOf_ComparerNotSubset_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf_ComparerNotSubset_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSubsetOf_ComparerNotSubset_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1400
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSubsetOf_ComparerNotSubset_ShouldNotThrow()
+    content.vb: Public Sub IsNotSubsetOf_ComparerNotSubset_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageComparerNotSubset_ShouldNotThrow
+  id: IsNotSubsetOf_MessageComparerNotSubset_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf_MessageComparerNotSubset_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageComparerNotSubset_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1406
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSubsetOf_MessageComparerNotSubset_ShouldNotThrow()
+    content.vb: Public Sub IsNotSubsetOf_MessageComparerNotSubset_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageParametersComparerNotSubset_ShouldNotThrow
+  id: IsNotSubsetOf_MessageParametersComparerNotSubset_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf_MessageParametersComparerNotSubset_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageParametersComparerNotSubset_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1412
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSubsetOf_MessageParametersComparerNotSubset_ShouldNotThrow()
+    content.vb: Public Sub IsNotSubsetOf_MessageParametersComparerNotSubset_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSubsetOf_ComparerSubset_ShouldThrow
+  id: IsNotSubsetOf_ComparerSubset_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf_ComparerSubset_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsNotSubsetOf_ComparerSubset_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1418
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSubsetOf_ComparerSubset_ShouldThrow()
+    content.vb: Public Sub IsNotSubsetOf_ComparerSubset_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageComparerSubset_ShouldDisplayMessage
+  id: IsNotSubsetOf_MessageComparerSubset_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf_MessageComparerSubset_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageComparerSubset_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1434
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSubsetOf_MessageComparerSubset_ShouldDisplayMessage()
+    content.vb: Public Sub IsNotSubsetOf_MessageComparerSubset_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageParametersComparerSubset_ShouldDisplayFormattedMessage
+  id: IsNotSubsetOf_MessageParametersComparerSubset_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsNotSubsetOf_MessageParametersComparerSubset_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsNotSubsetOf_MessageParametersComparerSubset_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1450
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsNotSubsetOf_MessageParametersComparerSubset_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsNotSubsetOf_MessageParametersComparerSubset_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_Equal_ShouldNotThrow
+  id: IsSequenceEqualTo_Equal_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_Equal_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_Equal_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1466
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_Equal_ShouldNotThrow()
+    content.vb: Public Sub IsSequenceEqualTo_Equal_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageEqual_ShouldNotThrow
+  id: IsSequenceEqualTo_MessageEqual_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_MessageEqual_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageEqual_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1472
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_MessageEqual_ShouldNotThrow()
+    content.vb: Public Sub IsSequenceEqualTo_MessageEqual_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersEqual_ShouldNotThrow
+  id: IsSequenceEqualTo_MessageParametersEqual_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_MessageParametersEqual_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersEqual_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1478
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_MessageParametersEqual_ShouldNotThrow()
+    content.vb: Public Sub IsSequenceEqualTo_MessageParametersEqual_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_DifferentLengths_ShouldThrow
+  id: IsSequenceEqualTo_DifferentLengths_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_DifferentLengths_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_DifferentLengths_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1484
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_DifferentLengths_ShouldThrow()
+    content.vb: Public Sub IsSequenceEqualTo_DifferentLengths_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageDifferentLengths_ShouldDisplayMessage
+  id: IsSequenceEqualTo_MessageDifferentLengths_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_MessageDifferentLengths_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageDifferentLengths_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1500
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_MessageDifferentLengths_ShouldDisplayMessage()
+    content.vb: Public Sub IsSequenceEqualTo_MessageDifferentLengths_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_NotEqual_ShouldThrow
+  id: IsSequenceEqualTo_NotEqual_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_NotEqual_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_NotEqual_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1516
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_NotEqual_ShouldThrow()
+    content.vb: Public Sub IsSequenceEqualTo_NotEqual_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageNotEqual_ShouldDisplayMessage
+  id: IsSequenceEqualTo_MessageNotEqual_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_MessageNotEqual_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageNotEqual_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1532
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_MessageNotEqual_ShouldDisplayMessage()
+    content.vb: Public Sub IsSequenceEqualTo_MessageNotEqual_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersNotEqual_ShouldDisplayFormattedMessage
+  id: IsSequenceEqualTo_MessageParametersNotEqual_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_MessageParametersNotEqual_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersNotEqual_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1548
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_MessageParametersNotEqual_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsSequenceEqualTo_MessageParametersNotEqual_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_ComparerEqual_ShouldNotThrow
+  id: IsSequenceEqualTo_ComparerEqual_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_ComparerEqual_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_ComparerEqual_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1564
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_ComparerEqual_ShouldNotThrow()
+    content.vb: Public Sub IsSequenceEqualTo_ComparerEqual_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageComparerEqual_ShouldNotThrow
+  id: IsSequenceEqualTo_MessageComparerEqual_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_MessageComparerEqual_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageComparerEqual_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1570
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_MessageComparerEqual_ShouldNotThrow()
+    content.vb: Public Sub IsSequenceEqualTo_MessageComparerEqual_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersComparerEqual_ShouldNotThrow
+  id: IsSequenceEqualTo_MessageParametersComparerEqual_ShouldNotThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_MessageParametersComparerEqual_ShouldNotThrow()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersComparerEqual_ShouldNotThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1576
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_MessageParametersComparerEqual_ShouldNotThrow()
+    content.vb: Public Sub IsSequenceEqualTo_MessageParametersComparerEqual_ShouldNotThrow
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_ComparerDifferentLengths_ShouldThrow
+  id: IsSequenceEqualTo_ComparerDifferentLengths_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_ComparerDifferentLengths_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_ComparerDifferentLengths_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1582
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_ComparerDifferentLengths_ShouldThrow()
+    content.vb: Public Sub IsSequenceEqualTo_ComparerDifferentLengths_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageComparerDifferentLengths_ShouldDisplayMessage
+  id: IsSequenceEqualTo_MessageComparerDifferentLengths_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_MessageComparerDifferentLengths_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageComparerDifferentLengths_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1598
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_MessageComparerDifferentLengths_ShouldDisplayMessage()
+    content.vb: Public Sub IsSequenceEqualTo_MessageComparerDifferentLengths_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersComparerDifferentLengths_ShouldDisplayFormattedMessage
+  id: IsSequenceEqualTo_MessageParametersComparerDifferentLengths_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_MessageParametersComparerDifferentLengths_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersComparerDifferentLengths_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1614
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_MessageParametersComparerDifferentLengths_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsSequenceEqualTo_MessageParametersComparerDifferentLengths_ShouldDisplayFormattedMessage
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_ComparerNotEqual_ShouldThrow
+  id: IsSequenceEqualTo_ComparerNotEqual_ShouldThrow
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_ComparerNotEqual_ShouldThrow()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_ComparerNotEqual_ShouldThrow()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1630
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_ComparerNotEqual_ShouldThrow()
+    content.vb: Public Sub IsSequenceEqualTo_ComparerNotEqual_ShouldThrow
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageComparerNotEqual_ShouldDisplayMessage
+  id: IsSequenceEqualTo_MessageComparerNotEqual_ShouldDisplayMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_MessageComparerNotEqual_ShouldDisplayMessage()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageComparerNotEqual_ShouldDisplayMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1646
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_MessageComparerNotEqual_ShouldDisplayMessage()
+    content.vb: Public Sub IsSequenceEqualTo_MessageComparerNotEqual_ShouldDisplayMessage
+- uid: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersComparerNotEqual_ShouldDisplayFormattedMessage
+  id: IsSequenceEqualTo_MessageParametersComparerNotEqual_ShouldDisplayFormattedMessage
+  parent: Testify.CollectionAssertionsTests
+  langs:
+  - csharp
+  - vb
+  name: IsSequenceEqualTo_MessageParametersComparerNotEqual_ShouldDisplayFormattedMessage()
+  fullName: Testify.CollectionAssertionsTests.IsSequenceEqualTo_MessageParametersComparerNotEqual_ShouldDisplayFormattedMessage()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/CollectionAssertionsTests.cs
+    startLine: 1662
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void IsSequenceEqualTo_MessageParametersComparerNotEqual_ShouldDisplayFormattedMessage()
+    content.vb: Public Sub IsSequenceEqualTo_MessageParametersComparerNotEqual_ShouldDisplayFormattedMessage
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System

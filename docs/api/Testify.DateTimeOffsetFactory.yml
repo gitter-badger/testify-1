@@ -1,0 +1,426 @@
+items:
+- uid: Testify.DateTimeOffsetFactory
+  id: DateTimeOffsetFactory
+  parent: Testify
+  children:
+  - Testify.DateTimeOffsetFactory.CreateDateTimeOffset(Testify.IObjectFactory)
+  - Testify.DateTimeOffsetFactory.CreateDateTimeOffset(Testify.IObjectFactory,System.DateTimeOffset,System.DateTimeOffset)
+  - Testify.DateTimeOffsetFactory.CreateDateTimeOffset(Testify.IObjectFactory,System.DateTimeOffset,System.DateTimeOffset,Testify.Distribution)
+  - Testify.DateTimeOffsetFactory.CreateDateTimeOffset(Testify.IObjectFactory,Testify.Distribution)
+  langs:
+  - csharp
+  - vb
+  name: DateTimeOffsetFactory
+  fullName: Testify.DateTimeOffsetFactory
+  type: Class
+  source:
+    remote:
+      path: src/Testify/DateTimeOffsetFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/DateTimeOffsetFactory.cs
+    startLine: 7
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Defines factory methods for creating <see langword="DateTimeOffset" /> values.
+  example: []
+  syntax:
+    content: public class DateTimeOffsetFactory
+    content.vb: Public Class DateTimeOffsetFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Testify.DateTimeOffsetFactory.CreateDateTimeOffset(Testify.IObjectFactory)
+  id: CreateDateTimeOffset(Testify.IObjectFactory)
+  parent: Testify.DateTimeOffsetFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDateTimeOffset(IObjectFactory)
+  fullName: Testify.DateTimeOffsetFactory.CreateDateTimeOffset(Testify.IObjectFactory)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/DateTimeOffsetFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/DateTimeOffsetFactory.cs
+    startLine: 14
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Creates a random <see langword="DateTimeOffset" /> value using a uniform distribution algorithm.
+  example: []
+  syntax:
+    content: public static DateTimeOffset CreateDateTimeOffset(IObjectFactory self)
+    content.vb: Public Shared Function CreateDateTimeOffset(self As IObjectFactory) As DateTimeOffset
+    parameters:
+    - id: self
+      type: Testify.IObjectFactory
+      description: The factory instance.
+    return:
+      type: System.DateTimeOffset
+      description: A random <see langword="DateTimeOffset" /> value.
+- uid: Testify.DateTimeOffsetFactory.CreateDateTimeOffset(Testify.IObjectFactory,System.DateTimeOffset,System.DateTimeOffset)
+  id: CreateDateTimeOffset(Testify.IObjectFactory,System.DateTimeOffset,System.DateTimeOffset)
+  parent: Testify.DateTimeOffsetFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDateTimeOffset(IObjectFactory, DateTimeOffset, DateTimeOffset)
+  fullName: Testify.DateTimeOffsetFactory.CreateDateTimeOffset(Testify.IObjectFactory, System.DateTimeOffset, System.DateTimeOffset)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/DateTimeOffsetFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/DateTimeOffsetFactory.cs
+    startLine: 32
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Creates a random <see langword="DateTimeOffset" /> value within the specified range using a uniform
+
+    distribution algorithm.
+  example: []
+  syntax:
+    content: public static DateTimeOffset CreateDateTimeOffset(IObjectFactory self, DateTimeOffset minimum, DateTimeOffset maximum)
+    content.vb: Public Shared Function CreateDateTimeOffset(self As IObjectFactory, minimum As DateTimeOffset, maximum As DateTimeOffset) As DateTimeOffset
+    parameters:
+    - id: self
+      type: Testify.IObjectFactory
+      description: The factory instance.
+    - id: minimum
+      type: System.DateTimeOffset
+      description: The minimum value.
+    - id: maximum
+      type: System.DateTimeOffset
+      description: The maximum value.
+    return:
+      type: System.DateTimeOffset
+      description: A random <see langword="DateTimeOffset" /> value.
+- uid: Testify.DateTimeOffsetFactory.CreateDateTimeOffset(Testify.IObjectFactory,Testify.Distribution)
+  id: CreateDateTimeOffset(Testify.IObjectFactory,Testify.Distribution)
+  parent: Testify.DateTimeOffsetFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDateTimeOffset(IObjectFactory, Distribution)
+  fullName: Testify.DateTimeOffsetFactory.CreateDateTimeOffset(Testify.IObjectFactory, Testify.Distribution)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/DateTimeOffsetFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/DateTimeOffsetFactory.cs
+    startLine: 53
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: Creates a random <see langword="DateTimeOffset" /> value using the specified distribution algorithm.
+  example: []
+  syntax:
+    content: public static DateTimeOffset CreateDateTimeOffset(IObjectFactory self, Distribution distribution)
+    content.vb: Public Shared Function CreateDateTimeOffset(self As IObjectFactory, distribution As Distribution) As DateTimeOffset
+    parameters:
+    - id: self
+      type: Testify.IObjectFactory
+      description: The factory instance.
+    - id: distribution
+      type: Testify.Distribution
+      description: The distribution algorithm to use.
+    return:
+      type: System.DateTimeOffset
+      description: A random <see langword="DateTimeOffset" /> value.
+- uid: Testify.DateTimeOffsetFactory.CreateDateTimeOffset(Testify.IObjectFactory,System.DateTimeOffset,System.DateTimeOffset,Testify.Distribution)
+  id: CreateDateTimeOffset(Testify.IObjectFactory,System.DateTimeOffset,System.DateTimeOffset,Testify.Distribution)
+  parent: Testify.DateTimeOffsetFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateDateTimeOffset(IObjectFactory, DateTimeOffset, DateTimeOffset, Distribution)
+  fullName: Testify.DateTimeOffsetFactory.CreateDateTimeOffset(Testify.IObjectFactory, System.DateTimeOffset, System.DateTimeOffset, Testify.Distribution)
+  type: Method
+  source:
+    remote:
+      path: src/Testify/DateTimeOffsetFactory.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Testify/DateTimeOffsetFactory.cs
+    startLine: 77
+  assemblies:
+  - Testify
+  namespace: Testify
+  summary: >-
+    Creates a random <see langword="DateTimeOffset" /> value within the specified range using the specified
+
+    distribution algorithm.
+  example: []
+  syntax:
+    content: public static DateTimeOffset CreateDateTimeOffset(IObjectFactory self, DateTimeOffset minimum, DateTimeOffset maximum, Distribution distribution)
+    content.vb: Public Shared Function CreateDateTimeOffset(self As IObjectFactory, minimum As DateTimeOffset, maximum As DateTimeOffset, distribution As Distribution) As DateTimeOffset
+    parameters:
+    - id: self
+      type: Testify.IObjectFactory
+      description: The factory instance.
+    - id: minimum
+      type: System.DateTimeOffset
+      description: The minimum value.
+    - id: maximum
+      type: System.DateTimeOffset
+      description: The maximum value.
+    - id: distribution
+      type: Testify.Distribution
+      description: The distribution algorithm to use.
+    return:
+      type: System.DateTimeOffset
+      description: A random <see langword="DateTimeOffset" /> value.
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
+- uid: Testify.IObjectFactory
+  parent: Testify
+  isExternal: false
+  name: IObjectFactory
+  fullName: Testify.IObjectFactory
+- uid: System.DateTimeOffset
+  parent: System
+  isExternal: true
+  name: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: Testify.Distribution
+  parent: Testify
+  isExternal: false
+  name: Distribution
+  fullName: Testify.Distribution

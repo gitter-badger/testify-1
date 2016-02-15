@@ -1,0 +1,112 @@
+- uid: Testify
+  name: Testify
+  items:
+  - uid: Testify.ActualValue`1
+    name: ActualValue<T>
+    name.vb: ActualValue(Of T)
+  - uid: Testify.AssertionException
+    name: AssertionException
+  - uid: Testify.AssertionExceptionTests
+    name: AssertionExceptionTests
+  - uid: Testify.Assertions
+    name: Assertions
+  - uid: Testify.AssertionsTests
+    name: AssertionsTests
+  - uid: Testify.BoolFactory
+    name: BoolFactory
+  - uid: Testify.BoolFactoryTests
+    name: BoolFactoryTests
+  - uid: Testify.ByteFactory
+    name: ByteFactory
+  - uid: Testify.ByteFactoryTests
+    name: ByteFactoryTests
+  - uid: Testify.CharFactory
+    name: CharFactory
+  - uid: Testify.CharFactoryTests
+    name: CharFactoryTests
+  - uid: Testify.Classification`1
+    name: Classification<T>
+    name.vb: Classification(Of T)
+  - uid: Testify.Classifier`1
+    name: Classifier<TValue>
+    name.vb: Classifier(Of TValue)
+  - uid: Testify.CollectionAssertions
+    name: CollectionAssertions
+  - uid: Testify.CollectionAssertionsTests
+    name: CollectionAssertionsTests
+  - uid: Testify.DateTimeFactory
+    name: DateTimeFactory
+  - uid: Testify.DateTimeFactoryTests
+    name: DateTimeFactoryTests
+  - uid: Testify.DateTimeOffsetFactory
+    name: DateTimeOffsetFactory
+  - uid: Testify.DateTimeOffsetFactoryTests
+    name: DateTimeOffsetFactoryTests
+  - uid: Testify.Distribution
+    name: Distribution
+  - uid: Testify.DistributionTests
+    name: DistributionTests
+  - uid: Testify.DoubleFactory
+    name: DoubleFactory
+  - uid: Testify.DoubleFactoryTests
+    name: DoubleFactoryTests
+  - uid: Testify.EnumerableFactory
+    name: EnumerableFactory
+  - uid: Testify.EnumerableFactoryTests
+    name: EnumerableFactoryTests
+  - uid: Testify.EnumFactory
+    name: EnumFactory
+  - uid: Testify.EnumFactoryTests
+    name: EnumFactoryTests
+  - uid: Testify.ExceptionAssertions
+    name: ExceptionAssertions
+  - uid: Testify.ExceptionAssertionsTests
+    name: ExceptionAssertionsTests
+  - uid: Testify.Int16Factory
+    name: Int16Factory
+  - uid: Testify.Int16FactoryTests
+    name: Int16FactoryTests
+  - uid: Testify.Int32Factory
+    name: Int32Factory
+  - uid: Testify.Int32FactoryTests
+    name: Int32FactoryTests
+  - uid: Testify.Int64Factory
+    name: Int64Factory
+  - uid: Testify.Int64FactoryTests
+    name: Int64FactoryTests
+  - uid: Testify.IObjectFactory
+    name: IObjectFactory
+  - uid: Testify.IObjectFactoryContext
+    name: IObjectFactoryContext
+  - uid: Testify.IObjectFactoryCustomization
+    name: IObjectFactoryCustomization
+  - uid: Testify.IRegisterObjectFactory
+    name: IRegisterObjectFactory
+  - uid: Testify.ObjectFactory
+    name: ObjectFactory
+  - uid: Testify.ObjectFactoryExtensions
+    name: ObjectFactoryExtensions
+  - uid: Testify.ObjectFactoryTests
+    name: ObjectFactoryTests
+  - uid: Testify.SingleFactory
+    name: SingleFactory
+  - uid: Testify.SingleFactoryTests
+    name: SingleFactoryTests
+  - uid: Testify.StandardAssertions
+    name: StandardAssertions
+  - uid: Testify.StandardAssertionsTests
+    name: StandardAssertionsTests
+  - uid: Testify.StringAssertions
+    name: StringAssertions
+  - uid: Testify.StringAssertionsTests
+    name: StringAssertionsTests
+  - uid: Testify.StringFactory
+    name: StringFactory
+  - uid: Testify.StringFactoryTests
+    name: StringFactoryTests
+  - uid: Testify.TimeSpanFactory
+    name: TimeSpanFactory
+  - uid: Testify.TimeSpanFactoryTests
+    name: TimeSpanFactoryTests
+  - uid: Testify.TimeZoneInfoFactory
+    name: TimeZoneInfoFactory

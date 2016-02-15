@@ -1,0 +1,441 @@
+items:
+- uid: Testify.EnumFactoryTests
+  id: EnumFactoryTests
+  parent: Testify
+  children:
+  - Testify.EnumFactoryTests.CreateEnumValue_FlagsEnumType
+  - Testify.EnumFactoryTests.CreateEnumValue_FlagsEnumTypeDistribution
+  - Testify.EnumFactoryTests.CreateEnumValue_SimpleEnumType
+  - Testify.EnumFactoryTests.CreateEnumValue_SimpleEnumTypeDistribution
+  - Testify.EnumFactoryTests.CreateEnumValueOfFlagsEnum
+  - Testify.EnumFactoryTests.CreateEnumValueOfFlagsEnum_Distribution
+  - Testify.EnumFactoryTests.CreateEnumValueOfSimpleEnum
+  - Testify.EnumFactoryTests.CreateEnumValueOfSimpleEnum_Distribution
+  langs:
+  - csharp
+  - vb
+  name: EnumFactoryTests
+  fullName: Testify.EnumFactoryTests
+  type: Class
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+    startLine: 5
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public class EnumFactoryTests
+    content.vb: Public Class EnumFactoryTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Testify.EnumFactoryTests.CreateEnumValue_FlagsEnumType
+  id: CreateEnumValue_FlagsEnumType
+  parent: Testify.EnumFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateEnumValue_FlagsEnumType()
+  fullName: Testify.EnumFactoryTests.CreateEnumValue_FlagsEnumType()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+    startLine: 23
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateEnumValue_FlagsEnumType()
+    content.vb: Public Sub CreateEnumValue_FlagsEnumType
+- uid: Testify.EnumFactoryTests.CreateEnumValue_FlagsEnumTypeDistribution
+  id: CreateEnumValue_FlagsEnumTypeDistribution
+  parent: Testify.EnumFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateEnumValue_FlagsEnumTypeDistribution()
+  fullName: Testify.EnumFactoryTests.CreateEnumValue_FlagsEnumTypeDistribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+    startLine: 31
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateEnumValue_FlagsEnumTypeDistribution()
+    content.vb: Public Sub CreateEnumValue_FlagsEnumTypeDistribution
+- uid: Testify.EnumFactoryTests.CreateEnumValue_SimpleEnumType
+  id: CreateEnumValue_SimpleEnumType
+  parent: Testify.EnumFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateEnumValue_SimpleEnumType()
+  fullName: Testify.EnumFactoryTests.CreateEnumValue_SimpleEnumType()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+    startLine: 39
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateEnumValue_SimpleEnumType()
+    content.vb: Public Sub CreateEnumValue_SimpleEnumType
+- uid: Testify.EnumFactoryTests.CreateEnumValue_SimpleEnumTypeDistribution
+  id: CreateEnumValue_SimpleEnumTypeDistribution
+  parent: Testify.EnumFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateEnumValue_SimpleEnumTypeDistribution()
+  fullName: Testify.EnumFactoryTests.CreateEnumValue_SimpleEnumTypeDistribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+    startLine: 47
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateEnumValue_SimpleEnumTypeDistribution()
+    content.vb: Public Sub CreateEnumValue_SimpleEnumTypeDistribution
+- uid: Testify.EnumFactoryTests.CreateEnumValueOfFlagsEnum
+  id: CreateEnumValueOfFlagsEnum
+  parent: Testify.EnumFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateEnumValueOfFlagsEnum()
+  fullName: Testify.EnumFactoryTests.CreateEnumValueOfFlagsEnum()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+    startLine: 55
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateEnumValueOfFlagsEnum()
+    content.vb: Public Sub CreateEnumValueOfFlagsEnum
+- uid: Testify.EnumFactoryTests.CreateEnumValueOfFlagsEnum_Distribution
+  id: CreateEnumValueOfFlagsEnum_Distribution
+  parent: Testify.EnumFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateEnumValueOfFlagsEnum_Distribution()
+  fullName: Testify.EnumFactoryTests.CreateEnumValueOfFlagsEnum_Distribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+    startLine: 63
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateEnumValueOfFlagsEnum_Distribution()
+    content.vb: Public Sub CreateEnumValueOfFlagsEnum_Distribution
+- uid: Testify.EnumFactoryTests.CreateEnumValueOfSimpleEnum
+  id: CreateEnumValueOfSimpleEnum
+  parent: Testify.EnumFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateEnumValueOfSimpleEnum()
+  fullName: Testify.EnumFactoryTests.CreateEnumValueOfSimpleEnum()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+    startLine: 71
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateEnumValueOfSimpleEnum()
+    content.vb: Public Sub CreateEnumValueOfSimpleEnum
+- uid: Testify.EnumFactoryTests.CreateEnumValueOfSimpleEnum_Distribution
+  id: CreateEnumValueOfSimpleEnum_Distribution
+  parent: Testify.EnumFactoryTests
+  langs:
+  - csharp
+  - vb
+  name: CreateEnumValueOfSimpleEnum_Distribution()
+  fullName: Testify.EnumFactoryTests.CreateEnumValueOfSimpleEnum_Distribution()
+  type: Method
+  source:
+    remote:
+      path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+      branch: feature/documentation
+      repo: git@github.com:wekempf/testify.git
+    path: src/Tests/Testify.Tests/EnumFactoryTests.cs
+    startLine: 79
+  assemblies:
+  - Testify.Tests
+  namespace: Testify
+  syntax:
+    content: public void CreateEnumValueOfSimpleEnum_Distribution()
+    content.vb: Public Sub CreateEnumValueOfSimpleEnum_Distribution
+references:
+- uid: Testify
+  isExternal: false
+  name: Testify
+  fullName: Testify
+- uid: System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    fullName: (
+  - name: )
+    fullName: )
+- uid: System
+  isExternal: false
+  name: System
+  fullName: System
