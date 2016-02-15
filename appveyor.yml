@@ -15,7 +15,7 @@ build_script:
   - cd docs
   - ..\docfx\docfx.exe metadata
   - ..\docfx\docfx.exe build
-  - 7zr a "site.zip" "_site"
+  - 7z a "site.zip" "_site\*"
   - cd ..
 
 artifacts:
