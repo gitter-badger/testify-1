@@ -30,13 +30,8 @@ namespace Testify
         /// </summary>
         /// <param name="category">The classification category.</param>
         /// <returns>The number of values that were classified in the specified category.</returns>
-        public double this[string category]
-        {
-            get
-            {
-                return (double)this.classifications.First(c => c.Name == category).Count / (double)this.Count;
-            }
-        }
+        public double this[string category] =>
+            (double)this.classifications.First(c => c.Name == category).Count / (double)this.Count;
 
         /// <summary>
         /// Adds a classification category.
@@ -100,18 +95,13 @@ namespace Testify
         /// Returns an enumerator that iterates through a collection.
         /// </summary>
         /// <returns>An IEnumerator object that can be used to iterate through the collection.</returns>
-        public IEnumerator<Classification<TValue>> GetEnumerator()
-        {
-            return this.classifications.GetEnumerator();
-        }
+        public IEnumerator<Classification<TValue>> GetEnumerator() =>
+            this.classifications.GetEnumerator();
 
         /// <summary>
         /// Returns an enumerator that iterates through a collection.
         /// </summary>
         /// <returns>An IEnumerator object that can be used to iterate through the collection.</returns>
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return this.GetEnumerator();
-        }
+        IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
     }
 }
