@@ -6,7 +6,7 @@ clone_folder: c:\projects\testify
 install:
   - ps: (new-object net.webclient).DownloadFile('https://github.com/dotnet/docfx/releases/download/v1.4/docfx.zip', 'c:\projects\testify\docfx.zip')
   - cd c:\projects\testify
-  - 7z e docfx.zip
+  - 7z e docfx.zip -oc:\projects\testify\docfx
 
 build_script:
   - cd c:\projects\testify
