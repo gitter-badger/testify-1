@@ -1,0 +1,11 @@
+# Do not build on tags
+skip_tags: true
+
+clone_folder: c:\projects\testify
+
+build_script:
+  - cd c:\projects\testify
+  - msbuild Testify.sln /nologo /property:Configuration=Release /property:OutputPath=C:\projects\testify\Bin
+
+artifacts:
+  - path: c:\projects\testify\Bin\*.nupkg
