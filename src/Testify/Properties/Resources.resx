@@ -132,6 +132,9 @@
   <data name="Common_ObjectString" xml:space="preserve">
     <value />
   </data>
+  <data name="FrameworkMessage_AdditionalAssertionsFailed" xml:space="preserve">
+    <value>Caught the expected exception type &lt;{0}&gt;, but additional assertions failed. {1}</value>
+  </data>
   <data name="FrameworkMessage_AssertionFailed" xml:space="preserve">
     <value>{0} failed. {1}</value>
   </data>
@@ -149,6 +152,9 @@
   </data>
   <data name="FrameworkMessage_ContainsFailMsg" xml:space="preserve">
     <value>String '{0}' does not contain string '{1}'. {2}</value>
+  </data>
+  <data name="FrameworkMessage_DidNotThrow" xml:space="preserve">
+    <value>Expected exception: &lt;{0}&gt;. The action did not throw any exceptions. {1}</value>
   </data>
   <data name="FrameworkMessage_DoesNotMatchFailMsg" xml:space="preserve">
     <value>String '{0}' matches pattern '{1}'. {2}</value>
@@ -195,16 +201,10 @@
   <data name="FrameworkMessage_StartsWithFailMsg" xml:space="preserve">
     <value>String '{0}' does not start with string '{1}'. {2}</value>
   </data>
-  <data name="FrameworMessage_UnexpectedTypeAt" xml:space="preserve">
-    <value>Element at index {0} is not of expected type: &lt;{1}&gt;. Actual type: &lt;{2}&gt;. {3}</value>
-  </data>
-  <data name="FrameworkMessage_AdditionalAssertionsFailed" xml:space="preserve">
-    <value>Caught the expected exception type &lt;{0}&gt;, but additional assertions failed. {1}</value>
-  </data>
-  <data name="FrameworkMessage_DidNotThrow" xml:space="preserve">
-    <value>Expected exception: &lt;{0}&gt;. The action did not throw any exceptions. {1}</value>
-  </data>
   <data name="FrameworkMessage_UnexpectedException" xml:space="preserve">
     <value>Expected exception: &lt;{0}&gt;. Actual exception: &lt;{1}&gt;. {2}</value>
+  </data>
+  <data name="FrameworMessage_UnexpectedTypeAt" xml:space="preserve">
+    <value>Element at index {0} is not of expected type: &lt;{1}&gt;. Actual type: &lt;{2}&gt;. {3}</value>
   </data>
 </root>
