@@ -6,7 +6,7 @@ clone_folder: c:\projects\testify
 build_script:
   - cd c:\projects\testify
   - nuget restore Testify.sln
-  - msbuild Testify.sln /nologo /property:Configuration=Release /property:OutputPath=C:\projects\testify\Bin
+  - msbuild Testify.sln /nologo /property:Configuration=Release
 
 artifacts:
-  - path: c:\projects\testify\Bin\*.nupkg
+  - path: **\*.nupkg
