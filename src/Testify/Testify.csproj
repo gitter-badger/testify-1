@@ -52,12 +52,15 @@
     <Compile Include="Classification{T}.cs" />
     <Compile Include="Classifier{TValue}.cs" />
     <Compile Include="CollectionAssertions.cs" />
+    <Compile Include="ComparableVerifier.cs" />
+    <Compile Include="ComparisonVerifierBase.cs" />
     <Compile Include="DateTimeFactory.cs" />
     <Compile Include="DateTimeOffsetFactory.cs" />
     <Compile Include="Distribution.cs" />
     <Compile Include="DoubleFactory.cs" />
     <Compile Include="EnumerableFactory.cs" />
     <Compile Include="EnumFactory.cs" />
+    <Compile Include="EquatableVerifier.cs" />
     <Compile Include="ExceptionAssertions.cs" />
     <Compile Include="FrameworkMessages.cs" />
     <Compile Include="Int16Factory.cs" />
