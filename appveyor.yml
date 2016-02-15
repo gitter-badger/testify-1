@@ -9,4 +9,4 @@ build_script:
   - msbuild Testify.sln /nologo /property:Configuration=Release
 
 artifacts:
-  - path: **\*.nupkg
+  - path: '**\*.nupkg'
